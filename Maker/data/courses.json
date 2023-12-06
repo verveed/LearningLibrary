@@ -1,0 +1,173 @@
+[
+	{
+		"id": "eoi",
+		"label": "Explosive Ordnance Introduction",
+		"description": "This prepares you for a job in finance",
+		"type": "course",
+		"modules": [
+			"111511"
+		],
+		"level":"0"
+	},
+	{
+		"id": "ffe",
+		"label": "Free From Explosives",
+		"description": "Something about FFE Course",
+		"type": "course",
+		"modules": [
+			"202787"
+		],
+		"prerequisites":[
+			"eoi"
+		],
+		"level":"1"
+	},
+	{
+		"id": "eo_user",
+		"label": "Supply Explosive Ordnance Basic",
+		"description": "Something about FFE Course",
+		"type": "course",
+		"modules": [
+			"202787",
+			"209480",
+			"209481",
+			"209488",
+			"209489",
+			"209490"
+		],
+		"prerequisites":[
+			"eoi"
+		],
+		"level":"1"		
+	},
+	{
+		"id": "eos",
+		"label": "Explosive Ordnance Supervisor",
+		"description": "Something about FFE Course",
+		"type": "course",
+		"modules": [
+			"209480",
+			"209481",
+			"209482",
+			"209488",
+			"209489",
+			"209490"
+		],
+		"prerequisites":[
+			"ffe"
+		],
+		"level":"2"
+	},
+	{
+		"id": "seob",
+		"label": "Supply Explosive Ordnance Basic",
+		"description": "Something about FFE Course",
+		"type": "course",
+		"modules": [
+			"111511",
+			"202787",
+			"209480",
+			"209481",
+			"209488",
+			"209489",
+			"209490"
+		],
+		"level":"0"		
+	},
+	{
+		"id": "eom",
+		"label": "Explosive Ordnance Manager",
+		"description": "Something about FFE Course",
+		"type": "course",
+		"modules": [
+			"209482",
+			"209490",
+			"209502",
+			"209503",
+			"209504",
+			"209507",
+			"209510",
+			"123456"
+		],
+		"prerequisites":[
+			"eo_user"
+		],
+		"level":"2"		
+	},
+	{
+		"id": "armtech_iet_deots",
+		"label": "ARMTECH IET DEOTS",
+		"description": "Something about FFE Course",
+		"type": "course",
+		"modules": [
+			"111511",
+			"202787",
+			"209480",
+			"209481",
+			"209488",
+			"209489",
+			"209490",
+			"123456",
+			"112933"
+		],
+		"level":"0"		
+	},
+	{
+		"id": "aviation_eos",
+		"label": "Aviation Explosive Ordnance Supervisor",
+		"description": "Something about FFE Course",
+		"type": "course",
+		"modules": [
+			"212740",
+			"209509"
+		],
+		"prerequisites":[
+			"eos"
+		],
+		"level":"3"		
+	},
+	{
+		"id": "aviation_eom",
+		"label": "Aviation Explosive Ordnance Manager",
+		"description": "Something about FFE Course",
+		"type": "course",
+		"modules": [
+			"212740",
+			"209490",
+			"209512"
+		],
+		"prerequisites":[
+			"eom"
+		],
+		"level":"3"		
+	},
+		{
+		"id": "aviation_seom",
+		"label": "Aviation Senior Explosive Ordnance Manager",
+		"description": "Something about FFE Course",
+		"type": "course",
+		"modules": [
+			"209509",
+			"209514"
+
+		],
+		"prerequisites":[
+			"aviation_eom"
+		],
+		"level":"4"		
+	},
+	{
+		"id": "engoffarmspec",
+		"label": "Engineering Officer (ARMTECH Spec)",
+		"description": "Something about FFE Course",
+		"type": "course",
+		"modules": [
+			"111511",
+			"202787",
+			"209479",
+			"209478",
+			"213821"
+		],
+		"level":"0"		
+	}
+]

@@ -1,0 +1,1238 @@
+[
+  {
+    "x": 465,
+    "y": -651,
+    "id": "P021150",
+    "group": "proficiency",
+    "label": "P021150",
+    "proficiencies": [
+      "P109334"
+    ]
+  },
+  {
+    "x": 596,
+    "y": -398,
+    "id": "P105943",
+    "group": "proficiency",
+    "label": "P105943",
+    "proficiencies": [
+      "P021154"
+    ]
+  },
+  {
+    "x": -1682,
+    "y": -2058,
+    "id": "P120853",
+    "group": "proficiency",
+    "label": "P120853",
+    "proficiencies": []
+  },
+  {
+    "x": -676,
+    "y": -280,
+    "id": "P117653",
+    "group": "proficiency",
+    "openCourse_id": "45",
+    "label": "Operational First Aid",
+    "proficiencies": [
+      "P109631"
+    ]
+  },
+  {
+    "x": 1228,
+    "y": 2979,
+    "id": "P103933",
+    "group": "proficiency",
+    "label": "P103933",
+    "proficiencies": []
+  },
+  {
+    "x": 24,
+    "y": -2657,
+    "id": "P021349",
+    "group": "proficiency",
+    "label": "P021349",
+    "proficiencies": []
+  },
+  {
+    "x": 687,
+    "y": 2647,
+    "id": "P124840",
+    "group": "proficiency",
+    "label": "P124840",
+    "proficiencies": []
+  },
+  {
+    "x": 490,
+    "y": 439,
+    "id": "P103935",
+    "group": "proficiency",
+    "label": "P103935",
+    "proficiencies": [
+      "P109632"
+    ]
+  },
+  {
+    "x": 520,
+    "y": 322,
+    "id": "P126829",
+    "group": "proficiency",
+    "label": "P126829",
+    "proficiencies": [
+      "P109632"
+    ]
+  },
+  {
+    "x": 540,
+    "y": -218,
+    "id": "P101047",
+    "group": "proficiency",
+    "label": "P101047",
+    "proficiencies": [
+      "P109633"
+    ]
+  },
+  {
+    "x": 568,
+    "y": -21,
+    "id": "P100531",
+    "group": "proficiency",
+    "label": "P100531",
+    "proficiencies": [
+      "P101988"
+    ]
+  },
+  {
+    "x": -288,
+    "y": -283,
+    "id": "P104277",
+    "group": "proficiency",
+    "label": "P104277",
+    "proficiencies": [
+      "P109660"
+    ]
+  },
+  {
+    "x": -740,
+    "y": -2724,
+    "id": "P020967",
+    "group": "proficiency",
+    "label": "P020967",
+    "proficiencies": []
+  },
+  {
+    "x": -157,
+    "y": -632,
+    "id": "P103258",
+    "group": "proficiency",
+    "label": "P103258",
+    "proficiencies": [
+      "P109651"
+    ]
+  },
+  {
+    "x": -48,
+    "y": -585,
+    "id": "P104735",
+    "group": "proficiency",
+    "label": "P104735",
+    "proficiencies": [
+      "P109651"
+    ]
+  },
+  {
+    "x": 24,
+    "y": -678,
+    "id": "P020154",
+    "group": "proficiency",
+    "label": "P020154",
+    "proficiencies": [
+      "P109651"
+    ]
+  },
+  {
+    "x": -154,
+    "y": -491,
+    "id": "P107485",
+    "group": "proficiency",
+    "label": "P107485",
+    "proficiencies": [
+      "P109651"
+    ]
+  },
+  {
+    "x": 92,
+    "y": -558,
+    "id": "P103670",
+    "group": "proficiency",
+    "label": "P103670",
+    "proficiencies": [
+      "P109651"
+    ]
+  },
+  {
+    "x": 664,
+    "y": 93,
+    "id": "P021330",
+    "group": "proficiency",
+    "label": "P021330",
+    "proficiencies": [
+      "P109356"
+    ]
+  },
+  {
+    "x": 618,
+    "y": 206,
+    "id": "P104227",
+    "group": "proficiency",
+    "label": "P104227",
+    "proficiencies": [
+      "P109356"
+    ]
+  },
+  {
+    "x": 460,
+    "y": -98,
+    "id": "P020654",
+    "group": "proficiency",
+    "label": "P020654",
+    "proficiencies": [
+      "P010432"
+    ]
+  },
+  {
+    "x": 120,
+    "y": -124,
+    "id": "P020108",
+    "group": "proficiency",
+    "label": "P020108",
+    "proficiencies": [
+      "P021153"
+    ]
+  },
+  {
+    "x": -52,
+    "y": -155,
+    "id": "P020117",
+    "group": "proficiency",
+    "label": "P020117",
+    "proficiencies": [
+      "P021153"
+    ]
+  },
+  {
+    "x": 29,
+    "y": -86,
+    "id": "P103643",
+    "group": "proficiency",
+    "label": "P103643",
+    "proficiencies": [
+      "P021153"
+    ]
+  },
+  {
+    "x": -72,
+    "y": 192,
+    "id": "P126648",
+    "group": "proficiency",
+    "label": "P126648",
+    "proficiencies": []
+  },
+  {
+    "x": 2794,
+    "y": 814,
+    "id": "P126485",
+    "group": "proficiency",
+    "label": "P126485",
+    "proficiencies": []
+  },
+  {
+    "x": 191,
+    "y": 65,
+    "id": "P010242",
+    "group": "proficiency",
+    "label": "P010242",
+    "proficiencies": [
+      "P109657",
+      "ECN_343_73"
+    ]
+  },
+  {
+    "x": 186,
+    "y": 415,
+    "id": "P103797",
+    "group": "proficiency",
+    "label": "P103797",
+    "proficiencies": [
+      "P109658",
+      "P109668"
+    ]
+  },
+  {
+    "x": -203,
+    "y": 15,
+    "id": "P105013",
+    "group": "proficiency",
+    "label": "P105013",
+    "proficiencies": [
+      "P109659",
+      "P109669"
+    ]
+  },
+  {
+    "x": -113,
+    "y": 85,
+    "id": "P104279",
+    "group": "proficiency",
+    "label": "P104279",
+    "proficiencies": []
+  },
+  {
+    "x": -507,
+    "y": 29,
+    "id": "P020968",
+    "group": "proficiency",
+    "label": "P020968",
+    "proficiencies": [
+      "P109670"
+    ]
+  },
+  {
+    "x": -310,
+    "y": -149,
+    "id": "P100437",
+    "group": "proficiency",
+    "label": "P100437",
+    "proficiencies": [
+      "P109661",
+      "P109671"
+    ]
+  },
+  {
+    "x": 335,
+    "y": 453,
+    "id": "P021227",
+    "group": "proficiency",
+    "label": "P021227",
+    "proficiencies": [
+      "P021228"
+    ]
+  },
+  {
+    "x": 94,
+    "y": 311,
+    "id": "P103389",
+    "group": "proficiency",
+    "label": "P103389",
+    "proficiencies": [
+      "P010263",
+      "P010775"
+    ]
+  },
+  {
+    "x": -76,
+    "y": 402,
+    "id": "P020110",
+    "group": "proficiency",
+    "label": "P020110",
+    "proficiencies": [
+      "P109350"
+    ]
+  },
+  {
+    "x": -285,
+    "y": 369,
+    "id": "P020124",
+    "group": "proficiency",
+    "label": "P020124",
+    "proficiencies": [
+      "P109350"
+    ]
+  },
+  {
+    "x": -165,
+    "y": 447,
+    "id": "P104583",
+    "group": "proficiency",
+    "label": "P104583",
+    "proficiencies": [
+      "P109350"
+    ]
+  },
+  {
+    "x": -649,
+    "y": 73,
+    "id": "P002767",
+    "group": "proficiency",
+    "label": "P002767",
+    "proficiencies": [
+      "P109360"
+    ]
+  },
+  {
+    "x": -774,
+    "y": 369,
+    "id": "P105012",
+    "group": "proficiency",
+    "label": "P105012",
+    "proficiencies": [
+      "P109361"
+    ]
+  },
+  {
+    "x": 2308,
+    "y": 1604,
+    "id": "P101574",
+    "group": "proficiency",
+    "label": "P101574",
+    "proficiencies": []
+  },
+  {
+    "x": -291,
+    "y": 258,
+    "id": "P109748",
+    "group": "proficiency",
+    "label": "P109748",
+    "proficiencies": [
+      "P109667"
+    ]
+  },
+  {
+    "x": 159,
+    "y": 591,
+    "id": "P126364",
+    "group": "proficiency",
+    "label": "P126364",
+    "proficiencies": [
+      "P109668"
+    ]
+  },
+  {
+    "x": 19,
+    "y": 692,
+    "id": "P100458",
+    "group": "proficiency",
+    "label": "P100458",
+    "proficiencies": [
+      "P021229"
+    ]
+  },
+  {
+    "x": -523,
+    "y": 664,
+    "id": "P020112",
+    "group": "proficiency",
+    "label": "P020112",
+    "proficiencies": [
+      "P109351"
+    ]
+  },
+  {
+    "x": -562,
+    "y": 543,
+    "id": "P021226",
+    "group": "proficiency",
+    "label": "P021226",
+    "proficiencies": [
+      "P109351"
+    ]
+  },
+  {
+    "x": -402,
+    "y": 680,
+    "id": "P100426",
+    "group": "proficiency",
+    "label": "P100426",
+    "proficiencies": [
+      "P109351"
+    ]
+  },
+  {
+    "x": -840,
+    "y": 597,
+    "id": "P109666",
+    "group": "proficiency",
+    "label": "P109666",
+    "proficiencies": [
+      "P109673"
+    ]
+  },
+  {
+    "x": 163,
+    "y": -387,
+    "id": "P103988",
+    "group": "proficiency",
+    "label": "P103988",
+    "proficiencies": [
+      "P109649"
+    ]
+  },
+  {
+    "x": -692,
+    "y": 220,
+    "id": "P103671",
+    "group": "proficiency",
+    "label": "P103671",
+    "proficiencies": [
+      "P109678"
+    ]
+  },
+  {
+    "x": -796,
+    "y": 815,
+    "id": "P125266",
+    "group": "proficiency",
+    "label": "P125266",
+    "proficiencies": [
+      "P109679",
+      "P021155"
+    ]
+  },
+  {
+    "x": -514,
+    "y": 971,
+    "id": "P100672",
+    "group": "proficiency",
+    "label": "P100672",
+    "proficiencies": [
+      "P109521"
+    ]
+  },
+  {
+    "x": 622,
+    "y": -729,
+    "id": "P107236",
+    "group": "proficiency",
+    "label": "Rifleman",
+    "proficiencies": [
+      "ecm343",
+      "P109334"
+    ]
+  },
+  {
+    "x": 460,
+    "y": -529,
+    "id": "P109334",
+    "group": "proficiency",
+    "label": "Rifleman Grade 2",
+    "proficiencies": [
+      "P107236",
+      "P021150",
+      "P021152"
+    ]
+  },
+  {
+    "x": 270,
+    "y": -188,
+    "id": "P021152",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3",
+    "proficiencies": [
+      "P109334",
+      "P021154",
+      "ecn343_31G",
+      "P020736",
+      "P109633",
+      "P101988",
+      "P109649",
+      "P109650",
+      "P109651",
+      "P109356",
+      "P010432",
+      "P021153"
+    ]
+  },
+  {
+    "x": 462,
+    "y": -337,
+    "id": "P021154",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Mechanised Driver",
+    "proficiencies": [
+      "P021152",
+      "P105943"
+    ]
+  },
+  {
+    "x": 313,
+    "y": -327,
+    "id": "ecn343_31G",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Mechanised Gunner",
+    "proficiencies": [
+      "P021152"
+    ]
+  },
+  {
+    "x": -567,
+    "y": -193,
+    "id": "P109631",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Crew Commander Mechanised",
+    "proficiencies": [
+      "P117653",
+      "P109359"
+    ]
+  },
+  {
+    "x": 347,
+    "y": 99,
+    "id": "P020736",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Motorised Driver",
+    "proficiencies": [
+      "P021152",
+      "P109632"
+    ]
+  },
+  {
+    "x": 379,
+    "y": 282,
+    "id": "P109632",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Crew Commander Motorised",
+    "proficiencies": [
+      "P020736",
+      "P103935",
+      "P126829",
+      "P109656"
+    ]
+  },
+  {
+    "x": 373,
+    "y": -177,
+    "id": "P109633",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Mortar",
+    "proficiencies": [
+      "P021152",
+      "P101047",
+      "P109657"
+    ]
+  },
+  {
+    "x": 393,
+    "y": 2,
+    "id": "P101988",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Communications",
+    "proficiencies": [
+      "P021152",
+      "P100531",
+      "P109658"
+    ]
+  },
+  {
+    "x": 135,
+    "y": -249,
+    "id": "P109649",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Reconnaissance",
+    "proficiencies": [
+      "P021152",
+      "P103988",
+      "P109659"
+    ]
+  },
+  {
+    "x": 20,
+    "y": -246,
+    "id": "P109650",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Surveillance",
+    "proficiencies": [
+      "P021152",
+      "P109660"
+    ]
+  },
+  {
+    "x": -19,
+    "y": -472,
+    "id": "P109651",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - DFSW",
+    "proficiencies": [
+      "P021152",
+      "P103258",
+      "P104735",
+      "P020154",
+      "P107485",
+      "P103670",
+      "P109661"
+    ]
+  },
+  {
+    "x": 480,
+    "y": 118,
+    "id": "P109356",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Sniper",
+    "proficiencies": [
+      "P021152",
+      "P021330",
+      "P104227",
+      "P021228"
+    ]
+  },
+  {
+    "x": 297,
+    "y": -57,
+    "id": "P010432",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Assault Pioneer",
+    "proficiencies": [
+      "P021152",
+      "P020654",
+      "P010263"
+    ]
+  },
+  {
+    "x": 12,
+    "y": 12,
+    "id": "P021153",
+    "group": "proficiency",
+    "label": "Rifleman Grade 3 - Supervisor Section Operations Grade 2",
+    "proficiencies": [
+      "P021152",
+      "P020108",
+      "P020117",
+      "P103643",
+      "P109359",
+      "P109656",
+      "P109657",
+      "P109658",
+      "P109659",
+      "P109660",
+      "P109661",
+      "P021228",
+      "P010263",
+      "P109350"
+    ]
+  },
+  {
+    "x": -400,
+    "y": -54,
+    "id": "P109359",
+    "group": "proficiency",
+    "label": "Supervisor Section Operations Grade 2 Specialist Mechanised",
+    "proficiencies": [
+      "P021153",
+      "P109631",
+      "P109360"
+    ]
+  },
+  {
+    "x": 57,
+    "y": 223,
+    "id": "P109656",
+    "group": "proficiency",
+    "label": "Supervisor Section Operations Grade 2 Specialist Motorised",
+    "proficiencies": [
+      "P021153",
+      "P109632",
+      "P109667"
+    ]
+  },
+  {
+    "x": 169,
+    "y": -26,
+    "id": "P109657",
+    "group": "proficiency",
+    "label": "Supervisor Section Operations Grade 2 Specialist Mortar",
+    "proficiencies": [
+      "P021153",
+      "P109633",
+      "P010242",
+      "ECN_343_73"
+    ]
+  },
+  {
+    "x": 203,
+    "y": 217,
+    "id": "P109658",
+    "group": "proficiency",
+    "label": "Supervisor Section Operations Grade 2 Specialist Communications",
+    "proficiencies": [
+      "P021153",
+      "P101988",
+      "P103797",
+      "P109668"
+    ]
+  },
+  {
+    "x": -86,
+    "y": -36,
+    "id": "P109659",
+    "group": "proficiency",
+    "label": "Supervisor Section Operations Grade 2 Specialist Reconnaissance",
+    "proficiencies": [
+      "P021153",
+      "P109649",
+      "P105013",
+      "P109669"
+    ]
+  },
+  {
+    "x": -181,
+    "y": -107,
+    "id": "P109660",
+    "group": "proficiency",
+    "label": "Supervisor Section Operations Grade 2 Specialist Surveillance",
+    "proficiencies": [
+      "P021153",
+      "P109650",
+      "P104277",
+      "P109670"
+    ]
+  },
+  {
+    "x": -170,
+    "y": -207,
+    "id": "P109661",
+    "group": "proficiency",
+    "label": "Supervisor Section Operations Grade 2 Specialist DFSW",
+    "proficiencies": [
+      "P021153",
+      "P109651",
+      "P100437",
+      "P109671"
+    ]
+  },
+  {
+    "x": 241,
+    "y": 308,
+    "id": "P021228",
+    "group": "proficiency",
+    "label": "Supervisor Section Operations Grade 2 Specialist Sniper",
+    "proficiencies": [
+      "P021153",
+      "P109356",
+      "P021227",
+      "P021229"
+    ]
+  },
+  {
+    "x": 125,
+    "y": 147,
+    "id": "P010263",
+    "group": "proficiency",
+    "label": "Supervisor Section Operations Grade 2 Specialist  Assault Pioneer",
+    "proficiencies": [
+      "P021153",
+      "P010432",
+      "P103389",
+      "P010775"
+    ]
+  },
+  {
+    "x": -175,
+    "y": 267,
+    "id": "P109350",
+    "group": "proficiency",
+    "label": "Supervisor Platoon Operations Grade 2",
+    "proficiencies": [
+      "P021153",
+      "P020110",
+      "P020124",
+      "P104583",
+      "P109360",
+      "P109667",
+      "ECN_343_73",
+      "P109668",
+      "P109669",
+      "P109670",
+      "P109671",
+      "P021229",
+      "P010775",
+      "P109351"
+    ]
+  },
+  {
+    "x": -488,
+    "y": 151,
+    "id": "P109360",
+    "group": "proficiency",
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Mechanised",
+    "proficiencies": [
+      "P109350",
+      "P109359",
+      "P002767",
+      "P109361"
+    ]
+  },
+  {
+    "x": -188,
+    "y": 346,
+    "id": "P109667",
+    "group": "proficiency",
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Motorised",
+    "proficiencies": [
+      "P109350",
+      "P109656",
+      "P109748",
+      "P109674"
+    ]
+  },
+  {
+    "x": 43,
+    "y": 102,
+    "id": "ECN_343_73",
+    "group": "proficiency",
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Mortar",
+    "proficiencies": [
+      "P109350",
+      "P109657",
+      "P010242"
+    ]
+  },
+  {
+    "x": 61,
+    "y": 441,
+    "id": "P109668",
+    "group": "proficiency",
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Communications",
+    "proficiencies": [
+      "P109350",
+      "P109658",
+      "P103797",
+      "P126364",
+      "P109675"
+    ]
+  },
+  {
+    "x": -228,
+    "y": 139,
+    "id": "P109669",
+    "group": "proficiency",
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Reconnaissance",
+    "proficiencies": [
+      "P109350",
+      "P109659",
+      "P105013",
+      "P109676"
+    ]
+  },
+  {
+    "x": -361,
+    "y": 139,
+    "id": "P109670",
+    "group": "proficiency",
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Surveillance",
+    "proficiencies": [
+      "P109350",
+      "P109660",
+      "P020968",
+      "P109677"
+    ]
+  },
+  {
+    "x": -319,
+    "y": 27,
+    "id": "P109671",
+    "group": "proficiency",
+    "label": "Supervisor Platoon Operations Grade 2 Specialist DFSW",
+    "proficiencies": [
+      "P109350",
+      "P109661",
+      "P100437",
+      "P109678"
+    ]
+  },
+  {
+    "x": -23,
+    "y": 525,
+    "id": "P021229",
+    "group": "proficiency",
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Sniper",
+    "proficiencies": [
+      "P109350",
+      "P021228",
+      "P100458",
+      "P021230"
+    ]
+  },
+  {
+    "x": -39,
+    "y": 311,
+    "id": "P010775",
+    "group": "proficiency",
+    "label": "Supervisor Platoon Operations Grade 2 Specialist  Assault Pioneer",
+    "proficiencies": [
+      "P109350",
+      "P010263",
+      "P103389",
+      "P010857"
+    ]
+  },
+  {
+    "x": -437,
+    "y": 532,
+    "id": "P109351",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2",
+    "proficiencies": [
+      "P109350",
+      "P020112",
+      "P021226",
+      "P100426",
+      "P109361",
+      "P109673",
+      "P109674",
+      "P109675",
+      "P109676",
+      "P109677",
+      "P109678",
+      "P021230",
+      "P010857",
+      "P109679",
+      "P109521"
+    ]
+  },
+  {
+    "x": -615,
+    "y": 364,
+    "id": "P109361",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2 Specialist Mechanised",
+    "proficiencies": [
+      "P109351",
+      "P109360",
+      "P105012"
+    ]
+  },
+  {
+    "x": -695,
+    "y": 577,
+    "id": "P109673",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2 Specialist Motorised",
+    "proficiencies": [
+      "P109351",
+      "P109666"
+    ]
+  },
+  {
+    "x": -353,
+    "y": 470,
+    "id": "P109674",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2 Specialist Mortar",
+    "proficiencies": [
+      "P109351",
+      "P109667"
+    ]
+  },
+  {
+    "x": -146,
+    "y": 582,
+    "id": "P109675",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2 Specialist Communications",
+    "proficiencies": [
+      "P109351",
+      "P109668"
+    ]
+  },
+  {
+    "x": -389,
+    "y": 318,
+    "id": "P109676",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2 Specialist Reconnaissance",
+    "proficiencies": [
+      "P109351",
+      "P109669"
+    ]
+  },
+  {
+    "x": -476,
+    "y": 378,
+    "id": "P109677",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2 Specialist Surveillance",
+    "proficiencies": [
+      "P109351",
+      "P109670"
+    ]
+  },
+  {
+    "x": -528,
+    "y": 257,
+    "id": "P109678",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2 Specialist DFSW",
+    "proficiencies": [
+      "P109351",
+      "P109671",
+      "P103671"
+    ]
+  },
+  {
+    "x": -244,
+    "y": 642,
+    "id": "P021230",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2 Specialist Sniper",
+    "proficiencies": [
+      "P109351",
+      "P021229"
+    ]
+  },
+  {
+    "x": -254,
+    "y": 508,
+    "id": "P010857",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2 Specialist Assault Pioneer",
+    "proficiencies": [
+      "P109351",
+      "P010775"
+    ]
+  },
+  {
+    "x": -662,
+    "y": 758,
+    "id": "P109679",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2A",
+    "proficiencies": [
+      "P109351",
+      "P125266",
+      "P021155"
+    ]
+  },
+  {
+    "x": -726,
+    "y": 885,
+    "id": "P021155",
+    "group": "proficiency",
+    "label": "Manager Company Operations Grade 2B",
+    "proficiencies": [
+      "P109679",
+      "P125266"
+    ]
+  },
+  {
+    "x": -436,
+    "y": 865,
+    "id": "P109521",
+    "group": "proficiency",
+    "label": "RA INF RSM Tier A",
+    "proficiencies": [
+      "P109351",
+      "P100672",
+      "P109522"
+    ]
+  },
+  {
+    "x": -387,
+    "y": 1047,
+    "id": "P109522",
+    "group": "proficiency",
+    "label": "RA INF RSM Tier B",
+    "proficiencies": [
+      "P109521",
+      "P109523"
+    ]
+  },
+  {
+    "x": -376,
+    "y": 1177,
+    "id": "P109523",
+    "group": "proficiency",
+    "label": "RA INF RSM Tier C",
+    "proficiencies": [
+      "P109522"
+    ]
+  },
+  {
+    "x": 1116,
+    "y": -1212,
+    "id": "RAA_AllCorp",
+    "group": "corp",
+    "label": "All Corp",
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "x": 851,
+    "y": -1043,
+    "id": "RAA",
+    "group": "corp",
+    "label": "RAA",
+    "proficiencies": [
+      "land",
+      "ecm343"
+    ]
+  },
+  {
+    "x": 848,
+    "y": -1231,
+    "id": "RAAC",
+    "group": "corp",
+    "label": "RAAC",
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "x": 922,
+    "y": -1349,
+    "id": "RAEC",
+    "group": "corp",
+    "label": "RAEC",
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "x": 1056,
+    "y": -1333,
+    "id": "RAEME",
+    "group": "corp",
+    "label": "RAEME",
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "x": 1030,
+    "y": -1102,
+    "id": "RAIC",
+    "group": "corp",
+    "label": "RAIC",
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "x": 971,
+    "y": -1212,
+    "id": "land",
+    "group": "land",
+    "label": "land",
+    "proficiencies": [
+      "RAA_AllCorp",
+      "RAA",
+      "RAAC",
+      "RAEC",
+      "RAEME",
+      "RAIC"
+    ]
+  },
+  {
+    "x": 741,
+    "y": -891,
+    "id": "ecm343",
+    "group": "skill",
+    "label": "ecm343",
+    "proficiencies": [
+      "P107236",
+      "RAA"
+    ],
+    "openCourses": [
+    	"P117653"
+    ]
+  }
+]

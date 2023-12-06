@@ -1,0 +1,666 @@
+[
+  {
+    "label": "Lead a section to achieve an operational task",
+    "id": "LEAD-A-INT-1"
+  },
+  {
+    "label": "Apply leadership theories as required",
+    "id": "LEAD-A-INT-2"
+  },
+  {
+    "label": "Apply the principles of command appropriately",
+    "id": "LEAD-A-INT-3"
+  },
+  {
+    "label": "Demonstrate the Army leadership behaviours consistently ",
+    "id": "LEAD-A-INT-4"
+  },
+  {
+    "label": "Apply the principles of mission command",
+    "id": "LEAD-A-INT-5"
+  },
+  {
+    "label": "Lead change within a small team as required",
+    "id": "LEAD-A-INT-6"
+  },
+  {
+    "label": "Analyse ethical risks appropriately ",
+    "id": "ETHI-B-INT-1"
+  },
+  {
+    "label": "Interpret ADF Ethical Theory",
+    "id": "ETHI-B-INT-2"
+  },
+  {
+    "label": "Supervise detainee and PW handling IAW LOAC",
+    "id": "ETHI-B-INT-3"
+  },
+  {
+    "label": "Apply the Rules of Engagement",
+    "id": "ETHI-B-INT-4"
+  },
+  {
+    "label": "Issue lawful and ethical orders",
+    "id": "ETHI-B-INT-5"
+  },
+  {
+    "label": "Command a team ethically consistently ",
+    "id": "ETHI-B-INT-6"
+  },
+  {
+    "label": "Mitigate Ethical Risks",
+    "id": "ETHI-B-INT-7"
+  },
+  {
+    "label": "Apply the ADF Ethical Decision Making Framework",
+    "id": "ETHI-B-INT-8"
+  },
+  {
+    "label": "Reflect on decisions to improve performance",
+    "id": "ETHI-B-INT-9"
+  },
+  {
+    "label": "Reflect on own strengths and limitations",
+    "id": "CHAR-A-INT-1"
+  },
+  {
+    "label": "Apply effective leadership characteristics and traits",
+    "id": "CHAR-A-INT-2"
+  },
+  {
+    "label": "Apply Army  values to own behaviour",
+    "id": "CHAR-A-INT-3"
+  },
+  {
+    "label": "Conduct self-reflection to improve performance",
+    "id": "CHAR-A-INT-4"
+  },
+  {
+    "label": "Develop action plans to own adapt behaviour",
+    "id": "CHAR-A-INT-5"
+  },
+  {
+    "label": "Performs turns and incline in quick time",
+    "id": "CULT-A-INT-1"
+  },
+  {
+    "label": "Performs paces forward, paces rear, open and close order march, and officer on parade dismissed",
+    "id": "CULT-A-INT-2"
+  },
+  {
+    "label": "Move on parade and Advance in review order",
+    "id": "CULT-A-INT-3"
+  },
+  {
+    "label": "Perform drill with arms",
+    "id": "CULT-A-INT-4"
+  },
+  {
+    "label": "March in line, change direction by forming at the halt, and on march in quick time",
+    "id": "CULT-A-INT-5"
+  },
+  {
+    "label": "Perform in a ceremonial parade",
+    "id": "CULT-A-INT-6"
+  },
+  {
+    "label": "Use the current Military Discipline Doctrine to identify service offences, definitions and their application.",
+    "id": "CULT-B-INT-1"
+  },
+  {
+    "label": "Identify service offences",
+    "id": "CULT-B-INT-2"
+  },
+  {
+    "label": "Explain witness privileges and legal rights",
+    "id": "CULT-B-INT-3"
+  },
+  {
+    "label": "Explain the role and responsibilities of officials in the Discipline Officer Scheme",
+    "id": "CULT-B-INT-4"
+  },
+  {
+    "label": "Explain how to prepare for proceedings including the preparation of personal statements",
+    "id": "CULT-B-INT-5"
+  },
+  {
+    "label": "Explain the roles and responsibilities of an authorised member in the Summary Authority System",
+    "id": "CULT-B-INT-6"
+  },
+  {
+    "label": "Advise on the outcome of sub-unit disciplinary matters",
+    "id": "CULT-B-INT-7"
+  },
+  {
+    "label": "Identify the process for conducting an initial discipline investigation",
+    "id": "CULT-B-INT-8"
+  },
+  {
+    "label": "Explain arrest without warrant, use of force and rights of arrested person",
+    "id": "CULT-B-INT-9"
+  },
+  {
+    "label": "Complete a C1 Infringement Notice as an Infringement Officer",
+    "id": "CULT-B-INT-10"
+  },
+  {
+    "label": "Complete an Initial Dsicipline Investigation",
+    "id": "CULT-B-INT-11"
+  },
+  {
+    "label": "Complete a C2 Charge Sheet and Decision Record as an authorised member to lay charges",
+    "id": "CULT-B-INT-12"
+  },
+  {
+    "label": "Supervise unit and personnel administration",
+    "id": "MA-ASO-B-FOU"
+  },
+  {
+    "label": "Advise solders on admin policy, pay and conditions",
+    "id": "MA-ASO-B-FOU"
+  },
+  {
+    "label": "Perform corrective training administration",
+    "id": "MA-ASO-B-FOU"
+  },
+  {
+    "label": "Administer investgations and fact finding requirments",
+    "id": "MA-ASO-B-FOU"
+  },
+  {
+    "label": "Report unacceptable behaviour",
+    "id": "MA-ASO-B-FOU"
+  },
+  {
+    "label": "Manage own career and development",
+    "id": "MA-ASO-B-FOU"
+  },
+  {
+    "label": "Support subordinates professional and personal development",
+    "id": "MA-ASO-B-FOU"
+  },
+  {
+    "label": "Conduct subordinate performance counselling, coaching and mentoring",
+    "id": "MA-ASO-B-FOU"
+  },
+  {
+    "label": "Develop subordinates health and fitness",
+    "id": "MA-ASO-C-FOU-1"
+  },
+  {
+    "label": "Monitor and manage subrodinates fatigue",
+    "id": "MA-ASO-C-FOU-2"
+  },
+  {
+    "label": "Monitor and manage subordinates stress",
+    "id": "MA-ASO-C-FOU-3"
+  },
+  {
+    "label": "Prepare subordinates for war",
+    "id": "MA-ASO-C-FOU-4"
+  },
+  {
+    "label": "Understand the scope of LMSF maintenance activities",
+    "id": "MA-RA-A-INT-1"
+  },
+  {
+    "label": "Determine WHS requirements for LMSF activities",
+    "id": "MA-RA-A-INT-2"
+  },
+  {
+    "label": "Identify all roles and responsibilities of a LMSF supervisor including the availability of user Handbooks and user instructions are current in a sub-unit and below",
+    "id": "MA-RA-A-INT-3"
+  },
+  {
+    "label": "Articulate to others their roles and responsibilities within the LMSF",
+    "id": "MA-RA-A-INT-4"
+  },
+  {
+    "label": "Demonstrate effective supervision of subordinates during their conduct of LMSF roles",
+    "id": "MA-RA-A-INT-5"
+  },
+  {
+    "label": "Manage and store all required LMSF documentation IA workplace conventions including Non-techniquical inspections, repair requests, and technical servicing and repair",
+    "id": "MA-RA-A-INT-6"
+  },
+  {
+    "label": "Manage equipment servicing programs, schedules and records IAW LMSF policy",
+    "id": "MA-RA-A-INT-7"
+  },
+  {
+    "label": "Ensure compliance with the requirements of the Engineering/Management System Directive",
+    "id": "MA-RA-A-INT-8"
+  },
+  {
+    "label": "Understand technical certifications of direct purchased land materiel",
+    "id": "MA-RA-A-INT-9"
+  },
+  {
+    "label": "Identify and co-ordinate LMSF training requirements",
+    "id": "MA-RA-A-INT-10"
+  },
+  {
+    "label": "Demonstrate the ability to understand the duties of the Ammunition Safety Supervisor",
+    "id": "MA-RA-B-INT-1"
+  },
+  {
+    "label": "Demonstrate an understanding of unit level paperwork for the receipt, issue and return of ammunition and explosive ordnance in accordance with organisational requirements.",
+    "id": "MA-RA-B-INT-2"
+  },
+  {
+    "label": "Demonstrate the ability to examine and certify packaging free from explosive ordnance in a safe manner in accordance with organisational requirements including:",
+    "id": "MA-RA-B-INT-3"
+  },
+  {
+    "label": "Prepare suitable location to conduct inspection",
+    "id": "MA-RA-B-INT-4"
+  },
+  {
+    "label": "Identify explosive contaminants",
+    "id": "MA-RA-B-INT-5"
+  },
+  {
+    "label": "Identify and apply relevant labels and markings",
+    "id": "MA-RA-B-INT-6"
+  },
+  {
+    "label": "Conduct physical examinations of EO and associated packaging",
+    "id": "MA-RA-B-INT-7"
+  },
+  {
+    "label": "Certify as free from explosives",
+    "id": "MA-RA-B-INT-8"
+  },
+  {
+    "label": "Return to Depot requirements for 66MM HEAT M72A6 and M18A1 (Claymore)",
+    "id": "MA-RA-B-INT-9"
+  },
+  {
+    "label": "Apply the WHS policy to the workplace",
+    "id": "MA-GA-A-INT-1"
+  },
+  {
+    "label": "identify and report hazards and/or incidents",
+    "id": "MA-GA-A-INT-2"
+  },
+  {
+    "label": "Manage incidents and hazards",
+    "id": "MA-GA-A-INT-3"
+  },
+  {
+    "label": "Implement control measures",
+    "id": "MA-GA-A-INT-4"
+  },
+  {
+    "label": "Respond to incidents",
+    "id": "MA-GA-A-INT-5"
+  },
+  {
+    "label": "Control an incident scene (REACT)",
+    "id": "MA-GA-A-INT-6"
+  },
+  {
+    "label": "Identify types of military ranges",
+    "id": "MA-GA-B-INT-1"
+  },
+  {
+    "label": "State requirements for firing non-ADF service weapons",
+    "id": "MA-GA-B-INT-2"
+  },
+  {
+    "label": "Identify duties of a range control officer",
+    "id": "MA-GA-B-INT-3"
+  },
+  {
+    "label": "Identify people who may be appointed OIC practice",
+    "id": "MA-GA-B-INT-4"
+  },
+  {
+    "label": "State responsibilities for conduct of weapon training tests",
+    "id": "MA-GA-B-INT-5"
+  },
+  {
+    "label": "State when firing must cease",
+    "id": "MA-GA-B-INT-6"
+  },
+  {
+    "label": "Identify ammunition handling and accountability responsibilities",
+    "id": "MA-GA-B-INT-7"
+  },
+  {
+    "label": "State safety requirements when clearing weapons",
+    "id": "MA-GA-B-INT-8"
+  },
+  {
+    "label": "State the requirements for placing range flags",
+    "id": "MA-GA-B-INT-9"
+  },
+  {
+    "label": "State safety staff responsibilities during night firing and NVG practices",
+    "id": "MA-GA-B-INT-10"
+  },
+  {
+    "label": "State hearing protection requirements",
+    "id": "MA-GA-B-INT-11"
+  },
+  {
+    "label": "State SS ratios during different practices",
+    "id": "MA-GA-B-INT-12"
+  },
+  {
+    "label": "Identify the medical and emergency support requirements",
+    "id": "MA-GA-B-INT-13"
+  },
+  {
+    "label": "State the characteristics of and number of firers on a 25m range",
+    "id": "MA-GA-B-INT-14"
+  },
+  {
+    "label": "Identify actions on in the event of an emergency/unsafe practices",
+    "id": "MA-GA-B-INT-15"
+  },
+  {
+    "label": "Identify Gallery practice requirements",
+    "id": "MA-GA-B-INT-16"
+  },
+  {
+    "label": "Identify requirements for SMG 25m practices",
+    "id": "MA-GA-B-INT-17"
+  },
+  {
+    "label": "Describe the warning and range clearance procedures on conclusion of the practice.",
+    "id": "MA-GA-B-INT-18"
+  },
+  {
+    "label": "Ensures firers under their direct supervision weapons' are pointed down range during load/unload procedure",
+    "id": "MA-GA-C-INT-1"
+  },
+  {
+    "label": "Ensure firers under their direct supervision have the correct PPE fitted",
+    "id": "MA-GA-C-INT-2"
+  },
+  {
+    "label": "Ensure firers under their direct supervision are aligned to the correct target",
+    "id": "MA-GA-C-INT-3"
+  },
+  {
+    "label": "Ensure the safety catch of firers under their direct supervision is applied correctly during movement between positions or firing points",
+    "id": "MA-GA-C-INT-4"
+  },
+  {
+    "label": "Ensure a firer under their direct supervision follows the emergency stop procedure, if implemented",
+    "id": "MA-GA-C-INT-5"
+  },
+  {
+    "label": "Observe the firers under their direct supervision to ensure the firer’s rounds are striking the bullet catch",
+    "id": "MA-GA-C-INT-6"
+  },
+  {
+    "label": "Ensure a firer under their direct supervision performs the correct weapon drills",
+    "id": "MA-GA-C-INT-7"
+  },
+  {
+    "label": "Conducts weapon clearance of firers from the firing point under their direct supervision",
+    "id": "MA-GA-C-INT-8"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that there are no injuries to personnel",
+    "id": "MA-GA-C-INT-9"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that there is no damage to equipment",
+    "id": "MA-GA-C-INT-10"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that WHS policy and range procedures are adhered to",
+    "id": "MA-GA-C-INT-11"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that there are no security breaches",
+    "id": "MA-GA-C-INT-12"
+  },
+  {
+    "label": "Describe the SS duties with firers upon arrival at the firing position.",
+    "id": "MA-GA-C-INT-13"
+  },
+  {
+    "label": "Conducts a safety brief to the butts party",
+    "id": "MA-GA-C-INT-14"
+  },
+  {
+    "label": "Detail a marker to each target frame",
+    "id": "MA-GA-C-INT-15"
+  },
+  {
+    "label": "Establishes and maintains communication with the OIC practice",
+    "id": "MA-GA-C-INT-16"
+  },
+  {
+    "label": "Ensures members of the butts party do not expose themselves above the mantlet during firing",
+    "id": "MA-GA-C-INT-17"
+  },
+  {
+    "label": "Raise and lower the flags IAW applicable Range Standing Orders",
+    "id": "MA-GA-C-INT-18"
+  },
+  {
+    "label": "Observes the butts stop for fires and takes measures to extinguish as appropriate",
+    "id": "MA-GA-C-INT-19"
+  },
+  {
+    "label": "Accurately records and relays scores as requires",
+    "id": "MA-GA-C-INT-20"
+  },
+  {
+    "label": "Ensures the butts party patches-out targets and refurbishes the butts area at the completion of the practice",
+    "id": "MA-GA-C-INT-21"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that there were no reasonably preventable injuries to personnel",
+    "id": "MA-GA-C-INT-22"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that there was no damage to equipment",
+    "id": "MA-GA-C-INT-23"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that WHS policy and range procedures were adhered to",
+    "id": "MA-GA-C-INT-24"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that there were no security breaches.",
+    "id": "MA-GA-C-INT-25"
+  },
+  {
+    "label": "Conducts a safety brief to the butts party",
+    "id": "MA-GA-C-INT-26"
+  },
+  {
+    "label": "Detail a marker to each target frame",
+    "id": "MA-GA-C-INT-27"
+  },
+  {
+    "label": "Establishes and maintains communication with the OIC practice",
+    "id": "MA-GA-C-INT-28"
+  },
+  {
+    "label": "Ensures members of the butts party do not expose themselves above the mantlet during firing",
+    "id": "MA-GA-C-INT-29"
+  },
+  {
+    "label": "Raise and lower the flags IAW applicable Range Standing Orders",
+    "id": "MA-GA-C-INT-30"
+  },
+  {
+    "label": "Observes the butts stop for fires and takes measures to extinguish as appropriate",
+    "id": "MA-GA-C-INT-31"
+  },
+  {
+    "label": "Accurately records and relays scores as requires",
+    "id": "MA-GA-C-INT-32"
+  },
+  {
+    "label": "Ensures the butts party patches-out targets and refurbishes the butts area at the completion of the practice",
+    "id": "MA-GA-C-INT-33"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that there were no reasonably preventable injuries to personnel",
+    "id": "MA-GA-C-INT-34"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that there was no damage to equipment",
+    "id": "MA-GA-C-INT-35"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that WHS policy and range procedures were adhered to",
+    "id": "MA-GA-C-INT-36"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that there were no security breaches.",
+    "id": "MA-GA-C-INT-37"
+  },
+  {
+    "label": "Inteprets signs for the range",
+    "id": "MA-GA-D-INT-1"
+  },
+  {
+    "label": "Understand an RDA trace overlay supplied by Range Control and follow applicable restrictions on the range",
+    "id": "MA-GA-D-INT-2"
+  },
+  {
+    "label": "Conduct a range clearance IAW doctrine",
+    "id": "MA-GA-D-INT-3"
+  },
+  {
+    "label": "Locate and site administration, ammunition, waiting areas, etc.",
+    "id": "MA-GA-D-INT-4"
+  },
+  {
+    "label": "Oversee set up of range layout and areas",
+    "id": "MA-GA-D-INT-5"
+  },
+  {
+    "label": "Meet medical pre-requisites",
+    "id": "MA-GA-D-INT-6"
+  },
+  {
+    "label": "Ensure only approved weapon types and ammunition natures listed on the range detail are used",
+    "id": "MA-GA-D-INT-7"
+  },
+  {
+    "label": "Candidate confirms that all firers present have completed a weapon training test prior.",
+    "id": "MA-GA-D-INT-8"
+  },
+  {
+    "label": "Ensure firers are qualified on weapon types for practice.",
+    "id": "MA-GA-D-INT-9"
+  },
+  {
+    "label": "Ensure that SS are qualified on range detail weapon types and Permanent Basic Ranges",
+    "id": "MA-GA-D-INT-10"
+  },
+  {
+    "label": "Ensure only approved weapon types and ammunition natures listed on the range detail are used",
+    "id": "MA-GA-D-INT-11"
+  },
+  {
+    "label": "Meets safety vehicle and ammunition transport requirements",
+    "id": "MA-GA-D-INT-12"
+  },
+  {
+    "label": "Deliver brief to firers",
+    "id": "MA-GA-D-INT-13"
+  },
+  {
+    "label": "Controls movement of personnel IAW extant doctrine",
+    "id": "MA-GA-D-INT-14"
+  },
+  {
+    "label": "Controls raising and lowering of the butts flag if necessary",
+    "id": "MA-GA-D-INT-15"
+  },
+  {
+    "label": "Conduct rehearsals as required",
+    "id": "MA-GA-D-INT-16"
+  },
+  {
+    "label": "Gains permission to commence and cease practice",
+    "id": "MA-GA-D-INT-17"
+  },
+  {
+    "label": "Security is maintained throughout the practice",
+    "id": "MA-GA-D-INT-18"
+  },
+  {
+    "label": "Supervise communications requirements internally and to Range Control",
+    "id": "MA-GA-D-INT-19"
+  },
+  {
+    "label": "Conducts the practice IAW the guidelines detailed in the Range Detail",
+    "id": "MA-GA-D-INT-20"
+  },
+  {
+    "label": "Issues correct words of command for loading and unloading",
+    "id": "MA-GA-D-INT-21"
+  },
+  {
+    "label": "Corrects the Safety Supervisor in the event that he/she allows any unsafe procedure to occur without intervention",
+    "id": "MA-GA-D-INT-22"
+  },
+  {
+    "label": "Ensures that all firers are wearing correct aural protection IAW WHS and range regulations",
+    "id": "MA-GA-D-INT-23"
+  },
+  {
+    "label": "Ensures all firers wear required PPE",
+    "id": "MA-GA-D-INT-24"
+  },
+  {
+    "label": "Account for and control ammunition",
+    "id": "MA-GA-D-INT-25"
+  },
+  {
+    "label": "Control safe movement on and off the range",
+    "id": "MA-GA-D-INT-26"
+  },
+  {
+    "label": "Ensures that clearances are conducted at the completion of each detail",
+    "id": "MA-GA-D-INT-27"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that there are no injuries to personnel",
+    "id": "MA-GA-D-INT-28"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that there is no damage to equipment",
+    "id": "MA-GA-D-INT-29"
+  },
+  {
+    "label": "Takes all reasonable steps to ensure that WHS policy and range procedures are adhered to",
+    "id": "MA-GA-D-INT-30"
+  },
+  {
+    "label": "Clears all personnel onto and off the range as required throughout the practice",
+    "id": "MA-GA-D-INT-31"
+  },
+  {
+    "label": "Ensures that sentries are posted and briefed IAW ADF LRS policy",
+    "id": "MA-GA-D-INT-32"
+  },
+  {
+    "label": "Describes the administrative actions required prior to the conduct of a range",
+    "id": "MA-GA-D-INT-33"
+  },
+  {
+    "label": "Identifies checks to be made prior to opening the range",
+    "id": "MA-GA-D-INT-34"
+  },
+  {
+    "label": "dentifies key actions that need to occur prior to opening the range",
+    "id": "MA-GA-D-INT-35"
+  },
+  {
+    "label": "States actions that must occur prior to leaving the range.",
+    "id": "MA-GA-D-INT-36"
+  }
+]

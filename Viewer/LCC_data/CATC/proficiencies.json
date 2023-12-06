@@ -1,0 +1,2558 @@
+[
+	{
+	"id": "P000192",
+	"label": "CBRND ADVISOR 120275"
+	},
+	{
+	"id": "P107835",
+	"label": "CBRND TRAINING & OPERATIONS SUPERVISOR 200491"
+	},
+	{
+	"id": "P000205",
+	"label": "F88 AUSTEYR - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P000410",
+	"label": "F89 Minimi Weapon Qualification"
+	},
+	{
+	"id": "P000666",
+	"label": "AVN NTS Foundations Course"
+	},
+	{
+	"id": "P000966",
+	"label": "DEMOLITION SUPERVISOR"
+	},
+	{
+	"id": "P103348",
+	"label": "EXPLOSIVE USER 294731"
+	},
+	{
+	"id": "P107473",
+	"label": "SUBJ 4 CPL RAE ADV CE PHASE 2 207878"
+	},
+	{
+	"id": "P001012",
+	"label": "TANK REACTIVE ARMOUR TILES 214294"
+	},
+	{
+	"id": "P104817",
+	"label": "TANK DRIVER 203310"
+	},
+	{
+	"id": "P001054",
+	"label": "STANDARD COMBAT SURVIVABILITY QUALIFICATION"
+	},
+	{
+	"id": "P001145",
+	"label": "INITIAL DEMOLITIONS COURSE"
+	},
+	{
+	"id": "P002762",
+	"label": "ALL ARMS OBSERVER 120226"
+	},
+	{
+	"id": "P002767",
+	"label": "APC INSTRUCTOR DRIVING AND SERVICING 208899"
+	},
+	{
+	"id": "P010057",
+	"label": "CRV Type 2 Ambulance Driver Restricted - 1st and Reverse"
+	},
+	{
+	"id": "P010124",
+	"label": "DECONTAMINATION APPARATUS PORTABLE 9 LITRE"
+	},
+	{
+	"id": "P010129",
+	"label": "CORPORAL RESIDENTIAL 110176"
+	},
+	{
+	"id": "P010209",
+	"label": "RWS GUNNER 202356"
+	},
+	{
+	"id": "P020722",
+	"label": "CRV DRIVER 120187"
+	},
+	{
+	"id": "P103787",
+	"label": "12.7 QCB MG - QUALIFIED LIVE FIRE "
+	},
+	{
+	"id": "P010238",
+	"label": "MORTAR FIRE CONTROLLER 215058"
+	},
+	{
+	"id": "P010242",
+	"label": "RAINF OFFR/NCO MORTAR COURSE 215059"
+	},
+	{
+	"id": "P010317",
+	"label": "ADG CLOSE COMBAT JNCO 111527"
+	},
+	{
+	"id": "P010321",
+	"label": "AIRFIELD DEFENCE GUARD SNCO COURSE 111535"
+	},
+	{
+	"id": "P010978",
+	"label": "REMINGTON 870 SHOTGUN - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P010982",
+	"label": "F1 / F3 Grenade - Weapon qualification"
+	},
+	{
+	"id": "P010984",
+	"label": "84mm MDFSW Carl Gustav M1/2/3 and 4 - Qualified Live Fire"
+	},
+	{
+	"id": "P010988",
+	"label": "M18A1 (SHOCKTUBE) VARIANT CLAYMORE - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P010990",
+	"label": "MAG 58 GSMG - Weapon Qualification"
+	},
+	{
+	"id": "P020000",
+	"label": "SPECST DIGI AN/PRC 152 - 209871"
+	},
+	{
+	"id": "P020001",
+	"label": "BAS COM COMMS AN/PRC-152 RADIO CSE - 209828"
+	},
+	{
+	"id": "P020002",
+	"label": "MTED DIGI AN/PRC-152 RADIO MOD 209859"
+	},
+	{
+	"id": "P103795",
+	"label": "BASIC DISMOUNTED COMBAT COMMUNICATIONS OPERATOR"
+	},
+	{
+	"id": "P020007",
+	"label": "SPECST COM COMMS AN/PRC 150 - 209869"
+	},
+	{
+	"id": "P020011",
+	"label": "MTED DIGITAL AN/PRC-150 RADIO MOD - 209858"
+	},
+	{
+	"id": "P021098",
+	"label": "RFSU Basic Patrolman Course 200191 (all ECN 304 trainees) "
+	},
+	{
+	"id": "P021369",
+	"label": "Basic Digital KIK-30 RASKL Module - 212421"
+	},
+	{
+	"id": "P020031",
+	"label": "SUBJ 4 CPL RAE CON CIVIL 200053"
+	},
+	{
+	"id": "P020108",
+	"label": "SUBJ 1 CPL Army (or equivalent)"
+	},
+	{
+	"id": "P020117",
+	"label": "Subject 2 CPL RAInf (CPL and below only) 200168"
+	},
+	{
+	"id": "P020124",
+	"label": "SUBJ 2 SGT RAINF PL SGT 202862"
+	},
+	{
+	"id": "P020133",
+	"label": "SUBJ 2 WO RAE 120260"
+	},
+	{
+	"id": "P020110",
+	"label": "SUBJ 1 SGT ARMY 202876"
+	},
+	{
+	"id": "P020154",
+	"label": "DIRECT FIRE SUPPORT WEAPON - 84MM MDFSW MODULE"
+	},
+	{
+	"id": "P020155",
+	"label": "SUBJ 4 CPL RAE ADV CE 120261"
+	},
+	{
+	"id": "P020787",
+	"label": "CE ECN 202730"
+	},
+	{
+	"id": "P020163",
+	"label": "GID3 PORTABLE CHEMICAL DETECTOR"
+	},
+	{
+	"id": "P020168",
+	"label": "12.7 QCB MG - QUALIFIED SIM FIRE"
+	},
+	{
+	"id": "P020184",
+	"label": "RFSU - Patrol 2IC Course"
+	},
+	{
+	"id": "P020238",
+	"label": "RFSU Patrol Commander"
+	},
+	{
+	"id": "P109364",
+	"label": "RFSU PATROL 2IC ECN 304-2"
+	},
+	{
+	"id": "P020259",
+	"label": "M42 REMOTE ALARM UNIT"
+	},
+	{
+	"id": "P020267",
+	"label": "AUTOMATIC POINT SOURCE DETECTOR AP4CE"
+	},
+	{
+	"id": "P126310",
+	"label": "ARA MILITARY ENGINEER 217219"
+	},
+	{
+	"id": "P020334",
+	"label": "IN SERVICE RESPIRATOR MAINTENANCE AND REPAIR"
+	},
+	{
+	"id": "P020343",
+	"label": "WASP AE SMALL UNMANNED AIRCRAFT SYSTEM (SUAS) OPERATOR 215355"
+	},
+	{
+	"id": "P020353",
+	"label": "CRV VARIANT TYPE 2 MSSS DRIVER RESTRICTED - NOT TO OPERATE SPECIALIST EQUIPMENT"
+	},
+	{
+	"id": "P020382",
+	"label": "EF88 (T2) Dismounted ancillaries"
+	},
+	{
+	"id": "P020451",
+	"label": "FMB DESIGNERS FMB SAFETY SUPERVISOR AND OIC FMB 202945"
+	},
+	{
+	"id": "P101412",
+	"label": "FLOATING SUPPORT BRIDGE SUPERVISOR"
+	},
+	{
+	"id": "P020472",
+	"label": "REGIMENTAL OFFICER GUNNERY STA 209548 "
+	},
+	{
+	"id": "P106404",
+	"label": "ROBC - SURVEILLANCE & TARGET ACQUISITION (STA) 205715 or"
+	},
+	{
+	"id": "P020473",
+	"label": "COMBAT OFFICER ADVANCED COURSE 202831"
+	},
+	{
+	"id": "P020487",
+	"label": "Combat Arms Module IET (PT) 209602"
+	},
+	{
+	"id": "P020526",
+	"label": "ARMED SECURITY WARDEN (ASW)"
+	},
+	{
+	"id": "P020527",
+	"label": "REGIMENTAL OFFICER GUNNERY - AMDS (120210)"
+	},
+	{
+	"id": "P020544",
+	"label": "REGIMENTAL OFFICER BASIC RAA - AMDS (120209)"
+	},
+	{
+	"id": "P020528",
+	"label": "Regimental Officer Basic - Offensive Support "
+	},
+	{
+	"id": "P020529",
+	"label": "ROGC (OFF SPT) Part Time Mod 1; and"
+	},
+	{
+	"id": "P020535",
+	"label": "PROGR DIGI AN/PRC-150 RADIO - 212549"
+	},
+	{
+	"id": "P020536",
+	"label": "SPECST DIGI COMMS AN/PRC-117G - 212648"
+	},
+	{
+	"id": "P020955",
+	"label": "BASIC DIGI AN/PRC-117G RADIO 212647"
+	},
+	{
+	"id": "P020548",
+	"label": "CRV REGT OFFR BASIC 120169"
+	},
+	{
+	"id": "P020551",
+	"label": "LIGHT CAVALARY SUBJ 4 CPL RAAC COMMANDER MOD 1- 218221"
+	},
+	{
+	"id": "P020554",
+	"label": "ROBC RAE"
+	},
+	{
+	"id": "P020555",
+	"label": "PMKEYS APS ABSENCE MANAGEMENT"
+	},
+	{
+	"id": "P020558",
+	"label": "PROGR DIGI AN/PYQ-10 SKL MOD - 212547"
+	},
+	{
+	"id": "P020559",
+	"label": "PROGR DIGI AN/PRC-152 RADIO - 212548"
+	},
+	{
+	"id": "P020560",
+	"label": "AVN OFF ROIC"
+	},
+	{
+	"id": "P020562",
+	"label": "Specst Digi KIK-30 RASKL MOD - 212546"
+	},
+	{
+	"id": "P020654",
+	"label": "ASSAULT PIONEER BASIC 200160"
+	},
+	{
+	"id": "P020705",
+	"label": "PMV GROUND GUIDED ONLY DRIVER"
+	},
+	{
+	"id": "P020721",
+	"label": "CRV DRIVER GROUND GUIDE ONLY 120190"
+	},
+	{
+	"id": "P020731",
+	"label": "CRV GUNNER 120168"
+	},
+	{
+	"id": "P020740",
+	"label": "ADF CARPENTER 200256"
+	},
+	{
+	"id": "P107236",
+	"label": "Army Recruit Course"
+	},
+	{
+	"id": "P020750",
+	"label": "SPECST DIGI RT-1915 EPLRS MOD 212625"
+	},
+	{
+	"id": "P100531",
+	"label": "Specialist Combat Communications Operator"
+	},
+	{
+	"id": "P021387",
+	"label": "MTED DIGITAL RT-1915 EPLRS MOD - 212456"
+	},
+	{
+	"id": "P020778",
+	"label": "SIO-TK GUNNNERY SIMULATION 207431"
+	},
+	{
+	"id": "P020783",
+	"label": "SUBJ 4 SGT RAAC COMMS 120181"
+	},
+	{
+	"id": "P020832",
+	"label": "HIGH MOBILITY ENGINEER EXCAVATOR (HMEE) 200377"
+	},
+	{
+	"id": "P020844",
+	"label": "WATER POINT SUPERVISOR 208182"
+	},
+	{
+	"id": "P107029",
+	"label": "ARA RAE IET PHASE 1"
+	},
+	{
+	"id": "P020886",
+	"label": "Operate an Indirect Fire Weapon Platform"
+	},
+	{
+	"id": "P020932",
+	"label": "OPERATOR PATROL PERSISTENT SURVEILLANCE SYSTEM 213761"
+	},
+	{
+	"id": "P021241",
+	"label": "OPERATE THE IN-SERVICE HANDHELD GLOBAL POSITIONING SYSTEM (GPS) 212634"
+	},
+	{
+	"id": "P020943",
+	"label": "OPERATE AND INSPECT OPTICAL INSTRUMENTS "
+	},
+	{
+	"id": "P020944",
+	"label": "GIRAFFE TRAINING SYSTEM (GTS) OPERATOR 213788"
+	},
+	{
+	"id": "P020952",
+	"label": "M113AS VARIANT ARMD PERS CARRIER DRIVER"
+	},
+	{
+	"id": "P020954",
+	"label": "TANK RECOVERY DRIVER RESTRICTED - 1ST AND REVERSE GEARS ONLY "
+	},
+	{
+	"id": "P020958",
+	"label": "CRV Variant Type 2 Comd Driver Restricted - 1st and reverse"
+	},
+	{
+	"id": "P020978",
+	"label": "BASIC OPERATOR GBAD 200172"
+	},
+	{
+	"id": "P020980",
+	"label": "DETACHMENT COMMANDER GBAD 120200"
+	},
+	{
+	"id": "P021000",
+	"label": "ADVANCED UNMANNED AERIAL SYSTEM 120213"
+	},
+	{
+	"id": "P021383",
+	"label": "P021383 SHADOW 200 UAS Operator (or equivalent) 214296 "
+	},
+	{
+	"id": "P021004",
+	"label": "ARTILLERY COMMAND SYSTEM OPERATOR ADVANCED (ACSOA) 120202"
+	},
+	{
+	"id": "P021005",
+	"label": "Artillery Command Systems Operator 120203"
+	},
+	{
+	"id": "P021008",
+	"label": "COND AND SPV SAF ON RESTR CAT A RANGE 213856"
+	},
+	{
+	"id": "P021012",
+	"label": "DETACHMENT COMMANDER OFFENSIVE SUPPORT"
+	},
+	{
+	"id": "P101521",
+	"label": "ADVANCED GUNNER 200209"
+	},
+	{
+	"id": "P021016",
+	"label": "OPERATOR-40M TRUCK CARGO MEDIUMWEIGHT 215184"
+	},
+	{
+	"id": "P021037",
+	"label": "C20 MANITOU MHT 7140 CSE 209657"
+	},
+	{
+	"id": "P021045",
+	"label": "CONSTRUCTION CIVIL PLANT CSE 120290"
+	},
+	{
+	"id": "P021111",
+	"label": "EF88 AUSTEYR - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P021112",
+	"label": "F3 MINE DETECTOR 207190 "
+	},
+	{
+	"id": "P103357",
+	"label": "ROBC RAE ARES"
+	},
+	{
+	"id": "P021122",
+	"label": "M777A2 HOWITZER STORE PERSON 214078"
+	},
+	{
+	"id": "P021133",
+	"label": "RFSU PATROL COMMANDER ECN 304-3"
+	},
+	{
+	"id": "P021134",
+	"label": "RFSU PATROL MASTER 200190"
+	},
+	{
+	"id": "P021099",
+	"label": "RFSU PATROLMAN GRADE 2 ECN 304-2"
+	},
+	{
+	"id": "P021137",
+	"label": "PROGR DIGI EPLRS RADIO MISSION - 212635 "
+	},
+	{
+	"id": "P021140",
+	"label": "IN-SERVICE MINE DETECTOR OPERATOR"
+	},
+	{
+	"id": "P021150",
+	"label": "RAINF Rifleman IET Course"
+	},
+	{
+	"id": "P021151",
+	"label": "RAINF IET ECN 343-2 (PT) MOD 2 201260"
+	},
+	{
+	"id": "P021152",
+	"label": "RIFLEMAN GRADE 3 ECN 343-2"
+	},
+	{
+	"id": "P021153",
+	"label": "SUPERVISOR SECTION OPERATIONS ECN 343-5"
+	},
+	{
+	"id": "P021184",
+	"label": " SUBJ 4 WO RAA OS 209612"
+	},
+	{
+	"id": "P021211",
+	"label": "TANK DEEP WATER FORDING KIT 214295"
+	},
+	{
+	"id": "P021218",
+	"label": "CRV SUBJ 4 SGT RAAC GUNNERY 120180"
+	},
+	{
+	"id": "P021223",
+	"label": "LOADERS armoured gun shield"
+	},
+	{
+	"id": "P021224",
+	"label": "MINEHOUND VMR 3 MINE DETECTOR 207188"
+	},
+	{
+	"id": "P021226",
+	"label": "SUBJ 2 WO RAINF CSM 120238"
+	},
+	{
+	"id": "P021227",
+	"label": "SNIPER TEAM LEADER 120243"
+	},
+	{
+	"id": "P021233",
+	"label": "WATER PURIFICATION AND DESALINATION SYSTEM OPERATOR 207142"
+	},
+	{
+	"id": "P021234",
+	"label": "C20 MERLO 35.9 EVA CSE 209659"
+	},
+	{
+	"id": "P114977",
+	"label": "GENERAL CONSTRUCTION INDUCTION - CPCCWHS1001 PREPARE TO WORK SAFELY IN THE CONSTRUCTION INDUSTRY "
+	},
+	{
+	"id": "P102191",
+	"label": "ARA OFFR COMMISSIONING CSE - 212682"
+	},
+	{
+	"id": "P103793",
+	"label": "CRV NON-RAAC DRIVER 200618"
+	},
+	{
+	"id": "P104414",
+	"label": "ROBC RAInf"
+	},
+	{
+	"id": "P104734",
+	"label": "CAVALRY SCOUT GRADE 2 203243"
+	},
+	{
+	"id": "P021242",
+	"label": "SIO-TK D&S SIMULATION 207432"
+	},
+	{
+	"id": "P021243",
+	"label": "RAE Search Team Commander"
+	},
+	{
+	"id": "P103349",
+	"label": "PERFORM HIGH RISK SEARCH OPERATIONS"
+	},
+	{
+	"id": "P021255",
+	"label": "TANK MINE CLEARING BLADE 214107"
+	},
+	{
+	"id": "P104820",
+	"label": "TANK SUBJ 4 CPL RAAC COMDR 203312"
+	},
+	{
+	"id": "P021267",
+	"label": "OPERATE THE BMS COMMAND POST VEHICLE MOUNTED (BMS-CP-VM) 212840"
+	},
+	{
+	"id": "P021282",
+	"label": "OPERATOR DIGITAL TERMINAL CONTROL SYSTEM V3.0"
+	},
+	{
+	"id": "P021297",
+	"label": "RFSU COMBAT SUPPORT OPERATOR BASIC ASSISTANT 214080"
+	},
+	{
+	"id": "P103993",
+	"label": "RFSU Recruit Course 200465"
+	},
+	{
+	"id": "P021302",
+	"label": "FOUNDATION COMMUNICATIONS COURSE 214094"
+	},
+	{
+	"id": "P021323",
+	"label": "JOINT FIRE OBSERVER (DIGITAL)"
+	},
+	{
+	"id": "P021330",
+	"label": "Basic Sniper Preselection"
+	},
+	{
+	"id": "P021335",
+	"label": "APC GPS REDUNDANCY SYSTEM"
+	},
+	{
+	"id": "P021342",
+	"label": "OPERATE AS A 81MM MORTAR LINE SAFETY SUPERVISOR"
+	},
+	{
+	"id": "P021349",
+	"label": "PMV- BUSHMASTER ALL CORPS DVR CSE - 214333 (or)"
+	},
+	{
+	"id": "P021354",
+	"label": "C AND D VEHICLE GROUND GUIDE COURSE"
+	},
+	{
+	"id": "P101892",
+	"label": "DRIVER MEDIUM RIGID GS (MR2) OR"
+	},
+	{
+	"id": "P021357",
+	"label": "Supervise safety on Restricted Cat 'Dismounted Manoeuvre' ranges – range qualification"
+	},
+	{
+	"id": "P021358",
+	"label": "Conduct Restricted Cat 'Dismounted Manoeuvre' Range"
+	},
+	{
+	"id": "P103486",
+	"label": "Conduct a Category 1 -7 Range"
+	},
+	{
+	"id": "P021378",
+	"label": "TAE10 QUALIFIED INSTRUCTOR 212447"
+	},
+	{
+	"id": "P021379",
+	"label": "TAE10 QUALIFIED ASSESSOR 212448"
+	},
+	{
+	"id": "P021388",
+	"label": "DISMTED DIGITAL RT-1922 MICROLIGHT - 212460"
+	},
+	{
+	"id": "P021395",
+	"label": "OPERATOR – HX77 HEAVY ILH INCLUDING 40M MEDIUMWEIGHT DOWN-SKILL 215181 "
+	},
+	{
+	"id": "P021433",
+	"label": "SYSTEM ADMINISTRATOR AIR AND MISSILE DEFENCE WORKSTATION (AMDWS)"
+	},
+	{
+	"id": "P021434",
+	"label": "SYSTEM ADMINISTRATOR FORWARD AREA AIR DEFENCE/COUNTER ROCKET AND MORTAR COMMAND AND CONTROL SYSTEM"
+	},
+	{
+	"id": "P021439",
+	"label": "OPERATOR AIR AND MISSILE DEFENCE WORKSTATION (AMDWS)"
+	},
+	{
+	"id": "P021442",
+	"label": "ADF PLUMBER 120105"
+	},
+	{
+	"id": "P021454",
+	"label": "ADF ELECTRICIAN 200254"
+	},
+	{
+	"id": "P021464",
+	"label": "M113AS Variant Armd Amb Driver Restricted - 1st and reverse"
+	},
+	{
+	"id": "P021487",
+	"label": "Mortar Weapon Operator"
+	},
+	{
+	"id": "P021493",
+	"label": "OPERATE AS A COMMAND POST SAFETY SUPERVISOR"
+	},
+	{
+	"id": "P021511",
+	"label": "OPERATOR UNCREWED AIRCRAFT SYSTEM MODULE TWO "
+	},
+	{
+	"id": "P021512",
+	"label": "M113AS Variant Armd Comd Veh Driver Restricted - 1st and reverse"
+	},
+	{
+	"id": "P021527",
+	"label": "M113AS Variant Armd Mort Veh Driver Restricted - 1st and reverse"
+	},
+	{
+	"id": "P021533",
+	"label": "M113AS Variant Armd Recov Veh Driver Restricted - 1st and reverse no winch or crane"
+	},
+	{
+	"id": "P021539",
+	"label": "In-service Distress Day/Night Flare"
+	},
+	{
+	"id": "P021600",
+	"label": "PD-100 BLACK HORNET NANO UNMANNED AERIAL SYSTEM OPERATOR 215400"
+	},
+	{
+	"id": "P021601",
+	"label": "JOINT FIRES TEAM (FIRE PLANNING DIGITAL)"
+	},
+	{
+	"id": "P021640",
+	"label": "ARTILLERY LIGHT COMMAND POST OPERATOR 208963"
+	},
+	{
+	"id": "P021642",
+	"label": "SUBJ 1 SGT ARMY (ARES) MOD 2 207610"
+	},
+	{
+	"id": "P021649",
+	"label": "Operate the in service 60mm Mortar 213225"
+	},
+	{
+	"id": "P125105",
+	"label": "Operate the M252A1 LTWT Mortar"
+	},
+	{
+	"id": "P100028",
+	"label": "9MM PISTOL MK 3 - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P100275",
+	"label": "RECRUIT 110212 (Air Force)"
+	},
+	{
+	"id": "P100317",
+	"label": "KIK 11 TACTICAL KEY LOADER (TKL) OPERATOR 215215"
+	},
+	{
+	"id": "P100318",
+	"label": "SIGHT UNIT DAY DUAL RANGE 5.56MM F2 ELCAN SPECTER DR 1-4X ENHANCED DAY SIGHT 213911"
+	},
+	{
+	"id": "P100319",
+	"label": "Image Intensifying In Line Sight F3 Qioptic Kite SR"
+	},
+	{
+	"id": "P100320",
+	"label": "In-Line Thermal Imaging System F4"
+	},
+	{
+	"id": "P100321",
+	"label": "Weapon Light F5 Inforce INF-WMLX-B-WIR"
+	},
+	{
+	"id": "P100324",
+	"label": "MOD 1A MOUNTED SAFETY SUPERVISOR LASER OPS 208794"
+	},
+	{
+	"id": "P100676",
+	"label": "RECRUIT - ARMY"
+	},
+	{
+	"id": "P103933",
+	"label": "PMV DRIVER 202658"
+	},
+	{
+	"id": "P100326",
+	"label": "STEYR MANNLICHER GRENADE LAUNCHER ATTACHMENT (GLA) SL40 209032"
+	},
+	{
+	"id": "P100340",
+	"label": "LOGISTIC OFFR BASIC CSE ARA  214285"
+	},
+	{
+	"id": "P100348",
+	"label": "CRV SUBJ 4 SGT RAAC D&S 120179"
+	},
+	{
+	"id": "P100354",
+	"label": "Supervise AMS"
+	},
+	{
+	"id": "P100355",
+	"label": "OPERATOR LIGHTWEIGHT MULTI-MODE RADAR (LMMR) 214457"
+	},
+	{
+	"id": "P100365",
+	"label": "ADV FLD PWR GENAT DISTRIB SYS 120281"
+	},
+	{
+	"id": "P100378",
+	"label": "M1A1 Driver's Vision Enhancer"
+	},
+	{
+	"id": "P100380",
+	"label": "Unarmed Security Warden"
+	},
+	{
+	"id": "P102026",
+	"label": "ANNUAL SECURITY AWARENESS (MANDATORY)"
+	},
+	{
+	"id": "P100400",
+	"label": "REGIMENTAL OFFICER GUNNERY - OFFENSIVE SUPPORT 120212 or"
+	},
+	{
+	"id": "P100420",
+	"label": "UNIT ALL ARMS AIR DEFENCE INSTRUCTOR (AAAD OIC PRACTICE)"
+	},
+	{
+	"id": "P100426",
+	"label": "ADF SENIOR RANGE ADVISORS COURSE (SRA)"
+	},
+	{
+	"id": "P100429",
+	"label": "SUPERVISE TACTICAL EMPLOYMENT OF ANTI ARMOURED WEAPON SYSTEMS"
+	},
+	{
+	"id": "P100437",
+	"label": "DIRECT FIRE SPT WPNS OFF/NCO 200030"
+	},
+	{
+	"id": "P100458",
+	"label": "SNIPER SUPERVISOR"
+	},
+	{
+	"id": "P100466",
+	"label": "FLOODLIGHT SET TRAILER MOUNTED MC2 (FSTM)."
+	},
+	{
+	"id": "P100522",
+	"label": "TANK RECOVERY DRIVER RESTRICTED - NO WINCH OR CRANE"
+	},
+	{
+	"id": "P100524",
+	"label": "OPERATOR FORWARD AREA AIR DEFENCE/COUNTER ROCKET AND MORTAR COMMAND AND CONTROL SYSTEM (FAAD/C-RAM)"
+	},
+	{
+	"id": "P100584",
+	"label": "CRV Variant Type 3 Recov Driver Restricted - 1st and reverse no winch or crane"
+	},
+	{
+	"id": "P100585",
+	"label": "CRV Commander Enabling NON RAAC 214738"
+	},
+	{
+	"id": "P100670",
+	"label": "SUBJ 1 SGT ARMY (ARES) MOD 1   120027"
+	},
+	{
+	"id": "P100671",
+	"label": "SUBJ 1 CPL ARMY (ARES) MOD 1 203187"
+	},
+	{
+	"id": "P100674",
+	"label": "MAINTAIN AND OPERATE ROVER"
+	},
+	{
+	"id": "P100779",
+	"label": "DEFENCE LICENCE MEDIUM RIGID 4X4 TRUCK (GS) MR2 COURSE (110078) (RAAF)"
+	},
+	{
+	"id": "P100789",
+	"label": "ARTILLERY OBSERVER (ARES) 207609"
+	},
+	{
+	"id": "P104803",
+	"label": "ARTY FIRES OBSERVER (AFO)"
+	},
+	{
+	"id": "P100793",
+	"label": "CRV Variant Type 2 PC Driver Restricted - 1st and reverse"
+	},
+	{
+	"id": "P101047",
+	"label": "Basic Mortar Course"
+	},
+	{
+	"id": "P101080",
+	"label": "M777A2 Howitzer operator"
+	},
+	{
+	"id": "P109458",
+	"label": "SUPERVISOR ARTILLERY COMMAND SYSTEMS  209454  "
+	},
+	{
+	"id": "P101089",
+	"label": "ADF Licence Code GS C2/MR2 OR"
+	},
+	{
+	"id": "P101114",
+	"label": "OP SMALL WATERCRAFT (UP TO 6M) 120069 "
+	},
+	{
+	"id": "P101147",
+	"label": "DISPOSAL OF MALFUNCTIONED EXPLOSIVE ORDNANCE 200444"
+	},
+	{
+	"id": "P107626",
+	"label": "EHR & MINE WFARE OPTR  208022"
+	},
+	{
+	"id": "P101152",
+	"label": "SUBJECT 4 SGT RAA UAS 209825"
+	},
+	{
+	"id": "P108163",
+	"label": "SUBJ 4 BDR RAA UAS 208293"
+	},
+	{
+	"id": "P101240",
+	"label": "PROGR DIGI AN/PRC-117G RADIO - 212649"
+	},
+	{
+	"id": "P103371",
+	"label": "FSB ASSISTANT SUPERVISOR / RAFT COMMANDER"
+	},
+	{
+	"id": "P101470",
+	"label": "PWS MK2 BASIC OPERATOR 216126"
+	},
+	{
+	"id": "P101481",
+	"label": "MEDIUM GIRDER BRIDGE CONSTRUCTOR 209588"
+	},
+	{
+	"id": "P101574",
+	"label": "MOD4 OIC & SO MOUNTED MANOUVRE RANGES 208798"
+	},
+	{
+	"id": "P102270",
+	"label": "CRV SUBJ 4 CPL RAAC COMDR 120175"
+	},
+	{
+	"id": "P101651",
+	"label": "CRV Variant Type 3 Fitt Driver Restricted - 1st and reverse"
+	},
+	{
+	"id": "P101679",
+	"label": "FELL TREES INTERMEDIATE 214619"
+	},
+	{
+	"id": "P103666",
+	"label": "FELL TREES BASIC"
+	},
+	{
+	"id": "P101869",
+	"label": "RWS BASIC OPERATOR 209604"
+	},
+	{
+	"id": "P101895",
+	"label": "DRIVER OP A VEH USING NFE"
+	},
+	{
+	"id": "P101907",
+	"label": "Work safely at heights Defence"
+	},
+	{
+	"id": "P101970",
+	"label": "CPC40120 Certificate IV in Building Construction (Site Management) 200504"
+	},
+	{
+	"id": "P101982",
+	"label": "PROCESSING EXPLOITATION AND DISSEMINATION TRAINING"
+	},
+	{
+	"id": "P101990",
+	"label": "Regional Force Surveillance Unit (RFSU) First Aid Course"
+	},
+	{
+	"id": "P102010",
+	"label": "TANK DRIVER RESTRICTED. 1ST and REVERSE GEARS ONLY"
+	},
+	{
+	"id": "P102012",
+	"label": "Operate Tank Remote Thermal Sight 214515"
+	},
+	{
+	"id": "P102110",
+	"label": "ALL CORPS DG NFE & TAC OPS 201025"
+	},
+	{
+	"id": "P102201",
+	"label": "Army Combative Program Level Three"
+	},
+	{
+	"id": "P109685",
+	"label": "ARMY COMBATIVE PROGRAM LEVEL ONE ALL CORPS 216118"
+	},
+	{
+	"id": "P102204",
+	"label": "TRAINING BLOCK 2 ARES GSO FAC and"
+	},
+	{
+	"id": "P102211",
+	"label": "FT GSO FAC (I CLASS) or"
+	},
+	{
+	"id": "P102215",
+	"label": "CRV TYPE 2 MSSS DRIVER UNRESTRICTED"
+	},
+	{
+	"id": "P102220",
+	"label": "TRAINING BLOCK 5 ARES GSO FAC "
+	},
+	{
+	"id": "P102647",
+	"label": "SET UP AND OPERATE DTCS AS A DIGITAL AID TO CLOSE AIR SUPPORT."
+	},
+	{
+	"id": "P102678",
+	"label": "ARES FIRE TEAM COMMANDER 214287"
+	},
+	{
+	"id": "P104804",
+	"label": "JOINT FIRES TEAM (FIRE PLANNING VOICE & DIGITAL)"
+	},
+	{
+	"id": "p102967",
+	"label": "Operate SL40 (F91) Grenade Launcher Attachment Qualified Live Fire"
+	},
+	{
+	"id": "P103251",
+	"label": "WEAPON - TRIP FLARE (M49A1/A301/A302)"
+	},
+	{
+	"id": "P103252",
+	"label": "JOINT FIRES OBSERVER (QUALIFIED)"
+	},
+	{
+	"id": "P108049",
+	"label": "JOINT FIRE TEAM (BASIC DIGITAL) 213949"
+	},
+	{
+	"id": "P103253",
+	"label": "Grenade Launcher Attachment (GLA) Weapon Qualification"
+	},
+	{
+	"id": "P103257",
+	"label": "66MM M72A6 LDFSW - QUALIFIED LIVE FIRE"
+	},
+	{
+	"id": "P103258",
+	"label": "RAINF AFV & RWA Recognition Module"
+	},
+	{
+	"id": "P103260",
+	"label": "WPN - Hand held Sig illumination Flare M125A1 M126A1 M127A1"
+	},
+	{
+	"id": "P103281",
+	"label": "ENHANCED OPTIC SIGHT - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P103282",
+	"label": "NINOX NIGHT AIMING DEVICE (NAD) - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P103308",
+	"label": "EHR AND MWF TRNG AND OPS SPVR 200200"
+	},
+	{
+	"id": "P103309",
+	"label": "BATTLE NOISE SIMULATION (BNS) 217075             "
+	},
+	{
+	"id": "P103312",
+	"label": "W2 Licence"
+	},
+	{
+	"id": "P103315",
+	"label": "NINOX NIGHT WEAPON SIGHT (NWS) - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P103326",
+	"label": "SR 98 SNIPER RIFLE - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P103332",
+	"label": "BSB60720 – Advanced Diploma of Program Management"
+	},
+	{
+	"id": "P107475",
+	"label": "CPC50320 Diploma of Building and Construction (Management)"
+	},
+	{
+	"id": "P103333",
+	"label": "12.7 MM AW50F ANTI-MATERIEL RIFLE - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P103335",
+	"label": "SOILS TECHNICIAN 120277"
+	},
+	{
+	"id": "P103343",
+	"label": "FIELD CONSTRUCTION"
+	},
+	{
+	"id": "P103345",
+	"label": "OPERATE SMALL CRAFT W1 LICENCE "
+	},
+	{
+	"id": "P103347",
+	"label": "LAY AND BREACH A MINEFIELD"
+	},
+	{
+	"id": "P103358",
+	"label": "RAE RECON Officer"
+	},
+	{
+	"id": "P105537",
+	"label": "Part-time Recruit Training Course"
+	},
+	{
+	"id": "P103361",
+	"label": "RII40720 Certificate IV in Civil Construction (Operations) 120267"
+	},
+	{
+	"id": "P103338",
+	"label": "SUBJ 4 SGT RAE CON 120268"
+	},
+	{
+	"id": "P103363",
+	"label": "Over Head Linesman"
+	},
+	{
+	"id": "P103365",
+	"label": "Search Operations and Training Supervisor"
+	},
+	{
+	"id": "P103370",
+	"label": "DOUBLE STOREY MEDIUM GIRDER BRIDGE OIC/ SAFETY OFFICER"
+	},
+	{
+	"id": "P103372",
+	"label": "MGB ASSISTANT SUPERVISOR/SINGLE STORY BRIDGE DESIGNER"
+	},
+	{
+	"id": "P103373",
+	"label": "SINGLE STOREY MEDIUM GIRDER BRIDGE OIC/SAFETY OFFR"
+	},
+	{
+	"id": "P103353",
+	"label": "Operate RAE Watercraft"
+	},
+	{
+	"id": "P103375",
+	"label": "EXPLOSIVE RANGE SAFETY OFFICER"
+	},
+	{
+	"id": "P103376",
+	"label": "EXPLOSIVE SAFETY SUPERVISOR"
+	},
+	{
+	"id": "P103381",
+	"label": "ASSIST BATTLE EFFECTS SIMULATION SYSTEM"
+	},
+	{
+	"id": "P103382",
+	"label": "CBRND TRAINING AND OPERATIONS ASSISTANT SUPERVISOR 207200"
+	},
+	{
+	"id": "P103386",
+	"label": "M18A1 CLAYMORE INSTRUCTOR 209414"
+	},
+	{
+	"id": "P103395",
+	"label": "FRONT END LOADER/BACKHOE (LB)"
+	},
+	{
+	"id": "P103397",
+	"label": "FRONT END LOADER (LE)"
+	},
+	{
+	"id": "P103398",
+	"label": "Excavator (LE)"
+	},
+	{
+	"id": "P103399",
+	"label": "Skid Steer Loader (LS)"
+	},
+	{
+	"id": "P103400",
+	"label": "ROLLERS (LR)"
+	},
+	{
+	"id": "P103402",
+	"label": "DOZER (LZ)"
+	},
+	{
+	"id": "P103403",
+	"label": "GRADER (LG)"
+	},
+	{
+	"id": "P103412",
+	"label": "ENVIRONMENTAL SURVIVAL EXPONENT 202297"
+	},
+	{
+	"id": "P103413",
+	"label": "Environmental Survival – Supervisor Qualified"
+	},
+	{
+	"id": "P103462",
+	"label": "CRV Type 3 Fitters Driver Restricted - No Winch or crane"
+	},
+	{
+	"id": "P103463",
+	"label": "CRV Type 3 Recovery Driver Restricted - No Winch or crane"
+	},
+	{
+	"id": "P103485",
+	"label": "Supervise Safety Category 1-7 Range "
+	},
+	{
+	"id": "P103487",
+	"label": " Supervise Safety Category 8A Range (Section Defence)"
+	},
+	{
+	"id": "P103488",
+	"label": "Conduct a Category 8A Range (Section Defence)"
+	},
+	{
+	"id": "P103489",
+	"label": " Supervise Safety Category 8B Range (Individual Sneaker)"
+	},
+	{
+	"id": "P103490",
+	"label": "Conduct a Category 8B Range (Individual Sneaker)"
+	},
+	{
+	"id": "P103491",
+	"label": " Supervise Safety on CAT 9a (standard grenade) range qual"
+	},
+	{
+	"id": "P103492",
+	"label": "CONDUCT A CATEGORY 9A RANGE (STANDARD GRENADE RANGE) "
+	},
+	{
+	"id": "P103493",
+	"label": " SPV SAFETY ON CATEGORY 9b (ASSAULT GRENADE) RANGES - RANGE QUAL"
+	},
+	{
+	"id": "P103494",
+	"label": "CONDUCT A CATEGORY 9b (ASSAULT GRENADE) RANGE PRACTICE - RANGE QUALIFICATION (202549)"
+	},
+	{
+	"id": "P103495",
+	"label": " Supervise Safety Category 10A Range (DFSW Range)"
+	},
+	{
+	"id": "P103496",
+	"label": "Conduct a Category 10a Range Practice"
+	},
+	{
+	"id": "P103497",
+	"label": "SPV SAFETY ON CATEGORY 10b (CLAYMORE) RANGES - RANGE QUAL"
+	},
+	{
+	"id": "P103498",
+	"label": "Conduct a Category 10b Range Practice"
+	},
+	{
+	"id": "P103501",
+	"label": "SPV SAFETY ON DISMOUNTED MANOUEVRE RANGES "
+	},
+	{
+	"id": "P103516",
+	"label": "SMALL CRAFT OPERATOR - QUALIFIED "
+	},
+	{
+	"id": "P103530",
+	"label": "Conduct a Dismounted Manoeuvre Range Range Qualification"
+	},
+	{
+	"id": "P103561",
+	"label": "ASLAV DESKTOP COLLECTIVE TABLETOP TRAINER (ADCTT)"
+	},
+	{
+	"id": "P103594",
+	"label": "TANK M51 SER GNRL PURP MASK 214195"
+	},
+	{
+	"id": "P103633",
+	"label": "SUBJ 2 SGT RAAC TROOP OPS"
+	},
+	{
+	"id": "P103644",
+	"label": "SUBJ 2 CPL RAINF (ARES) MOD 2  202509"
+	},
+	{
+	"id": "P103652",
+	"label": "SUBJ 2 CPL RAINF (ARES) MOD 1 202520"
+	},
+	{
+	"id": "P103665",
+	"label": "Portable Sawmill Operator"
+	},
+	{
+	"id": "P108658",
+	"label": "OPERATE AND MAINTAIN CHAINSAWS"
+	},
+	{
+	"id": "P103670",
+	"label": "JAVELIN DIRECT FIRE GUIDED WEAPON SYSTEM - OPERATOR CSE 202523"
+	},
+	{
+	"id": "P103671",
+	"label": "JAVELIN DFGWS INSTRUCTOR CSE 202524"
+	},
+	{
+	"id": "P103737",
+	"label": "TANK DRIVER GROUND GUIDE ONLY 203320"
+	},
+	{
+	"id": "P103755",
+	"label": "POPULATION PROTECTION AND CONTROL COURSE 202539"
+	},
+	{
+	"id": "P103757",
+	"label": "TYRE MAINTENANCE SHELTER OPERATOR 208015"
+	},
+	{
+	"id": "P103760",
+	"label": "CRV MSSS OPERATOR 213161"
+	},
+	{
+	"id": "P103765",
+	"label": "SIMULATOR PROJECTILE AIRBURST LIQUID (SPAL)"
+	},
+	{
+	"id": "P103774",
+	"label": "APC VARIANT ARMD AMB DRIVER"
+	},
+	{
+	"id": "P103778",
+	"label": "TANK RECOVERY DRIVER GGO 207440"
+	},
+	{
+	"id": "P103781",
+	"label": "CRV RESTRICTED OPERATOR 200041"
+	},
+	{
+	"id": "P103782",
+	"label": "APC VARIANT ARMD COMD VEH DRIVER"
+	},
+	{
+	"id": "P103783",
+	"label": "APC ARMOURED MORTAR  CREWMAN DRIVER"
+	},
+	{
+	"id": "P103786",
+	"label": "MOD 3 OIC PERMANENT BASIC CAT 12 (B) 208797"
+	},
+	{
+	"id": "P103788",
+	"label": "OPERATOR AN / VIC 3 (A) RADIO CONTROL HARNESS"
+	},
+	{
+	"id": "P103792",
+	"label": "CRV NON-RAAC COMDR 200619"
+	},
+	{
+	"id": "P103796",
+	"label": "SPECIALIST COMBAT COMMUNICATIONS COURSE LINE MODULE 214198"
+	},
+	{
+	"id": "P103797",
+	"label": "ADVANCED COMBAT COMMUNICATIONS 113917"
+	},
+	{
+	"id": "P103807",
+	"label": "SMALL ARMS COACH - RIFLE 202574"
+	},
+	{
+	"id": "P103808",
+	"label": "SMALL ARMS COACH - MACHINE GUN 202575"
+	},
+	{
+	"id": "P103809",
+	"label": "SMALL ARMS COACH - PISTOL 202576"
+	},
+	{
+	"id": "P103845",
+	"label": "THROW F1 FRAGMENTATION GRENADE ON AN ASSAULT GRENADE RANGE"
+	},
+	{
+	"id": "P103847",
+	"label": "Laser Safety – General Awareness Training"
+	},
+	{
+	"id": "P103935",
+	"label": "PROTECTED MOBILITY VEHICLE (PMV) BUSHMASTER COMMANDER 202660 or"
+	},
+	{
+	"id": "P103955",
+	"label": "Bridge Erection Propulsion Boat Operator"
+	},
+	{
+	"id": "P103960",
+	"label": "TANK DRIVER TRAINER 207432"
+	},
+	{
+	"id": "P103968",
+	"label": "DEMOLITIONS SUPERVISOR REQUAL"
+	},
+	{
+	"id": "P103988",
+	"label": "BASIC RECONNAISSANCE 200161"
+	},
+	{
+	"id": "P104001",
+	"label": "Regional Force Vehicle Operator 200194"
+	},
+	{
+	"id": "P101164",
+	"label": "DVR G-WAGON LR2J"
+	},
+	{
+	"id": "P104002",
+	"label": "RFSU PATROL SIGNALLER 200195"
+	},
+	{
+	"id": "P104071",
+	"label": "COMBAT OFFICER ADVANCED COURSE (RESERVES) 202835"
+	},
+	{
+	"id": "P105077",
+	"label": "AR OFFICER GRADE 3 203189"
+	},
+	{
+	"id": "P104097",
+	"label": "Quarry Crushing and Screening Equipment 202870"
+	},
+	{
+	"id": "P104215",
+	"label": "RAAC COMMON TRAINING 213276"
+	},
+	{
+	"id": "P104222",
+	"label": "NINOX NIGHT VISION GOGGLE (NVG) - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P104227",
+	"label": "Sniper Basic Course"
+	},
+	{
+	"id": "P104229",
+	"label": "FIXED MODULAR BRIDGE CONSTRUCTOR 209593"
+	},
+	{
+	"id": "P103346",
+	"label": "Basic Combat Engineer (IET Phase 1) or"
+	},
+	{
+	"id": "P104241",
+	"label": "REMOTE VEHICLE LIGHT (DRAGON) 200526"
+	},
+	{
+	"id": "P104277",
+	"label": "GROUND SURVEILLANCE RADAR OPERATOR CSE 203024"
+	},
+	{
+	"id": "P104339",
+	"label": "RFSU PTC OPERATOR - 203050"
+	},
+	{
+	"id": "P104347",
+	"label": "TRADE TESTING OFFICER OIC/SS CATEGORY 1-8 RANGES "
+	},
+	{
+	"id": "P104348",
+	"label": "TRADE TESTING OFFICER OIC/SS CATEGORY 9-10 RANGES "
+	},
+	{
+	"id": "P104349",
+	"label": "TRADE TESTING OFFICER SS CATEGORY DISMOUNTED MANOEUVRE RANGES"
+	},
+	{
+	"id": "P104583",
+	"label": "ADF RANGE QUALIFICATION COURSE (202873)"
+	},
+	{
+	"id": "P104362",
+	"label": "INTERMEDIATE POWER GENERATION"
+	},
+	{
+	"id": "P104367",
+	"label": "BASIC POWER GENERATION"
+	},
+	{
+	"id": "P104395",
+	"label": "SUBJ 2 SGT RAINF ARES MOD 1 203091"
+	},
+	{
+	"id": "P104396",
+	"label": "SUBJ 2 SGT RAINF ARES MOD 2  203092"
+	},
+	{
+	"id": "P104397",
+	"label": "SUBJ 2 SGT RAINF (ARES) 203090"
+	},
+	{
+	"id": "P102217",
+	"label": "FT GSO FAC"
+	},
+	{
+	"id": "P104415",
+	"label": "RAINF REGIMENTAL OFFICER BASIC COURSE (PT) MOD 1 203111"
+	},
+	{
+	"id": "P104416",
+	"label": "RAINF REGIMENTAL OFFICER BASIC COURSE (PT) MOD 2 203112"
+	},
+	{
+	"id": "P104417",
+	"label": "RAINF ROBC (PT) SUITE OF CSES 203110"
+	},
+	{
+	"id": "P104449",
+	"label": "Miniature Remote Answer Back Sysytem MINIRABS"
+	},
+	{
+	"id": "P104451",
+	"label": "MOD 1B MOUNTED SAFETY SUPERVISOR 208795"
+	},
+	{
+	"id": "P104470",
+	"label": "M2A2 GUN SALUTE CSE 200590"
+	},
+	{
+	"id": "P104626",
+	"label": "AFV Driver Ground Guide Only"
+	},
+	{
+	"id": "P104712",
+	"label": "SWIM TEST (AFV)"
+	},
+	{
+	"id": "P104735",
+	"label": "DIRECT FIRE SUPPORT WEAPON - SUSTAINED FIRE MACHINE GUN MODULE 207555"
+	},
+	{
+	"id": "P104736",
+	"label": "MOD 2 OIC PERMANENT BASIC CAT 12(A) 208796"
+	},
+	{
+	"id": "P104738",
+	"label": "SUBJ 4 CPL RAAC PATROL COMDR 203244"
+	},
+	{
+	"id": "P104744",
+	"label": "ADVANCED OPERATOR GBAD 200592"
+	},
+	{
+	"id": "P104786",
+	"label": "ROBC RAAC??"
+	},
+	{
+	"id": "P104800",
+	"label": "SUPERVISE TACTICAL EMPLOYMENT OF SUSTAINED FIRE MACHINE GUNS"
+	},
+	{
+	"id": "P104805",
+	"label": "Joint Fires Team (Commander)"
+	},
+	{
+	"id": "P104818",
+	"label": "Crewman Loader tank - Less Live fire Load RAAC (203310)"
+	},
+	{
+	"id": "P104819",
+	"label": "TANK GUNNER 203311"
+	},
+	{
+	"id": "P104821",
+	"label": "TANK REGT OFFR BASIC 203313 "
+	},
+	{
+	"id": "P104822",
+	"label": "TANK SUBJ 4 SGT RAAC GUNNERY 203314"
+	},
+	{
+	"id": "P104823",
+	"label": "TANK SUBJ 4 SGT RAAC D&S 203315"
+	},
+	{
+	"id": "P104830",
+	"label": "TANK RECOVERY VEHICLE COMMANDER 207008"
+	},
+	{
+	"id": "P104831",
+	"label": "TANK RECOVERY DRIVER 203323 or"
+	},
+	{
+	"id": "P104833",
+	"label": "AFV DRIVER RESTR OPTR GRADE 1 203327"
+	},
+	{
+	"id": "P104891",
+	"label": "COMPLETED ARMY RESERVE INITIAL INDUCTION  ALL CORP OFFICER AND SOLDIER TRAINING "
+	},
+	{
+	"id": "P104893",
+	"label": "QUALIFIED ARA RECRUIT"
+	},
+	{
+	"id": "P104959",
+	"label": "SHOTGUN METHOD OF ENTRY 208988"
+	},
+	{
+	"id": "P105012",
+	"label": "APC INSTRUCTOR GUNNERY"
+	},
+	{
+	"id": "P105013",
+	"label": "RAinf Reconnaissance Officer / NCO Course"
+	},
+	{
+	"id": "P105037",
+	"label": "UNIT ALL ARMS AIR DEFENCE INSTRUCTORS (AAAD SAFETY SPVR)"
+	},
+	{
+	"id": "P122625",
+	"label": "OPERATOR COMD POST AMDS 215095"
+	},
+	{
+	"id": "P105058",
+	"label": "Artillery Safety Supervisor Assistant (Alpha)"
+	},
+	{
+	"id": "P105066",
+	"label": "ARTILLERY SAFETY COURSE BRAVO "
+	},
+	{
+	"id": "P105067",
+	"label": "ARTILLERY SAFETY COURSE BRAVO - LICENCE "
+	},
+	{
+	"id": "P105068",
+	"label": "Artillery Safety Course Alpha - Licence."
+	},
+	{
+	"id": "P105075",
+	"label": "SUBJ 4 WO RAA STA 120225"
+	},
+	{
+	"id": "P105105",
+	"label": "Operate and Maintain the RT-F500 RADIO"
+	},
+	{
+	"id": "P105108",
+	"label": "ROGC (OFF SPT) Part Time Mod 2; and"
+	},
+	{
+	"id": "P105111",
+	"label": "TANK RESTRICTED OPERATOR 203316"
+	},
+	{
+	"id": "P105115",
+	"label": "REGIMENTAL OFFICER GUNNERY COURSE (OFF SPT) PART TIME - MOD 3 202354"
+	},
+	{
+	"id": "P105117",
+	"label": "Subject 2 Corporal RAInf Section Commander (PT) Mod 2"
+	},
+	{
+	"id": "P105143",
+	"label": "ARMY SWIM TEST"
+	},
+	{
+	"id": "P105144",
+	"label": "ENGINEER OPERATIONS OFFICER 200484 "
+	},
+	{
+	"id": "P102196",
+	"label": "Officer Grade 3 or"
+	},
+	{
+	"id": "P105148",
+	"label": "REGIMENTAL OFFICER GUNNERY COURSE (OFF SPT) PART TIME - MOD 4 202355"
+	},
+	{
+	"id": "P105165",
+	"label": "ADF Licence Code C2 Motor Vehicle GS"
+	},
+	{
+	"id": "P105210",
+	"label": "LICENCE CODE MR2 MEDIUM RIGID VEHICLE-GS  OR"
+	},
+	{
+	"id": "P105358",
+	"label": "AN/PRC117F TACSAT Operator 208713"
+	},
+	{
+	"id": "P105396",
+	"label": "DET COMMD (GUN SALUTE ONLY) 205364"
+	},
+	{
+	"id": "P105419",
+	"label": "BEPB Mk II"
+	},
+	{
+	"id": "P105464",
+	"label": "PMV D&S INSTRUCTOR 205481"
+	},
+	{
+	"id": "P105943",
+	"label": "M113AS4 AFV DRIVER"
+	},
+	{
+	"id": "P106002",
+	"label": "L3 LAIRD (Laser Aiming Illumination and Ranging Device) 215696"
+	},
+	{
+	"id": "P106012",
+	"label": "Tactics Instructor Course Basic"
+	},
+	{
+	"id": "P109627",
+	"label": "INSTRUCTOR ORIENTATION COURSE E/L 209802"
+	},
+	{
+	"id": "P106121",
+	"label": "7.62mm Blaser Tactical 2 sniper rifle"
+	},
+	{
+	"id": "P106161",
+	"label": "FSB (IRB) Constructor"
+	},
+	{
+	"id": "P106997",
+	"label": "Floating Support Bridge Constructor"
+	},
+	{
+	"id": "P106198",
+	"label": "ENHANCED CBT SHOOTING 215579 "
+	},
+	{
+	"id": "P106199",
+	"label": "COMBAT SHOOTING INSTRUCTOR"
+	},
+	{
+	"id": "P107690",
+	"label": "RAA OFFICER ORIENTATION CSE 208105"
+	},
+	{
+	"id": "P106870",
+	"label": "L3 LAID (LASER AIMING & ILLUMINATION DEVICE) 215697"
+	},
+	{
+	"id": "P106872",
+	"label": "TIED Operator 208622"
+	},
+	{
+	"id": "P107440",
+	"label": "EXPLOSIVE HAZARD AWARENESS & PROTECTION INTRO CSE MOD 1"
+	},
+	{
+	"id": "P106873",
+	"label": "Operate AMS"
+	},
+	{
+	"id": "P106906",
+	"label": "BINOCULAR NIGHT VISION DEVICE (BNVD) 215757 "
+	},
+	{
+	"id": "P106921",
+	"label": "TANK RECOVERY VEHICLE DRIVING AND SERVICING INSTRUCTOR 214782"
+	},
+	{
+	"id": "P106922",
+	"label": "TANK RECOVERY VEHICLE COMMUNICATIONS INSTRUCTOR 214782"
+	},
+	{
+	"id": "P106923",
+	"label": "CRV Type 1 Driver Restricted - 1st and reverse"
+	},
+	{
+	"id": "P106925",
+	"label": "M113AS Variant Armd Log Veh Restricted - 1st and reverse no load"
+	},
+	{
+	"id": "P106953",
+	"label": "M113AS4 AFV Echelon Crew Commander 214837"
+	},
+	{
+	"id": "P106995",
+	"label": "WATER PURIFICATION MANAGER 208186"
+	},
+	{
+	"id": "P108668",
+	"label": "WATER POINT SUPERVISOR"
+	},
+	{
+	"id": "P107012",
+	"label": "WPN - BATTLE NOISE SIMULATORS F2 OR F3"
+	},
+	{
+	"id": "P107013",
+	"label": "WPN - GRENADE HAND ANTI-RIOT CS BURSTING N225 WEAPON QUAL"
+	},
+	{
+	"id": "P107472",
+	"label": "SUBJ 4 CPL  RAE  ADV CE PHASE 1 120262 "
+	},
+	{
+	"id": "P107017",
+	"label": "WPN - GRENADE HAND SMOKE M18 L KC OR A SERIES - WEAPON QUALIFIED"
+	},
+	{
+	"id": "P107030",
+	"label": "RAE IET PHASE 2 120270"
+	},
+	{
+	"id": "P107032",
+	"label": "ARA RAE IET PHASE 4"
+	},
+	{
+	"id": "P107042",
+	"label": "ADVANCED OPERATOR CREW PROCEDURAL TRAINER 207371"
+	},
+	{
+	"id": "P107043",
+	"label": "ATPIAL OPERATOR - HIGH POWER P/N: ATP-000-A50 - 209249"
+	},
+	{
+	"id": "P107252",
+	"label": "SUBJ 4 CPL RAE ADV (EHR) 207678"
+	},
+	{
+	"id": "P107331",
+	"label": "OPERATE AND MAINTAIN THE AN / VRC 92 SINCGARS RADIO"
+	},
+	{
+	"id": "P107410",
+	"label": "Universal Night Sight"
+	},
+	{
+	"id": "P107412",
+	"label": "FOOTBRIDGE SYSTEM OPERATOR"
+	},
+	{
+	"id": "P107427",
+	"label": "SUBJ 4 SGT RAE SPVR CE PHASE 1 120265"
+	},
+	{
+	"id": "P107428",
+	"label": "SUBJ 4 SGT RAE SPVR CE PHASE 2 207880"
+	},
+	{
+	"id": "P107429",
+	"label": "SUBJ 4 SGT RAE SPVR CE PHASE 3 207869 "
+	},
+	{
+	"id": "P107474",
+	"label": "SUBJ 4 CPL RAE  ADV CE PHASE 3 207677"
+	},
+	{
+	"id": "P107441",
+	"label": "EXPLOSIVE HAZARD AWARENESS & PROTECTION MOD 2"
+	},
+	{
+	"id": "P107485",
+	"label": "DFSW - JAVELIN DFGSW TACTICAL EMPLOYMENT COURSE"
+	},
+	{
+	"id": "P107556",
+	"label": "SPV THE OP OF THE ADV FIELD ARTILLERY TACTICAL DATA SYS (AFATDS)."
+	},
+	{
+	"id": "P109456",
+	"label": "SUPERVOR GUNNERY  209451 OR "
+	},
+	{
+	"id": "P107557",
+	"label": " Operate the Artillery Tactical Data System (AFATDS)"
+	},
+	{
+	"id": "P107559",
+	"label": "OPERATE AN ARMD VEH IN AN EXPLOSIVE HAZARD ENVIRONMENT AS A DVR"
+	},
+	{
+	"id": "P107577",
+	"label": "MISCELLANEOUS TOOLS COURSE 208023"
+	},
+	{
+	"id": "P107634",
+	"label": "CRV Variant Type 2 PC Driver"
+	},
+	{
+	"id": "P107653",
+	"label": "OFFICER IN CHARGE MASK TESTING FACILITIES"
+	},
+	{
+	"id": "P107671",
+	"label": "LIGHT URBAN EXPLOSIVE BREACHING"
+	},
+	{
+	"id": "P107672",
+	"label": "Light Urban Explosive Breaching Instructor"
+	},
+	{
+	"id": "P107684",
+	"label": "SURFACE TO SURFACE TECHNICAL INDIRECT FIRE MISSIONS    "
+	},
+	{
+	"id": "P107710",
+	"label": "AFV / NAFV Gunnery Qualified Assessor - Mounted Ranges"
+	},
+	{
+	"id": "P107711",
+	"label": "ASSESSED AS AN OIC IN THE CONDUCT OF MOUNTED MANOEUVRE RANGES"
+	},
+	{
+	"id": "P107727",
+	"label": "DETACHMENT COMMANDER SENSE WARN AND LOCATE 214853"
+	},
+	{
+	"id": "P107749",
+	"label": "GRADER JOHN DEERE 672D FITTED WITH TOPCON GRADER CONTROL SYS"
+	},
+	{
+	"id": "P020324",
+	"label": "SUBJ 4 CPL RAE CON 200505"
+	},
+	{
+	"id": "P107825",
+	"label": "ADVANCED OPERATOR SENSE WARN AND LOCATE 214852"
+	},
+	{
+	"id": "P107846",
+	"label": "BASIC OPERATOR SENSE WARN AND LOCATE 214851"
+	},
+	{
+	"id": "P107826",
+	"label": "Character Development"
+	},
+	{
+	"id": "P107833",
+	"label": "CRV VARIANT TYPE 2 MSSS DRIVER RESTRICTED - 1ST AND REVERSE"
+	},
+	{
+	"id": "P107838",
+	"label": "Regional Force Surveillance Unit Powered Tactical Craft Supervisor"
+	},
+	{
+	"id": "P107839",
+	"label": "RFSU Powered Tactical Craft Safely Operate at Sea"
+	},
+	{
+	"id": "P108054",
+	"label": "EMPLOY TARGET MENSURATION ONLY (TMO) 213954"
+	},
+	{
+	"id": "P108079",
+	"label": "DATA MANAGEMENT - TARGET MENSURATION ONLY (TMO) 213955"
+	},
+	{
+	"id": "P108383",
+	"label": "QUALIFIED IN ARMOURED VEHICLE DEFENSIVE DRIVING"
+	},
+	{
+	"id": "P108384",
+	"label": "QUALIFIED AS AN ARMOURED VEHICLE DEFENSIVE DRIVING INSTRUCTOR"
+	},
+	{
+	"id": "P108612",
+	"label": "AFV LASER OPERATOR AWARENESS "
+	},
+	{
+	"id": "P108613",
+	"label": "MP DOG HANDLER BASIC COURSE 202715"
+	},
+	{
+	"id": "P108666",
+	"label": "SAFETY OFFICER MASK TESTING FACILITIES"
+	},
+	{
+	"id": "P108874",
+	"label": "AFV GUIDE"
+	},
+	{
+	"id": "P109054",
+	"label": "CBRN BASIC OPERATOR 205340"
+	},
+	{
+	"id": "P105385",
+	"label": "NO NAME"
+	},
+	{
+	"id": "P109290",
+	"label": "CRV Type 1 Driver"
+	},
+	{
+	"id": "P109292",
+	"label": "CRV Variant Type 2 Comd Driver "
+	},
+	{
+	"id": "P109334",
+	"label": "RIFLEMAN GRADE 2 ECN 343-2"
+	},
+	{
+	"id": "P109346",
+	"label": "Observer Trainer"
+	},
+	{
+	"id": "P109451",
+	"label": "USE OFFENSIVE SUPPORT ARTILLERY RATEL PROCEDURES"
+	},
+	{
+	"id": "P109453",
+	"label": "ARTILLERY LIGHT SECTION COMMANDER "
+	},
+	{
+	"id": "P109454",
+	"label": "SUBJ 4 WO RAA ARTY LIGHT MOD 3  216026 "
+	},
+	{
+	"id": "P109455",
+	"label": "OPERATE & MAINTAIN THE INDIRECT FIRE - FORWARD AIR CONTROL TRAINER 120224"
+	},
+	{
+	"id": "P109457",
+	"label": "SUBJ 4 SGT RAA ARTY LIGHT MOD 2"
+	},
+	{
+	"id": "P109459",
+	"label": "SUBJ 4 SGT RAA ARTY LIGHT MOD 1"
+	},
+	{
+	"id": "P109460",
+	"label": "SUBJ 4 SGT RAA ARTY LIGHT  MOD 2 209457 "
+	},
+	{
+	"id": "P109461",
+	"label": "SUPERVISOR JOINT FIRES 209455"
+	},
+	{
+	"id": "P109538",
+	"label": "VISUAL TRACKER (VT) 200179"
+	},
+	{
+	"id": "P109585",
+	"label": "All Corps Captain Course  (Army)"
+	},
+	{
+	"id": "P109596",
+	"label": "MANOPS OS WEAPONS MODULE 209613 "
+	},
+	{
+	"id": "P109597",
+	"label": " SUBJ 4 WO RAA OS MOD 3 JF"
+	},
+	{
+	"id": "P109598",
+	"label": " SUBJ 4 WO RAA OS MOD 4 GEN LEG"
+	},
+	{
+	"id": "P109600",
+	"label": "PMV SAFETY SUPERVISOR "
+	},
+	{
+	"id": "P109601",
+	"label": "Non AFV Gunnery Qualified Assessor - Mounted Ranges"
+	},
+	{
+	"id": "P109747",
+	"label": "PWS MK2 BASIC GUNNER 216127 "
+	},
+	{
+	"id": "P109602",
+	"label": " SUBJ 4 WO RAA OS MOD 2 ACS"
+	},
+	{
+	"id": "P109701",
+	"label": "ARMY COMBATIVE PROGRAM LEVEL TWO ALL CORPS 216119"
+	},
+	{
+	"id": "P109742",
+	"label": "214848 Conduct / Safety Supervise Weapon Test Fire Facility Range Practice"
+	},
+	{
+	"id": "P020415",
+	"label": "UNIVERSAL WEAPON REST OPERATOR 209033"
+	},
+	{
+	"id": "P109743",
+	"label": "ARMY COMBATIVE PROGRAM  INSTRUCTOR 216120"
+	},
+	{
+	"id": "P109744",
+	"label": "Operate MAN 40M Medium Rigid"
+	},
+	{
+	"id": "P109748",
+	"label": "PWS Mk2 BASIC INSTRUCTOR"
+	},
+	{
+	"id": "P109777",
+	"label": "66mm M72A6 LDFSW - QSF"
+	},
+	{
+	"id": "P109778",
+	"label": "84mm MDFSW M1/M2 and M3 - QSF"
+	},
+	{
+	"id": "P109784",
+	"label": "ROGC (OS) PT MOD 5 (MORTAR) 208972"
+	},
+	{
+	"id": "P109785",
+	"label": "MORTAR OIC PRACTICE AND RANGE PLANNING"
+	},
+	{
+	"id": "P124131",
+	"label": "SUBJ 4 SGT RAA ARTY LIGHT MOD 3"
+	},
+	{
+	"id": "P109814",
+	"label": "WORKING AT HEIGHTS - 206987"
+	},
+	{
+	"id": "P109968",
+	"label": "RAA ADV FIELD CRAFT 209450"
+	},
+	{
+	"id": "P114298",
+	"label": "OPERATE THE SOPHIE MF HAND HELD THERMAL IMAGER"
+	},
+	{
+	"id": "P114354",
+	"label": "OP THE BMS MTED (BMS-M) AND BMS MTED LOG (BMS-ML) 212840 "
+	},
+	{
+	"id": "P114357",
+	"label": "BMS-C2 NETWORK  MANAGER 212843"
+	},
+	{
+	"id": "P114464",
+	"label": "SELF PROTECT ADAPTIVE ROLLER KIT MK 2"
+	},
+	{
+	"id": "P114502",
+	"label": "M777A2 AMMUNITION NUMBER 212932"
+	},
+	{
+	"id": "P114532",
+	"label": "INITIAL EQUIPMENT RECOGNITION 212966"
+	},
+	{
+	"id": "P114534",
+	"label": "APC VARIANT ARMD LOG VEH DRIVER - 213185"
+	},
+	{
+	"id": "P114647",
+	"label": "OPERATE SL40 GRENADE LAUNCHER ATTACHMENT QUALIFIED SIM FIRE 214308"
+	},
+	{
+	"id": "P104892",
+	"label": "Qualified ARES 510 Soldier"
+	},
+	{
+	"id": "P114955",
+	"label": "T150F ROAD WHEEL LIFTER OPERATOR"
+	},
+	{
+	"id": "P114968",
+	"label": "RAA Common Induction Training 207846"
+	},
+	{
+	"id": "P115048",
+	"label": "ADVANCED SMALL CRAFT OPERATIONS 213915"
+	},
+	{
+	"id": "P115066",
+	"label": "ADVANCED SMALL CRAFT OPERATIONS SUPERVISOR 213916"
+	},
+	{
+	"id": "P115076",
+	"label": "AFV GROUND GUIDE ONLY INSTR 213270"
+	},
+	{
+	"id": "P115078",
+	"label": "BASIC DIGITAL AN/PRC - 150 RADIO"
+	},
+	{
+	"id": "P115171",
+	"label": "Schmidt and bender family of rifle scopes"
+	},
+	{
+	"id": "P115173",
+	"label": "INFRA RED ZOOM LASER ILLUMINATOR DESIGNATOR (IZLID) 213326"
+	},
+	{
+	"id": "P115401",
+	"label": "IONISING RADIATION OEW"
+	},
+	{
+	"id": "P115429",
+	"label": "BASIC MOUNTED COMBAT COMMUNICATIONS OPERATOR"
+	},
+	{
+	"id": "P115746",
+	"label": "BASIC INSTRUCTOR TRAINING  216149 "
+	},
+	{
+	"id": "P115748",
+	"label": " ICATS BASIC MOD 1 215996"
+	},
+	{
+	"id": "P115851",
+	"label": "   ICATS ADVANCED MOD 2 215997"
+	},
+	{
+	"id": "P115898",
+	"label": "SET UP AND OPERATE DTCS AS A DIGITAL AID TO FIRE (DAFIRES)"
+	},
+	{
+	"id": "P117653",
+	"label": "M113AS AFV Crew Commander Enabler or"
+	},
+	{
+	"id": "P117740",
+	"label": "RISK MANAGEMENT AWARENESS"
+	},
+	{
+	"id": "P120853",
+	"label": "APC INDIVIDUAL CREW COMMANDER  216211"
+	},
+	{
+	"id": "P120861",
+	"label": "M113AS Mechanised Operations - Platoon"
+	},
+	{
+	"id": "P122178",
+	"label": "M113AS Variant Armd Fitt Veh Driver Restricted - 1st and reverse no winch or crane"
+	},
+	{
+	"id": "P122189",
+	"label": "Basic Combat Shooting 214736"
+	},
+	{
+	"id": "P122408",
+	"label": "Operator Combat Engineer Section Stores Module 216251"
+	},
+	{
+	"id": "P122517",
+	"label": "DFSB RISK MANAGEMENT FOUNDATION 214959"
+	},
+	{
+	"id": "P122626",
+	"label": "SUBJECT 4 SERGEANT RAA AIR AND MISSILE DEFENCE SYSTEMS 215096"
+	},
+	{
+	"id": "P122629",
+	"label": " SUBJECT 4 WARRANT OFFICER RAA AIR MISSILE DEFENCE SYSTEMS 215097"
+	},
+	{
+	"id": "P124129",
+	"label": "SUBJ 4 WO RAA ARTY LT MOD 1"
+	},
+	{
+	"id": "P124130",
+	"label": "SUB 4 WO RAA ARTY LIGHT MOD 2 216027"
+	},
+	{
+	"id": "P124141",
+	"label": "Low Risk Search Operator"
+	},
+	{
+	"id": "P124188",
+	"label": "BMS FOUNDATION 216078"
+	},
+	{
+	"id": "P124189",
+	"label": "BMS TACTICAL USER - 216079 "
+	},
+	{
+	"id": "P124190",
+	"label": "BMS TACTICAL COMMANDER - 216080"
+	},
+	{
+	"id": "P124821",
+	"label": "MULTI ROTAR UNMANNED AERIAL SYSTEM (MRUAS) OPERATOR 216416"
+	},
+	{
+	"id": "P124822",
+	"label": "MOUNTED FAMILY OF COMPUTER SYSTEMS 216415"
+	},
+	{
+	"id": "P124840",
+	"label": " PMV-L ALL CORPS DRIVER"
+	},
+	{
+	"id": "P124858",
+	"label": "DIGITALLY AIDED RANGE SAFETY – ARTILLERY (DARS-A)"
+	},
+	{
+	"id": "P124954",
+	"label": "LAND WARFARE INTERMEDIATE COURSE 218200"
+	},
+	{
+	"id": "P125104",
+	"label": "Operate the M32A1 LHMBC"
+	},
+	{
+	"id": "P125106",
+	"label": "C VEHICLE UNDERPINNING KNOWLEDGE"
+	},
+	{
+	"id": "P125108",
+	"label": "APPLY DRAINAGE THEORY ENVIRONMETAL CONSIDERATIONS AND GEOLOGICAL ENGINEERING PRINCIPLES"
+	},
+	{
+	"id": "P125171",
+	"label": "Director of Practice"
+	},
+	{
+	"id": "P125296",
+	"label": "Level 2 PME P125296"
+	},
+	{
+	"id": "P125316",
+	"label": "PART TIME MILITARY ENGINEER 216604"
+	},
+	{
+	"id": "P125407",
+	"label": "APC VARIANT WEAPON SYSTEM"
+	},
+	{
+	"id": "P125715",
+	"label": "BASIC MOUNTED COMBAT DATA SYSTEMS OPERATOR"
+	},
+	{
+	"id": "P125972",
+	"label": "COMMANDERS WEAPON STATION BASIC OPERATOR"
+	},
+	{
+	"id": "P125979",
+	"label": "CRV VARIANT TYPE 2 AMB DRIVER RESTRICTED - NOT TO OPERATE SPECIALIST EQUIPMENT"
+	},
+	{
+	"id": "P126119",
+	"label": "GROUND OBSERVER 12"
+	},
+	{
+	"id": "P126307",
+	"label": "SOTAS MK 3 ICS  217140"
+	},
+	{
+	"id": "P126309",
+	"label": "ARA COMBAT ENGINEER 217220 "
+	},
+	{
+	"id": "P126322",
+	"label": "Military Instructor Course 217260"
+	},
+	{
+	"id": "P126450",
+	"label": "Safety SPVR Permanent Basic Range (CAT1-8) "
+	},
+	{
+	"id": "P126552",
+	"label": "TANK ADVANCED GUNNERY TRAINING SYSTEM 207431"
+	},
+	{
+	"id": "P126553",
+	"label": "TANK LOADER - LIVE FIRE LOAD 203311"
+	},
+	{
+	"id": "P126829",
+	"label": "Mounted Commander"
+	},
+	{
+	"id": "P126874",
+	"label": "Tank Advanced Inbore Marksman Ship Training System MK 5"
+	},
+	{
+	"id": "P126961",
+	"label": "Reality Based Training Systems Quaification"
+	},
+	{
+	"id": "P126962",
+	"label": "EF88 AIRSOFT"
+	},
+	{
+	"id": "P126963",
+	"label": "FX GUNLOCK"
+	},
+	{
+	"id": "P126964",
+	"label": "INDIVIDUAL FX AND AIRSOFT PERSONAL PROTECTION ENSEMBLE SYSTEM"
+	},
+	{
+	"id": "P126968",
+	"label": "IN-SERVICE MILITARY PISTOL HOLSTER TRAINING SORD HOLSTER"
+	},
+	{
+	"id": "P126969",
+	"label": "IN-SERVICE DUTY PISTOL HOLSTER TRAINING BLADE-TECH HOLSTER"
+	},
+	{
+	"id": "P127034",
+	"label": "MTED DIGI AN/PRC-158 Radio 217656"
+	},
+	{
+	"id": "P127280",
+	"label": "SOLDIER COMBAT ENSEMBLE 19 TIER 0 BASELINE (COMBATANT) 217637"
+	},
+	{
+	"id": "P127281",
+	"label": "SCE Advance (Tier 2) - Dismounted Combatant"
+	},
+	{
+	"id": "P127337",
+	"label": "Grenade Launcher Attachment Stand-Alone Stock - 217624"
+	},
+	{
+	"id": "P127367",
+	"label": "Artillery Chief Safety Supervisor (Digital)"
+	},
+	{
+	"id": "P127370",
+	"label": "Artillery Safety Supervisor (Digital)"
+	},
+	{
+	"id": "P127372",
+	"label": "Artillery Safety Supervisor Assistant (Digital)"
+	},
+	{
+	"id": "P127435",
+	"label": "GAP CROSSING SUPERVISOR"
+	},
+	{
+	"id": "P127522",
+	"label": "BRIDGE BOAT INTERFACE DRIVER 217914"
+	},
+	{
+	"id": "P124922",
+	"label": "Operate MAN HX77 Heavy Rigid"
+	},
+	{
+	"id": "P127523",
+	"label": "BRIDGE BOAT INTERFACE BASIC OPERATOR 217915"
+	},
+	{
+	"id": "P127558",
+	"label": "ADF CBRND OPERATOR  217951"
+	},
+	{
+	"id": "P127560",
+	"label": "IN-SERVICE TIER 1 CHEMICAL DETECTOR (LIGHT CHEMICAL DETECTOR 3.3)"
+	},
+	{
+	"id": "P127561",
+	"label": "IN-SERVICE TIER 1 RADIOLOGICAL DETECTOR (DMC"
+	},
+	{
+	"id": "P127598",
+	"label": "Fused Night Vision System 217989"
+	},
+	{
+	"id": "P127833",
+	"label": "M18A1 (SHOCK TYBE) VARIANT CLAYMORE - WEAPON QUALIFICATION"
+	},
+	{
+	"id": "P127940",
+	"label": "Gun Ring Assembly Mount"
+	},
+	{
+	"id": "P127941",
+	"label": "Gun Swing Mount MOD 1"
+	},
+	{
+	"id": "P127942",
+	"label": "Gun Swing Mount MOD 2"
+	},
+	{
+	"id": "P127943",
+	"label": "MANNED WEAPON MOUNT or"
+	},
+	{
+	"id": "P128013",
+	"label": "FLEXIBLE MACHINE GUN MOUNT-TYPE 1 ASLAV CRV"
+	},
+	{
+	"id": "P128014",
+	"label": "CWS MOUNT TYPE 2 ASLAV CRV"
+	},
+	{
+	"id": "P128249",
+	"label": "OPERATE THE F2 81MM MORTAR 218280"
+	},
+	{
+	"id": "P128543",
+	"label": "IN-SERVICE WATER PURIFICATION AND DESALINATION SYSTEM - LIGHT OPERATOR 207142"
+	},
+	{
+	"id": "P128569",
+	"label": "Commanders Weapon Station Mount - Type 3 ASLAV"
+	},
+	{
+	"id": "P128570",
+	"label": "Tactical Rope Rescue – Qualified 218384"
+	},
+	{
+	"id": "P128571",
+	"label": "Tactical Rope Rescue - Current 218384"
+	},
+	{
+	"id": "P128572",
+	"label": "Tactical Rope Rescue Supervisor – Qualified"
+	},
+	{
+	"id": "P128573",
+	"label": "Tactical Rope Rescue Supervisor - Current"
+	},
+	{
+	"id": "P128576",
+	"label": "EXPLOSIVE RANGE OFFICER IN CHARGE "
+	},
+	{
+	"id": "P128867",
+	"label": "High Capacity Line of Sight"
+	},
+	{
+	"id": "P128991",
+	"label": "COMBAT RESCUE OPERATOR 218588"
+	},
+	{
+	"id": "P010312",
+	"label": "ADF FIRE FIGHTER BASIC (COMMON) 111610"
+	},
+	{
+	"id": "P129033",
+	"label": "PART TIME COMBAT ENGINEER 218372"
+	},
+	{
+	"id": "P129591",
+	"label": "SET UP AND OPERATE DTCS NEXTGEN FOR DIGITALLY AIDED FIRES (DAFS)"
+	},
+	{
+	"id": "P209827",
+	"label": "Init Digi AN/PRC-152 Radio"
+	}
+]

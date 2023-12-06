@@ -1,0 +1,156 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>vis-network examples</title>
+    
+    <!-- these styles are not at all needed for functionality and can be removed! -->
+<!--     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="./app.css">
+
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet"> -->
+
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script> -->
+    <script type="text/javascript" src="./app.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", init);
+    </script>
+  </head>
+
+  <body>
+    <div>
+              <textarea id="input_output" style="height: 103px;"></textarea>
+                  </div> 
+<div>
+      <input type="button" id="import_button"  value="import">
+      <input type="button" id="export_button"  value="export">
+      <input type="button" id="destroy_button" value="destroy">
+    </div>
+<!--     <header>
+      <h1>vis-network example</h1>
+    </header>
+    <nav>
+      <button class="filterBtn" onclick="btn1()" disabled>
+        services > schools > courses
+      </button>
+      <button class="filterBtn" onclick="btn2()" disabled>
+        functions > modules > courses
+      </button>
+      <button class="filterBtn" onclick="btn3()" disabled>
+        modules > courses
+      </button>
+    </nav> -->
+    <main>
+      <div id="network-popUp" style="display: none;">
+      <span id="operation">Edit Node</span> <br>
+      <table style="margin: auto">
+        <tbody><tr>
+          <td>id</td>
+          <td><input id="node-id" value="new value"></td>
+        </tr>
+        <tr>
+          <td>label</td>
+          <td><input id="node-label" value="new value"></td>
+        </tr>
+        <tr>
+          <form>
+  <select id="node-learningType" name="Learning Type">
+    <option value="uol">Unit of Learning</option>
+    <option value="skill">Skill</option>
+    <option value="competency">Competency</option>
+  </select>
+</form>
+          <form>
+  <select id="node-payGrade" name="Pay Grade">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="3">4</option>
+    <option value="3">5</option>
+    <option value="3">6</option>
+    <option value="3">7</option>
+  </select>
+</form>
+        </tr>
+      </tbody>
+    </table>
+      <input type="button" value="save" id="saveButton">
+      <input type="button" value="cancel" id="cancelButton">
+    </div>
+    <div class="vis-manipulation" style="display: none;"></div>
+<div class="vis-edit-mode" style="display: block;"><button class="vis-button vis-edit vis-edit-mode" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><div class="vis-label">Edit</div></button></div>
+<button class="vis-close" aria-label="Close" style="display: none; touch-action: pan-y;"></button>
+      <div id="network">
+
+      </div>
+      </div>
+
+
+
+      <div id="info">
+        <div id="notSelected">
+      
+        </div>
+        <div id="selected" class="">
+          <!--Accordion wrapper-->
+<div class="card gradient-card" id="sideInfo">
+<div class="card-image " id="sideInfo_header">
+    <!-- <p>How to use the vis.js diagram</p> -->
+        <!-- Avatar -->
+
+<!--  -->
+
+      </div>
+<!--       <div class="view overlay">
+        <img class="card-img-top rounded-0" id="sideInfo_header_Image">
+      </div> -->
+  <hr class="mb-0">
+
+
+
+
+<div class="card-body">
+
+        <!-- Title -->
+        <h4 class="card-title font-weight-bold"><a>About</a></h4>
+        <!-- Data -->
+        
+        <p class="mb-2" id="sideInfo_aboutText">Robbie has working text and graphics on how to use the diagram, but needs sign-off on which models we'll use first to ensure approprite guidance to end user.</p>
+
+        
+        
+      </div>
+
+
+
+
+  
+</div>
+<!--/.Accordion wrapper-->
+
+
+        </div>
+        <ul id="children_deprecated"></ul>
+      </div>
+
+    </main>
+      </body>
+    <div class="d-flex" >  
+  <div class="row align-items-center" id="children">
+
+      </div>
+    </div>
+  
+
+</html>

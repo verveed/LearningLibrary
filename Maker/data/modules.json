@@ -1,0 +1,336 @@
+[
+	
+	{
+		"id": "111511",
+		"label": "EO Introduction",
+		"description": "The EXPLOSIVE ORDNANCE INTRODUCTION (111511) course provides Defence military and civilian personnel with a basic knowledge of the characteristics, composition, terminology and reference publications applying to explosives and the workplace health and safety requirements required to work with and around explosives.", 
+		"type": "module",
+		"adele_id": "15194",
+		"adele_enrolmentKey":"EOI1249ghj!a",
+		"level":"1",
+		"service":"common",
+		"functions": [
+			"General"
+		]
+	},
+	{
+		"id": "202787",
+		"label": "Certify Free From Explosives",
+		"description": "The FREE FROM EXPLOSIVE (202787) course provides the knowledge and skills required to inspect, confirm and certify functioned EO, partially functioned EO and associated packaging as being &quot;Free From Explosives&quot;.", 
+		"service":"joint",
+		"prerequisites": [
+			"111511"		
+		],
+		"functions": [
+			"General"
+		],
+		"level":"2",
+		"type": "module"
+
+	},
+	{
+		"id": "209479",
+		"label": "Identify and Label",
+		"description": "The IDENTIFY AND LABEL EXPLOSIVE ORDNANCE and NON EXPLOSIVE DANGEROUS GOODS module provides the knowledge and skills to identify and label explosives and dangerous goods, and labelling explosives/dangerous goods in accordance with regulatory requirements.", 
+		"service":"joint",
+		"prerequisites": [
+			"202787"			
+		],
+				"functions": [
+			"Test_Evaluation"
+		],
+		"level":"3",		
+		"type": "module"
+	},
+	{
+		"id": "209478",
+		"label": "Repack Explosives",
+		"description": "The REPACK EXPLOSIVE ORDNANCE and NON-EXPLOSIVE DANGEROUS GOODS module provides the underpinning knowledge and skills to unpack and repack explosives and dangerous goods, and inspect explosive ordnance, non-explosive dangerous goods and associated packaging in accordance with regulatory requirements.", 
+		"service":"joint",
+		"prerequisites": [
+			"209479"			
+		],
+				"functions": [
+			"Search_and_Clearance"
+		],
+		"level":"3",		
+		"type": "module"
+	},	
+	{
+		"id": "112933",
+		"label": "Line Safety Controller",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",		
+		"prerequisites": [
+			"111511"		
+		],
+		"functions": [
+			"Safety_Management"		
+		],
+		"level":"3",				
+		"type": "module"
+	},
+	{
+		"id": "209480",
+		"label": "Transport EO Phase 1",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209479"		
+		],
+		"functions": [
+			"Transport"		
+		],
+		"level":"4",		
+		"type": "module"
+	},
+	{
+		"id": "209481",
+		"label": "Facility Licencing Phase 1",
+		"description": "The FACILITY LICENSING PHASE 1 module provides the underpinning knowledge and skills to establish and maintain a Small Quantity Facility.", 
+		"service":"joint",
+		"prerequisites": [
+			"209479"			
+		],
+		"level":"4",		
+		"functions": [
+			"Facilities"			
+		],
+		"type": "module"
+	},
+	{
+		"id": "209482",
+		"label": "Supervise EO Tasks",
+		"description": "The SUPERVISE EXPLOSIVE ORDNANCE TASKS module provides the underpinning knowledge and skills to identify and apply regulations, ADF policy and procedures when supervising an engineering and/or logistics task involving explosive ordnance.", 
+		"service":"joint",
+		"prerequisites": [
+			"209480",
+			"209481"			
+		],
+		"level":"5",		
+		"functions": [
+			"Safety_Management"		
+		],		
+		"type": "module"
+	},
+	{
+		"id": "209488",
+		"label": "Store EO Phase 1",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [		
+			"209481"		
+		],
+		"level":"5",		
+		"functions": [		
+			"Storage"		
+		],		
+		"type": "module"
+	},
+	{
+		"id": "209489",
+		"label": "Safety & Security of EO Warehouses & Workshops",
+		"description": "The SAFETY AND SECURITY OF WAREHOUSES AND WORKSHOPS module provides the underpinning knowledge and skills required to enter and exit an ammunition/explosive ordnance storage area or facility in a remote or home base area. It includes the requirements to ensure that safety standards are applied and that security of the facility is maintained.", 
+		"service":"joint",
+		"prerequisites": [
+			"209488"
+		],
+		"level":"6",		
+		"functions": [
+			"Maintenance"
+		],		
+		"type": "module"
+	},
+	{
+		"id": "209490",
+		"label": "Manage EO Facilities",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209489",
+			"209481"
+		],
+		"level":"7",		
+		"functions": [
+			"Facilities"
+		],		
+		"type": "module"
+	},
+	{
+		"id": "209502",
+		"label": "Facility Licencing Phase 2",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209481"
+		],
+		"level":"5",		
+		"functions": [
+			"Facilities"
+		],		
+		"type": "module"
+	},
+	{
+		"id": "209503",
+		"label": "Store EO Phase 2",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209488"
+		],
+		"level":"6",		
+		"functions": [
+			"Facilities"
+		],
+		"type": "module"
+	},
+	{
+		"id": "209504",
+		"label": "Transport EO Phase 2",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209480"		
+		],
+		"level":"5",		
+		"functions": [
+			"Transport"		
+		],		
+		"type": "module"
+	},
+	{
+		"id": "209507",
+		"label": "EO Field Storage Operations",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"air",
+		"prerequisites": [		
+			"209503"	
+		],
+		"level":"7",		
+		"functions": [		
+			"Storage"
+		],		
+		"type": "module"
+	},
+	{
+		"id": "209509",
+		"label": "Specific EO Supervisor",
+		"description": "The SPECIFIC EXPLOSIVE ORDNANCE SUPERVISOR module provides the underpinning knowledge and skills to utilise orders, instructions and publications required for Air Operations involving explosive ordnance.", 
+		"service":"joint",
+		"prerequisites": [
+			"209490"
+		],
+		"level":"8",		
+		"functions": [
+			"Safety_Management"
+		],		
+		"type": "module"
+	},
+	{
+		"id": "209510",
+		"label": "Liaise with other Agencies",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"functions": [
+			"Procurement_and_Item_Management"
+		],
+		"level":"9",
+		"prerequisites": [
+			"209509"
+		],		
+		"type": "module"
+	},
+	{
+		"id": "209512",
+		"label": "Specific EO Manage",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209509"
+		],
+		"level":"9",		
+		"functions": [
+			"Manufacture"
+		],		
+		"type": "module"
+	},
+	{
+		"id": "209514",
+		"label": "Explosive Ordnance Engineering",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"level":"1",		
+		"functions": [
+			"Design_Management"
+		],
+		"type": "module"
+	},
+	{
+		"id": "123456",
+		"label": "Intro to Guided Weapons",
+		"description": "The Introduction to Guided Weapons Module provides personnel with the generic knowledge of guided weapons characteristics, major components and principles of operation of components.", 
+		"service":"joint",
+		"level":"1",		
+		"functions": [
+			"Research_Design_and_Development"
+		],
+		"type": "module"
+	},	
+	{
+		"id": "213821",
+		"label": "tEODor Operator",
+		"description": "The TEODOR OPERATOR course covers the maintenance and operation the of the In-service Remotely Position Vehicle - Heavy (RPV-H) telerob Explosive Ordnance Disposal observation robot (tEODor).",
+		"prerequisites": [
+			"209479"
+		],
+		"level":"4",		
+		"functions": [
+			"Disposal"
+		],		
+		"type": "module"
+	}
+		
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

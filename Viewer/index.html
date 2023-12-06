@@ -1,0 +1,368 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>vis-network examples</title>
+
+  <!-- these styles are not at all needed for functionality and can be removed! -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./app.css">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+  <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis@4.21.0-EOL/dist/vis.min.js"></script> -->
+
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+  <script type="text/javascript" src="./app2.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", init);
+  </script>
+</head>
+
+<body>
+<!-- Heading -->
+    <section class="text-center text-md-start">
+      <!-- Background gradient -->
+      <div class="p-5" style="height: 165px; 
+           background: linear-gradient(
+            to right,
+          hsl(209, 42.2%, 65%),
+          hsl(209, 42.2%, 85%)
+          );">
+      </div>
+      <!-- Background image -->
+    </section>
+    <!-- Heading -->
+
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mb-5" style="margin-top: -55px;">
+    <!-- Container for demo purpose -->
+    <div class="container px-4">
+
+      <!-- Section: Summary -->
+      <section class="mb-5">
+
+        <div class="row gx-xl-5">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="card shadow-0">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <div class="p-3 badge-primary rounded-4">
+                      <i class="fas fa-trophy fa-lg fa-fw"></i>
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-4">
+                    <p class="text-muted mb-1">My Skills</p>
+                    <h2 class="mb-0">
+                      25
+                      <!-- <span class="" style="font-size: 0.875rem">
+                        <span>°C</span></span> -->
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="card shadow-0">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <div class="p-3 badge-primary rounded-4">
+                      <i class="fas fa-book fa-lg fa-fw"></i>
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-4">
+                    <p class="text-muted mb-1">Open Learning</p>
+                    <h2 id="vis-openCourses_count" class="mb-0">
+                      14
+        <!--               <span class="" style="font-size: 0.875rem">
+                        <span>%</span></span> -->
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--           <div class="col-lg-4 mb-lg-0">
+            <div class="card shadow-0">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <div class="p-3 badge-primary rounded-4">
+                      <i class="fas fa-tint fa-lg fa-fw"></i>
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-4">
+                    <p class="text-muted mb-1">Humidity</p>
+                    <h2 class="mb-0">
+                      60
+                      <span class="" style="font-size: 0.875rem">
+                        <span>%</span></span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+      <!-- Section: Summary -->
+
+    <main>
+      <div id="network">
+        loading data...
+      </div>
+      <div id="info">
+
+ 
+        <div id="selected">
+          <!--Accordion wrapper-->
+          <div class="accordion md-accordion accordion-3 z-depth-1-half" id="accordionVisInfo" role="tablist"
+          aria-multiselectable="true">
+          <div class="card-body d-flex flex-row" id="accordionVisInfo_header">
+
+            <!-- Avatar -->
+
+            <!--  -->
+
+          </div>
+          <h2 class="text-center text-uppercase red-text py-4 px-3" id=""></h2>
+          <div class="view overlay">
+             <ul class="stepper stepper-horizontal" id="accordionVisInfo_deliveryModes_payGrade">
+
+      <!-- First Step -->
+      <li>
+        <a href="#!">
+          <span class="circle">1</span>
+          <span class="label">Grade 1</span>
+        </a>
+      </li>
+
+      <!-- Second Step -->
+      <li>
+        <a href="#!">
+          <span class="circle">2</span>
+          <span class="label">Grade 2</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#!">
+          <span class="circle">3</span>
+          <span class="label">Grade 3</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="#!">
+          <span class="circle">4</span>
+          <span class="label">Grade 4</span>
+        </a>
+      </li>
+      
+      <li class="active">
+        <a href="#!">
+          <span class="circle">5</span>
+          <span class="label">Grade 5</span>
+        </a>
+      </li>
+      <li>
+        <a href="#!">
+          <span class="circle">6</span>
+          <span class="label">Grade 6</span>
+        </a>
+      </li>       
+
+    </ul>
+            <!-- <img class="card-img-top rounded-0" id="accordionVisInfo_header_moduleImage"> -->
+          </div>
+          <hr class="mb-0">
+          <!-- Accordion card -->
+          <div class="card">
+
+            <!-- Card header -->
+            <div class="card-header" role="tab" id="accordionVisInfo_deliveryModes_cardHeading">
+              <a data-toggle="collapse" data-parent="#accordionVisInfo" href="#collapse3"
+              aria-expanded="true" aria-controls="collapse3">
+              <h3 class="mb-0 mt-3 red-text">
+                About:<i class="fas fa-angle-down rotate-icon fa-2x"></i>
+              </h3>
+            </a>
+          </div>
+
+          <!-- Card body -->
+          <div id="collapse3" class="collapse show" role="tabpanel" aria-labelledby="accordionVisInfo_deliveryModes_cardHeading"
+          data-parent="#accordionVisInfo">
+
+
+          <div class="card-body pt-0">
+            <!-- <p class="card-text">Pay Grade:</p> -->
+            <!-- Stepers Wrapper -->
+    <ul class="stepper stepper-horizontal" id="accordionVisInfo_deliveryModes_payGrade">
+
+      <!-- First Step -->
+      <li>
+        <a href="#!">
+          <span class="circle">1</span>
+          <span class="label">Grade 1</span>
+        </a>
+      </li>
+
+      <!-- Second Step -->
+      <li>
+        <a href="#!">
+          <span class="circle">2</span>
+          <span class="label">Grade 2</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#!">
+          <span class="circle">3</span>
+          <span class="label">Grade 3</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="#!">
+          <span class="circle">4</span>
+          <span class="label">Grade 4</span>
+        </a>
+      </li>
+      
+      <li class="active">
+        <a href="#!">
+          <span class="circle">5</span>
+          <span class="label">Grade 5</span>
+        </a>
+      </li>
+      <li>
+        <a href="#!">
+          <span class="circle">6</span>
+          <span class="label">Grade 6</span>
+        </a>
+      </li>       
+
+    </ul>
+    <!-- /.Stepers Wrapper -->
+              <p class="card-text">
+
+              </p>
+
+            </div>
+          </div>
+          <!-- Accordion card -->
+          <!-- Accordion card -->
+          <div class="card">
+
+            <!-- Card header -->
+            <div class="card-header" role="tab" id="accordionVisInfo_liveCourses_cardHeading">
+              <a class="collapsed" data-toggle="collapse" data-parent="#accordionVisInfo" href="#collapse4" aria-expanded="false"
+              aria-controls="collapse4">
+              <h3 class="mb-0 mt-3 red-text">
+                ADELE Sessions:<i class="fas fa-angle-down rotate-icon fa-2x"></i>
+              </h3>
+            </a>
+          </div>
+
+          <!-- Card body -->
+          <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="accordionVisInfo_liveCourses_cardHeading"
+          data-parent="#accordionVisInfo">
+          <div class="card-body pt-0">
+            <div class="font-small" id="accordionVisInfo_liveCourses_ul">
+              <li class="list-inline-item pr-2 "><i class="far fa-clock pr-1"></i>No sessioned ADELE courses for this competency are </li>
+            </ul>
+          </div>
+        </div>
+      
+      </div>
+      <!-- Accordion card -->
+
+      <!-- Accordion card -->
+    <!--   <div class="card">
+
+        <div class="card-header" role="tab" id="accordionVisInfo_prerequisites_cardHeading">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordionVisInfo" href="#collapse5"
+          aria-expanded="false" aria-controls="collapse5">
+          <h3 class="mb-0 mt-3 red-text">
+            Prerequisities<i class="fas fa-angle-down rotate-icon fa-2x"></i>
+          </h3>
+        </a>
+      </div>
+
+      <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="accordionVisInfo_prerequisites_cardHeading"
+      data-parent="#accordionVisInfo">
+      <div class="card-body">
+        <ul class="text-left list-group" id="accordionVisInfo_prerequisites_ul">
+          <li class="list-group-item">
+            <a class="text-white"></a>module.prerequisite.0</li>
+            <li class="list-group-item">
+              <a class="btn-floating btn-tw btn-sm waves-effect waves-light"><i class="fab fa-twitter"></i></a>module.prerequisite.1</li>
+
+            </ul>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Accordion card -->
+      <div class="card">
+
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="accordionVisInfo_usedCourses_cardHeading">
+          <a class="collapsed" data-toggle="collapse" data-parent="#accordionVisInfo" href="#collapse6"
+          aria-expanded="false" aria-controls="collapse6">
+          <h3 class="mb-0 mt-3 red-text">
+            Trade Paths:<i class="fas fa-angle-down rotate-icon fa-2x"></i>
+          </h3>
+        </a>
+      </div>
+
+      <!-- Card body -->
+      <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="accordionVisInfo_usedCourses_cardHeading"
+      data-parent="#accordionVisInfo">
+      <div class="card-body pt-0">
+        <ul class="text-left list-group" id="accordionVisInfo_tradePaths_ul">
+          <li class="list-group-item">
+            <a class="text-white btn-floating btn-fb btn-sm waves-effect waves-light"><i class="fab fa-facebook-f"></i></a>module.relatedCourses.0 - Click here to scroll to more info</li>
+            <li class="list-group-item">
+              <a class="btn-floating btn-tw btn-sm waves-effect waves-light"><i class="fab fa-twitter"></i></a>module.relatedCourses.1 - Click here to scroll to more info</li>
+
+            </ul>      </div>
+          </div>
+        </div>
+        <!-- Accordion card -->
+
+
+      </div>
+      <!--/.Accordion wrapper-->
+
+
+    </div>
+    <ul id="children_deprecated"></ul>
+  </div>
+
+</main>
+</body>
+<div class="d-flex" >  
+  <div class="row align-items-center" id="children">
+
+  </div>
+</div>
+
+
+</html>

@@ -1,0 +1,38 @@
+[
+	{
+		"id": "deots",
+		"label": "Defence Explosive Ordnance Training School",
+		"location": "Defence Establishment Orchard Hill",
+		"courses": [
+			"eoi",
+			"ffe",
+			"eos",
+			"seob",
+			"eom",
+			"armtech_iet_deots",
+			"aviation_eos",
+			"aviation_eom",
+			"aviation_seom",
+			"engoffarmspec"
+		]
+	},
+	{
+		"id": "aso",
+		"label": "School of Ordnance",
+		"location": "Albury",
+		"courses": [
+			"eoi",
+			"ffe"
+		]
+	},
+	{
+		"id": "tss",
+		"label": "Training Systems School",
+		"location": "Sydney",
+		"courses": [
+			"aviation_eos",
+			"aviation_eom",
+			"aviation_seom"
+		]
+	}
+]

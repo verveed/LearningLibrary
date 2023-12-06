@@ -1,0 +1,103 @@
+Competency,Skills
+"Lead self in a small team
+(FOU-1)",LEAD-A-FOU - Work within a small team
+,CHAR-A-FOU - Reflect and adapt own behaviour
+,CHAR-B-FOU - Develop respectful working relationships
+,CULT-A-FOU - Display Soldierly conduct
+,CULT-C-FOU - Adhere to military discipline
+,TD-PMF-A-FOU - Maintain basic physical fitness
+,TD-PMF-B-FOU - Develop mental fitness
+,MA-ASO-A-FOU - Conduct basic personal administration
+,FMS-UME-A-FOU - Maintain military dress and equipment for the Barracks
+"Act ethically
+(FOU-2)",ETHI-A-FOU - Conducts operations ethically
+,ETHI-B-FOU - Behvaes ethically in a barracks environment
+,CHAR-A-FOU - Reflect and adapt own behaviour
+,CHAR-B-FOU - Develop respectful working relationships
+,CULT-A-FOU - Display Soldierly conduct
+"Conduct basic individual and collective drill
+(FOU-3)",CULT-B-FOU - Performs basic individual and collective drill
+"Continually develop self
+(FOU-4)",LEAD-A-FOU - Work within a small team
+,CHAR-A-FOU - Reflect and adapt own behaviour
+,CHAR-B-FOU - Develop respectful working relationships
+,TD-PMF-A-FOU - Maintain basic physical fitness
+,TD-PMF-B-FOU - Develop mental fitness
+"Deliver and assess training
+(FOU-5)",TD-ID-A-FOU - Deliver training
+,TD-ID-B-FOU - Conduct Assessment
+"Comply with Defence Policy and Governance Requirements
+(FOU-6)",CULT-C-FOU - Adhere to military discipline
+,MA-ASO-A-FOU - Conduct basic personal administration
+,MA-GA-A-FOU - Comply with Defence security requirements
+,MA-GA-B-FOU - Compley with Defence work health and safety requirements
+,MA-GA-C-FOU - Comply with Unit Orders and Policy
+,MA-GA-D-FOU - Comply with Defence Social Media Requirements
+,MA-GA-E-FOU - Compley with Army Drug and Alcohol Policy
+,MA-RA-A-FOU - Use land materiel responsbily
+"Produce a risk assessment
+(FOU-7)",MA-GA-F-FOU - Produce a risk assessment
+"Utilise Defence resources appropriately
+(FOU-8)",MA-ASO-A-FOU - Conduct basic personal administration
+,MA-RA-A-FOU - Use land materiel responsbily
+,FMS-UME-A-FOU - Maintain military dress and equipment for the Barracks
+,FMS-UME-B-FOU - Employ SCE and PPE Tier 0 for field operations
+,FMS-DFW-A-FOU - Operate and apply fire with the service rifle
+,FMS-DFW-C-FOU - Oerate the in-Service Light Support Weapon
+,FMS-ES-A-FOU - Operate the in-Service radio
+,FMS-ES-B-FOU - Operate the Binocular Night Vision Device
+,FMS-ES-C-FOU - Operate the L3 Laser Aiming and Illumination Device
+,FMS-ES-D-FOU - Operate the L3 Laser Aiming Illumination and Range Device
+,FMS-ES-E-FOU - Operate the in-service Grenade
+"Plan  and conduct Section level orders 
+(FOU-9)",P-IP-A-FOU - Plan and deliver section level orders
+"Produce basic written documents
+(FOU-10)",CA-AW-A-FOU - Produce basic written documents
+"Operate Night Fighting Equipment
+(FOU-11)",FMS-ES-B-FOU - Operate the Binocular Night Vision Device
+,FMS-ES-C-FOU - Operate the L3 Laser Aiming and Illumination Device
+,FMS-ES-D-FOU - Operate the L3 Laser Aiming Illumination and Range Device
+"Operate individual weapons systems
+(FOU-12)",FMS-DFW-A-FOU - Operate and apply fire with the service rifle
+,FMS-DFW-B-FOU - Comply with combat shooting continuum principles
+,FMS-DFW-C-FOU - Operate the in-Service Light Support Weapon
+"Provide medical support
+(FOU-13)",FMS-FC-A-FOU - Apply the principles of Army First Aid
+,FMS-BC-A-FOU - Provide care under fire or threat
+,FMS-BC-B-FOU - Provide tactical field care
+,FMS-BC-C-FOU - Provide tactical evacuation care
+"Conduct Tactical Casualty Care
+(FOU-10)",FMS-BC-A-FOU - Provide care under fire or threat
+,FMS-BC-B-FOU - Provide tactical field care
+,FMS-BC-C-FOU - Provide tactical evacuation care
+"Survive in a CBRN Threat Environment
+(FOU-11)",FMS-FC-B-FOU - Survive in a CBRN Threat Environment
+"Demonstrate navigation skills
+(FOU-12)",FMS-FC-D-FOU - Conduct basic navigation
+"Demonstrate foundational field craft skills
+(FOU-14)",FMS-FC-A-FOU - Apply the principles of Army First Aid
+,FMS-FC-B-FOU - Survive in a CBRN Threat Environment
+,FMS-FC-C-FOU - Apply principles of field craft in the field environment
+,FMS-FC-D-FOU - Conduct basic navigation
+"Apply the principles of the Army Combatives Program Level 1
+(FOU-15)",FMS-BC-D-FOU - Apply the principles of the Army Combatives Program Level 1 
+"Demonstrate foundational battle craft skills
+(FOU-16)",FMS-BC-A-FOU - Provide care under fire or threat
+,FMS-BC-B-FOU - Provide tactical field care
+,FMS-BC-C-FOU - Provide tactical evacuation care
+,FMS-BC-D-FOU - Apply the principles of the Army Combatives Program Level 1 
+,FMS-BC-E-FOU - Apply the principles of Battle Craft in the field environment
+"Operate as a section member in the field
+(FOU-17)",FMS-UME-B-FOU - Employ SCE and PPE Tier 0 for field operations
+,FMS-DFW-A-FOU - Operate and apply fire with the service rifle
+,FMS-DFW-B-FOU - Comply with combat shooting continuum principles
+,FMS-DFW-C-FOU - Operate the in-Service Light Support Weapon
+,FMS-FC-A-FOU - Apply the principles of Army First Aid
+,FMS-FC-B-FOU - Survive in a CBRN Threat Environment
+,FMS-FC-C-FOU - Apply principles of field craft in the field environment
+,FMS-FC-D-FOU - Conduct basic navigation
+,FMS-BC-A-FOU - Provide care under fire or threat
+,FMS-BC-B-FOU - Provide tactical field care
+,FMS-BC-C-FOU - Provide tactical evacuation care
+,FMS-BC-D-FOU - Apply the principles of the Army Combatives Program Level 1 
+,FMS-BC-E-FOU - Apply the principles of Battle Craft in the field environment

@@ -1,0 +1,330 @@
+[
+	
+	{
+		"id": "111511",
+		"label": "EO Introduction",
+		"description": "Explosive Ordnance Introduction will show you how to etc",
+		"mode": "Online",
+		"level":"1",
+		"service":"common",
+		"functions": [
+			"Research_Design_and_Development",
+			"Safety_Management",
+			"Test_Evaluation",
+			"Manufacture",
+			"Maintenance",
+			"Procurement_and_Item_Management",
+			"Storage",
+			"Transport",
+			"Facilities",
+			"Disposal",
+			"Search_and_Clearance",
+			"General",
+			"Design_Management"
+		]
+	},
+	{
+		"id": "202787",
+		"label": "Certify Free From Explosives",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"111511"		
+		],
+		"level":"2",
+		"mode": "Online"
+
+	},
+	{
+		"id": "209479",
+		"label": "Identify and Label",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"202787"			
+		],
+		"level":"3",		
+		"mode": "Online"
+	},
+	{
+		"id": "112933",
+		"label": "Line Safety Controller",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",		
+		"prerequisites": [
+			"111511"		
+		],
+		"functions": [
+			"Safety_Management"		
+		],
+		"level":"3",				
+		"mode": "Online"
+	},
+	{
+		"id": "209480",
+		"label": "Transport EO Phase 1",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209479"		
+		],
+		"functions": [
+			"Transport"		
+		],
+		"level":"4",		
+		"mode": "Online"
+	},
+	{
+		"id": "209481",
+		"label": "Facility Licencing Phase 1",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209479"			
+		],
+		"level":"4",		
+		"functions": [
+			"Facilities"			
+		],
+		"mode": "Online"
+	},
+	{
+		"id": "209482",
+		"label": "Supervise EO Tasks",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209480",
+			"209481"			
+		],
+		"level":"5",		
+		"functions": [
+			"Safety_Management",
+			"Maintenance",			
+			"Storage",
+			"Transport",
+			"Facilities",
+			"General"			
+		],		
+		"mode": "Online"
+	},
+	{
+		"id": "209488",
+		"label": "Store EO Phase 1",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [		
+			"209481"		
+		],
+		"level":"5",		
+		"functions": [		
+			"Storage"		
+		],		
+		"mode": "Online"
+	},
+	{
+		"id": "209489",
+		"label": "Safety & Security of EO Warehouses & Workshops",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209488"
+		],
+		"level":"6",		
+		"functions": [
+			"Maintenance",			
+			"Storage",
+			"Facilities"
+		],		
+		"mode": "Online"
+	},
+	{
+		"id": "209490",
+		"label": "Manage EO Facilities",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209489",
+			"209481"
+		],
+		"level":"7",		
+		"functions": [
+			"Facilities"
+		],		
+		"mode": "Online"
+	},
+	{
+		"id": "209502",
+		"label": "Facility Licencing Phase 2",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209481"
+		],
+		"level":"5",		
+		"functions": [
+			"Facilities"
+		],		
+		"mode": "Online"
+	},
+	{
+		"id": "209503",
+		"label": "Store EO Phase 2",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209488"
+		],
+		"level":"6",		
+		"functions": [
+			"Facilities"
+		],
+		"mode": "Online"
+	},
+	{
+		"id": "209504",
+		"label": "Transport EO Phase 2",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209480"		
+		],
+		"level":"5",		
+		"functions": [
+			"Transport"		
+		],		
+		"mode": "Online"
+	},
+	{
+		"id": "209507",
+		"label": "EO Field Storage Operations",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"air",
+		"prerequisites": [		
+			"209503"	
+		],
+		"level":"7",		
+		"functions": [		
+			"Storage",
+			"Transport"		
+		],		
+		"mode": "Online"
+	},
+	{
+		"id": "209509",
+		"label": "Specific EO Supervisor",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209490"
+		],
+		"level":"8",		
+		"functions": [
+			"Safety_Management",
+			"General"
+		],		
+		"mode": "Online"
+	},
+	{
+		"id": "209510",
+		"label": "Liaise with other Agencies",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"functions": [
+			"Procurement_and_Item_Management",
+			"General",
+			"Design_Management"
+		],
+		"level":"9",
+		"prerequisites": [
+			"209509"
+		],		
+		"mode": "Online"
+	},
+	{
+		"id": "209512",
+		"label": "Specific EO Manage",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209509"
+		],
+		"level":"9",		
+		"functions": [
+			"Safety_Management",
+			"General"
+		],		
+		"mode": "Online"
+	},
+	{
+		"id": "209514",
+		"label": "Explosive Ordnance Engineering",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"level":"1",		
+		"functions": [
+			"Research_Design_and_Development",
+			"Test_Evaluation",
+			"Design_Management"
+		],
+		"mode": "Online"
+	},
+	{
+		"id": "213821",
+		"label": "tEODor Operator",
+		"description": "Techniques and Tools to progress customer pipelines",
+		"service":"joint",
+		"prerequisites": [
+			"209479"
+		],
+		"level":"4",		
+		"functions": [
+			"Disposal"
+		],		
+		"mode": "Online"
+	}
+		
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

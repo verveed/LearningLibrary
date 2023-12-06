@@ -1,0 +1,1336 @@
+[
+  {
+    "label": "Applies the leadership principles",
+    "id": "LEAD-A-FOU-1"
+  },
+  {
+    "label": "Utilises followership to support the team",
+    "id": "LEAD-A-FOU-2"
+  },
+  {
+    "label": "Contributes to a positive and inclusive environment",
+    "id": "LEAD-A-FOU-3"
+  },
+  {
+    "label": "Contributes to the effective operation of their team",
+    "id": "LEAD-A-FOU-4"
+  },
+  {
+    "label": "Receives feedback and responds appropriately",
+    "id": "LEAD-A-FOU-5"
+  },
+  {
+    "label": "Develops self to contribute to team goals",
+    "id": "LEAD-A-FOU-6"
+  },
+  {
+    "label": "Foster a positive group environment",
+    "id": "LEAD-B-FOU-1"
+  },
+  {
+    "label": "Influence team members to achieve tasks",
+    "id": "LEAD-B-FOU-2"
+  },
+  {
+    "label": "Apply the Army teaming model to form a group",
+    "id": "LEAD-B-FOU-3"
+  },
+  {
+    "label": "Apply coaching principles to develop team mates",
+    "id": "LEAD-C-FOU-1"
+  },
+  {
+    "label": "Apply mentoring techniques to develop others",
+    "id": "LEAD-C-FOU-2"
+  },
+  {
+    "label": "Facilitate group conversations",
+    "id": "LEAD-C-FOU-3"
+  },
+  {
+    "label": "Provide constructive feedback to team mates",
+    "id": "LEAD-C-FOU-4"
+  },
+  {
+    "label": "Resolve conflicts as required within the team",
+    "id": "LEAD-C-FOU-5"
+  },
+  {
+    "label": "Chooses Service before self",
+    "id": "ETHI-A-FOU-1"
+  },
+  {
+    "label": "Takes individual responsibility for own actions",
+    "id": "ETHI-A-FOU-2"
+  },
+  {
+    "label": "Adapts own behaviours to align to Service needs",
+    "id": "ETHI-A-FOU-3"
+  },
+  {
+    "label": "Explains the consequence of unethical behaviour",
+    "id": "ETHI-A-FOU-4"
+  },
+  {
+    "label": "Explains the reporting responsibilities for unethical actions",
+    "id": "ETHI-A-FOU-5"
+  },
+  {
+    "label": "Applies the ethical decision making framework",
+    "id": "ETHI-A-FOU-6"
+  },
+  {
+    "label": "Applies the Laws of Armed Conflict",
+    "id": "ETHI-A-FOU-7"
+  },
+  {
+    "label": "Adopts the Defence values",
+    "id": "CHAR-A-FOU-1"
+  },
+  {
+    "label": "Knows own character strengths and weaknesses",
+    "id": "CHAR-A-FOU-2"
+  },
+  {
+    "label": "Conducts self-reflection to adapt their own behaviour",
+    "id": "CHAR-A-FOU-3"
+  },
+  {
+    "label": "Contributes to team reflective practices",
+    "id": "CHAR-A-FOU-4"
+  },
+  {
+    "label": "Interprets others' strengths and weaknesses without judgment",
+    "id": "CHAR-B-FOU-1"
+  },
+  {
+    "label": "Perceives others emotions",
+    "id": "CHAR-B-FOU-2"
+  },
+  {
+    "label": "Responds to others emotions appropriately",
+    "id": "CHAR-B-FOU-3"
+  },
+  {
+    "label": "Listens to other's opinions without judgment",
+    "id": "CHAR-B-FOU-4"
+  },
+  {
+    "label": "Responds appropriately to diverse ideas",
+    "id": "CHAR-B-FOU-5"
+  },
+  {
+    "label": "Adopts appropriate workplace behaviour",
+    "id": "CHAR-B-FOU-6"
+  },
+  {
+    "label": "Accepts diversity in the workplace",
+    "id": "CHAR-B-FOU-7"
+  },
+  {
+    "label": "Role models the Defence values",
+    "id": "LEAD-A-FOU-7"
+  },
+  {
+    "label": "Comply with appropriate rank relationships",
+    "id": "CULT-C-FOU-1"
+  },
+  {
+    "label": "Wears uniform to a high standard",
+    "id": "CULT-A-FOU-2"
+  },
+  {
+    "label": "Explain the history of the Australian Army",
+    "id": "CULT-A-FOU-3"
+  },
+  {
+    "label": "Engages in corps and unit functions appropriately with an understanding of customs and traditions",
+    "id": "CULT-A-FOU-4"
+  },
+  {
+    "label": "Forms ranks",
+    "id": "CULT-B-FOU-1"
+  },
+  {
+    "label": "Stands at attention, stands at ease and stands easy",
+    "id": "CULT-B-FOU-2"
+  },
+  {
+    "label": "Marches",
+    "id": "changes direction",
+    "": "marks-time"
+  },
+  {
+    "label": "Conducts eyes right and left while marching",
+    "id": "CULT-B-FOU-4"
+  },
+  {
+    "label": "Conducts prove",
+    "id": "right-dress and numbering",
+    "": "CULT-B-FOU-5"
+  },
+  {
+    "label": "Performs turns and inclines at the halt",
+    "id": "CULT-B-FOU-6"
+  },
+  {
+    "label": "Salutes in quick time",
+    "id": "CULT-B-FOU-7"
+  },
+  {
+    "label": "Delivered in a clear and audible voice",
+    "id": "TD-ID-A-FOU-1"
+  },
+  {
+    "label": "Uses appropriate language and show respect to training audience",
+    "id": "TD-ID-A-FOU-2"
+  },
+  {
+    "label": "Delivered with appropriate body language",
+    "id": "TD-ID-A-FOU-3"
+  },
+  {
+    "label": "Applies appropriate questioning and feedback techniques",
+    "id": "TD-ID-A-FOU-4"
+  },
+  {
+    "label": "Develop a training event plan IAW doctrine",
+    "id": "TD-ID-A-FOU-5"
+  },
+  {
+    "label": "Incorporate appropriate safety precautions",
+    "id": "TD-ID-A-FOU-6"
+  },
+  {
+    "label": "Use of appropriate training aids",
+    "id": "TD-ID-A-FOU-7"
+  },
+  {
+    "label": "Explain and apply current doctrine",
+    "id": "policy and procedures in the lesson",
+    "": "TD-ID-A-FOU-8"
+  },
+  {
+    "label": "Adhere to lesson structure and conventions",
+    "id": "TD-ID-A-FOU-9"
+  },
+  {
+    "label": "Adhere to allocated/planned timings",
+    "id": "TD-ID-A-FOU-10"
+  },
+  {
+    "label": "Address all teaching points",
+    "id": "TD-ID-A-FOU-11"
+  },
+  {
+    "label": "Identify and meet learners needs",
+    "id": "TD-ID-A-FOU-12"
+  },
+  {
+    "label": "Brief the candidate on the assessment criteria",
+    "id": "TD-ID-B-FOU-1"
+  },
+  {
+    "label": "Conduct the assessment IAW checklist",
+    "id": "TD-ID-B-FOU-2"
+  },
+  {
+    "label": "Determine the competency of a candidate and record the results",
+    "id": "TD-ID-B-FOU-3"
+  },
+  {
+    "label": "Provide constructive feedback in the form of an assessment debrief",
+    "id": "TD-ID-B-FOU-4"
+  },
+  {
+    "label": "Successfully complete the PFA to entry requirements",
+    "id": "TD-PMF-A-FOU-1"
+  },
+  {
+    "label": "Complete the BFA-D",
+    "id": "TD-PMF-A-FOU-2"
+  },
+  {
+    "label": "Complete the PESA-D",
+    "id": "TD-PMF-A-FOU-3"
+  },
+  {
+    "label": "Explain the realities and situations that you are likely to be exposed to and how BattleSMART relates to ADF cultural ues",
+    "id": "TD-PMF-B-FOU-1"
+  },
+  {
+    "label": "Interpret the BattleSMART model accurately",
+    "id": "TD-PMF-B-FOU-2"
+  },
+  {
+    "label": "Identify initial behavioural",
+    "id": "emotional",
+    "": "cognitive and physical reactions to stressors accurately"
+  },
+  {
+    "label": "Identify",
+    "id": "through appropriate testing",
+    "": "when adjustment of the initial reaction is required"
+  },
+  {
+    "label": "Use appropriate techniques and strategies to adjust reactions",
+    "id": "TD-PMF-B-FOU-5"
+  },
+  {
+    "label": "Know when and how to provide peer support",
+    "id": "TD-PMF-B-FOU-6"
+  },
+  {
+    "label": "Interpret BattleSMART techniques and strategies for optimal performance",
+    "id": "TD-PMF-B-FOU-7"
+  },
+  {
+    "label": "Maintain a high standard of health and hygiene in the barracks environment",
+    "id": "MA-ASO-A-FOU-1"
+  },
+  {
+    "label": "Maintain a barrack room and block to a high standard",
+    "id": "MA-ASO-A-FOU-2"
+  },
+  {
+    "label": "Keep barrack blocks and rooms clean",
+    "id": "MA-ASO-A-FOU-3"
+  },
+  {
+    "label": "Safely handle and store cleaning chemicals",
+    "id": "MA-ASO-A-FOU-4"
+  },
+  {
+    "label": "Access and utilise information on the DPN appropriately",
+    "id": "MA-ASO-A-FOU-5"
+  },
+  {
+    "label": "Identify equipment useability by identifying classification labels",
+    "id": "MA-RA-A-FOU-1"
+  },
+  {
+    "label": "Interpret classification and useability codes correctly",
+    "id": "MA-RA-A-FOU-2"
+  },
+  {
+    "label": "Apply LMSF process as related to an equipment operator correctly",
+    "id": "MA-RA-A-FOU-3"
+  },
+  {
+    "label": "Compile a Non-technical inspection correctly",
+    "id": "MA-RA-A-FOU-4"
+  },
+  {
+    "label": "Comply with policy relating to reporting of faulty equipment",
+    "id": "MA-RA-A-FOU-5"
+  },
+  {
+    "label": "Report defective",
+    "id": "unsatisfactory materiel as required",
+    "": "MA-RA-A-FOU-6"
+  },
+  {
+    "label": "Apply the Engineering Change Proposal process as required",
+    "id": "MA-RA-A-FOU-7"
+  },
+  {
+    "label": "Describe the repair process and documentation requirements",
+    "id": "MA-RA-A-FOU-8"
+  },
+  {
+    "label": "Explain key unit LMSF roles correctly",
+    "id": "MA-RA-A-FOU-9"
+  },
+  {
+    "label": "Apply security classifications correctly to documents",
+    "id": "MA-GA-A-FOU-1"
+  },
+  {
+    "label": "Maintain materiel and personal security",
+    "id": "MA-GA-A-FOU-2"
+  },
+  {
+    "label": "Comply with the Official Secrets Act",
+    "id": "MA-GA-A-FOU-3"
+  },
+  {
+    "label": "Report security breaches appropriately",
+    "id": "MA-GA-A-FOU-4"
+  },
+  {
+    "label": "Respond effeciently to emergency response plans",
+    "id": "MA-GA-B-FOU-1"
+  },
+  {
+    "label": "Respond efficiently to base alert systems",
+    "id": "MA-GA-B-FOU-2"
+  },
+  {
+    "label": "Record safety breaches IAW WHS Act",
+    "id": "MA-GA-B-FOU-3"
+  },
+  {
+    "label": "Report safety breaches IAW WHS Act",
+    "id": "MA-GA-B-FOU-4"
+  },
+  {
+    "label": "Adhere to Unit Standing Orders consistently",
+    "id": "MA-GA-C-FOU-1"
+  },
+  {
+    "label": "Adhere to Unit Routine Orders consistently",
+    "id": "MA-GA-C-FOU-2"
+  },
+  {
+    "label": "Conduct Indigenous Cultural Awareness Training",
+    "id": "MA-GA-C-FOU-3"
+  },
+  {
+    "label": "Comply with Defence Youth Protection policy",
+    "id": ""
+  },
+  {
+    "label": "Adhere to social media responsibilities consistently",
+    "id": "MA-GA-D-FOU-1"
+  },
+  {
+    "label": "Conform to the Defence Communications Manual for personal and professional social media communication",
+    "id": "MA-GA-D-FOU-2"
+  },
+  {
+    "label": "Maintain personal and operational security when using social media",
+    "id": "MA-GA-D-FOU-3"
+  },
+  {
+    "label": "Adhere to Army’s drug and alcohol policy",
+    "id": "MA-GA_E-FOU-1"
+  },
+  {
+    "label": "Comply with drug and alcohol testing requirements",
+    "id": "MA-GA_E-FOU-2"
+  },
+  {
+    "label": "Identify MRM principles",
+    "id": "MA-GA-F-FOU-1"
+  },
+  {
+    "label": "Explain levels of Risk Management",
+    "id": "MA-GA-F-FOU-2"
+  },
+  {
+    "label": "Identify conditions for documenting a risk appreciation",
+    "id": "MA-GA-F-FOU-3"
+  },
+  {
+    "label": "Interpret MRM Steps",
+    "id": "MA-GA-F-FOU-4"
+  },
+  {
+    "label": "Interpret SFARP rule",
+    "id": "MA-GA-F-FOU-5"
+  },
+  {
+    "label": "Identify Risk Management responsibilities",
+    "id": "MA-GA-F-FOU-6"
+  },
+  {
+    "label": "Interpret Risk Management Authority",
+    "id": "MA-GA-F-FOU-7"
+  },
+  {
+    "label": "Identify available Risk Assessment Tools",
+    "id": "MA-GA-F-FOU-8"
+  },
+  {
+    "label": "Analyse the commanders intent",
+    "id": "P-IP-A-FOU-1"
+  },
+  {
+    "label": "Deliver orders",
+    "id": "P-IP-A-FOU-2"
+  },
+  {
+    "label": "Conduct a post H Hour CMAP activity",
+    "id": "P-IP-A-FOU-3"
+  },
+  {
+    "label": "Produce effective written documents IAW with Defence writing conventions",
+    "id": "C-AW-A-FOU-1"
+  },
+  {
+    "label": "Interpret Defence policy and provide advice relating to the administration of subordinates",
+    "id": "C-AW-A-FOU-2"
+  },
+  {
+    "label": "Maintain responsibility for personal equipment",
+    "id": "FMS-UME-A-FOU-1"
+  },
+  {
+    "label": "Maintain responsibility for issued Army equipment",
+    "id": "FMS-UME-A-FOU-2"
+  },
+  {
+    "label": "Assemble unforms correctly",
+    "id": "FMS-UME-A-FOU-3"
+  },
+  {
+    "label": "Wear uniforms maintaining professional standards",
+    "id": "FMS-UME-A-FOU-4"
+  },
+  {
+    "label": "Correctly assemble SCE IAW policy",
+    "id": "FMS-UME-B-FOU-1"
+  },
+  {
+    "label": "Adjust equipment for comfort and fit as required",
+    "id": "FMS-UME-B-FOU-2"
+  },
+  {
+    "label": "Employ helmet",
+    "id": "eyewear and hearing protection effectively",
+    "": "FMS-UME-B-FOU-3"
+  },
+  {
+    "label": "Complete the EF88 Weapon Qualification Test successfully",
+    "id": "FMS-DFW-A-FOU-1"
+  },
+  {
+    "label": "Complete the Weapon Qualification Shoot",
+    "id": ""
+  },
+  {
+    "label": "Conduct the F2 Elcan Specter Test",
+    "id": ""
+  },
+  {
+    "label": "Explain the layout and procedures of a military range",
+    "id": "FMS-DFW-A-FOU-2"
+  },
+  {
+    "label": "Identify types and natures of service rifle ammunition",
+    "id": "FMS-DFW-A-FOU-3"
+  },
+  {
+    "label": "Apply service rifle weapon saftey requirements to the weapon and ammunition",
+    "id": "FMS-DFW-A-FOU-4"
+  },
+  {
+    "label": "Handle the service rifle safely",
+    "id": "FMS-DFW-A-FOU-5"
+  },
+  {
+    "label": "Adopt the degrees of weapon readiness",
+    "id": "FMS-DFW-A-FOU-6"
+  },
+  {
+    "label": "Strip and assemble the service rifle correctly",
+    "id": "FMS-DFW-A-FOU-7"
+  },
+  {
+    "label": "Adopt the appropriate firing position to suit the conditions",
+    "id": "FMS-DFW-A-FOU-8"
+  },
+  {
+    "label": "Carry out immediate action and stoppage drills as required.",
+    "id": "FMS-DFW-A-FOU-9"
+  },
+  {
+    "label": "Comply with range safety brief and practice brief when firing on the range",
+    "id": "FMS-DFW-A-FOU-10"
+  },
+  {
+    "label": "Apply effective fire using the in-service rifle",
+    "id": "FMS-DFW-A-FOU-11"
+  },
+  {
+    "label": "Demonstrate the combat shooting behaviours consistently when operating the in-service rifle",
+    "id": "FMS-DFW-A-FOU-12"
+  },
+  {
+    "label": "Clean, maintain function test and secure the service rifle and ammunition ",
+    "id": "FMS-DFW-A-FOU-13"
+  },
+  {
+    "label": "Comply with Rules of Engagement and Orders for opening fire consistently",
+    "id": "FMS-DFW-A-FOU-14"
+  },
+  {
+    "label": "Comply with fire control orders",
+    "id": "FMS-DFW-A-FOU-15"
+  },
+  {
+    "label": "Conduct a rifle practice grouping",
+    "id": "FMS-DFW-A-FOU-16"
+  },
+  {
+    "label": "Conduct a rifle practice zeroing",
+    "id": "FMS-DFW-A-FOU-17"
+  },
+  {
+    "label": "Conduct a close shooting rifle practice",
+    "id": "FMS-DFW-A-FOU-18"
+  },
+  {
+    "label": "Conduct Rifle Practice 1-3",
+    "id": "FMS-DFW-A-FOU-19"
+  },
+  {
+    "label": "Conduct Rifle Practice 3A Combatant Assessment",
+    "id": "FMS-DFW-A-FOU-20"
+  },
+  {
+    "label": "Conduct an Administrative Top Up during the rifle practices",
+    "id": "FMS-DFW-A-FOU-21"
+  },
+  {
+    "label": "Use cover appropriately during the rifle practices",
+    "id": "FMS-DFW-A-FOU-22"
+  },
+  {
+    "label": "Demonstrate safe and appropriate trigger preparation throughout the rifle practices",
+    "id": "FMS-DFW-A-FOU-23"
+  },
+  {
+    "label": "Maintain safety throughout rifle practices",
+    "id": "FMS-DFW-A-FOU-24"
+  },
+  {
+    "label": "Conduct the post-engagement sequence during rifle practices",
+    "id": "FMS-DFW-A-FOU-25"
+  },
+  {
+    "label": "Conduct a tactical reload during rifle practices",
+    "id": "FMS-DFW-A-FOU-26"
+  },
+  {
+    "label": "Conduct an emergency reload during the rifle practices",
+    "id": "FMS-DFW-A-FOU-27"
+  },
+  {
+    "label": "Maintain combat preparation and readiness",
+    "id": "FMS-DFW-B-FOU-1"
+  },
+  {
+    "label": "Conduct effective weapon and equipment setup",
+    "id": "FMS-DFW-B-FOU-2"
+  },
+  {
+    "label": "Demonstrate safe weapon direction and handling",
+    "id": "FMS-DFW-B-FOU-3"
+  },
+  {
+    "label": "Apply static threat engagement stances and grip at high and low ready",
+    "id": "FMS-DFW-B-FOU-4"
+  },
+  {
+    "label": "Apply static threat engagement stances and grip at the Engagement Position and Weapon Stance",
+    "id": "FMS-DFW-B-FOU-5"
+  },
+  {
+    "label": "Complete the F89 Weapons Training Test successfully",
+    "id": "FMS-DFW-C-FOU-1"
+  },
+  {
+    "label": "Complete the F89 Qualification Practice successfully",
+    "id": "FMS-DFW-C-FOU-2"
+  },
+  {
+    "label": "Handle the LSW safely",
+    "id": "FMS-DFW-C-FOU-3"
+  },
+  {
+    "label": "Adopt the degrees of weapon readiness",
+    "id": "FMS-DFW-C-FOU-4"
+  },
+  {
+    "label": "Strip and assemble the LSW correctly",
+    "id": "FMS-DFW-C-FOU-5"
+  },
+  {
+    "label": "Carry out immediate action and stoppage drills as required for the LSW",
+    "id": "FMS-DFW-C-FOU-6"
+  },
+  {
+    "label": "Utilise the buddy system for safe weapon handling",
+    "id": "FMS-DFW-C-FOU-7"
+  },
+  {
+    "label": "Describe communications security procedures",
+    "id": "FMS-ES-A-FOU-1"
+  },
+  {
+    "label": "Describe cryptographic security procedures",
+    "id": "FMS-ES-A-FOU-2"
+  },
+  {
+    "label": "Describe the employment of the combat net radios and BMS",
+    "id": "FMS-ES-A-FOU-3"
+  },
+  {
+    "label": "Describe WHS radiation hazard considerations for combat net radios",
+    "id": "FMS-ES-A-FOU-4"
+  },
+  {
+    "label": "Establish communications utilising a pre-configured in-service communications device",
+    "id": "FMS-ES-A-FOU-5"
+  },
+  {
+    "label": "Conduct the procedure for calling and answering accurately",
+    "id": "FMS-ES-A-FOU-6"
+  },
+  {
+    "label": "Demonstrate the different types of calls",
+    "id": "FMS-ES-A-FOU-7"
+  },
+  {
+    "label": "Conduct the procedure for arranging a voice conversation",
+    "id": "FMS-ES-A-FOU-8"
+  },
+  {
+    "label": "Conduct the procedure for using nicknames and designators",
+    "id": "FMS-ES-A-FOU-9"
+  },
+  {
+    "label": "Conduct the procedure for transmission of messages",
+    "id": "FMS-ES-A-FOU-10"
+  },
+  {
+    "label": "Conduct the procedure for corrections and repetitions",
+    "id": "FMS-ES-A-FOU-11"
+  },
+  {
+    "label": "Record all transmissions in the signals log book",
+    "id": "FMS-ES-A-FOU-12"
+  },
+  {
+    "label": ". Operate the in-service radio without a breach in WHS",
+    "id": "COMSEC or damage to the equipment",
+    "": "FMS-ES-A-FOU-13"
+  },
+  {
+    "label": "Demonstrate foundation combat communications behaviours",
+    "id": "FMS-ES-A-FOU-14"
+  },
+  {
+    "label": "Explain the effective maintenance requirement for the BNVD",
+    "id": "FMS-ES-B-FOU-1"
+  },
+  {
+    "label": "Explain if any modifications can be applied to the BNVD or helmet mount",
+    "id": "FMS-ES-B-FOU-2"
+  },
+  {
+    "label": "Setup the CWBP and BNVD power source",
+    "id": "FMS-ES-B-FOU-3"
+  },
+  {
+    "label": "Fit and secure the helmet mount onto the helmet",
+    "id": "FMS-ES-B-FOU-4"
+  },
+  {
+    "label": "Fit and secure the BNVD onto the helmet",
+    "id": "FMS-ES-B-FOU-5"
+  },
+  {
+    "label": "Turn the BNVD on",
+    "id": "FMS-ES-B-FOU-6"
+  },
+  {
+    "label": "Adjust anterpapillary adjustment as required",
+    "id": "FMS-ES-B-FOU-7"
+  },
+  {
+    "label": "Adjust for correct eye relief",
+    "id": "FMS-ES-B-FOU-8"
+  },
+  {
+    "label": "Adjust the brightness",
+    "id": "FMS-ES-B-FOU-9"
+  },
+  {
+    "label": "Adjust the focus to suit individual requirements",
+    "id": "FMS-ES-B-FOU-10"
+  },
+  {
+    "label": "Set the auto sleep function on temporary",
+    "id": "FMS-ES-B-FOU-11"
+  },
+  {
+    "label": "Place the BNVD into the sowed position",
+    "id": "FMS-ES-B-FOU-12"
+  },
+  {
+    "label": "Turn off the BNVD",
+    "id": "FMS-ES-B-FOU-13"
+  },
+  {
+    "label": "Remove the BNVD from the helmet mount",
+    "id": "FMS-ES-B-FOU-14"
+  },
+  {
+    "label": "Complete a live fire zero practice with an IR aiming device whilst viewing through the BNVD",
+    "id": "FMS-ES-B-FOU-15"
+  },
+  {
+    "label": "Conduct safety precautions for the LAID",
+    "id": "FMS-ES-C-FOU-1"
+  },
+  {
+    "label": "Fit and remove the LAID to the weapon securely and without damage to the device or weapon",
+    "id": "FMS-ES-C-FOU-2"
+  },
+  {
+    "label": "Explain high and low power",
+    "id": "FMS-ES-C-FOU-3"
+  },
+  {
+    "label": "Explain the maintenance of the LAID",
+    "id": "FMS-ES-C-FOU-4"
+  },
+  {
+    "label": "Explain a likely fault and actions required to rectify the fault",
+    "id": "FMS-ES-C-FOU-5"
+  },
+  {
+    "label": "Explain and demonstrate dry zeroing",
+    "id": "FMS-ES-C-FOU-6"
+  },
+  {
+    "label": "Explain the live fire zero procedure",
+    "id": "FMS-ES-C-FOU-7"
+  },
+  {
+    "label": "Correctly operate the LAID",
+    "id": "FMS-ES-C-FOU-8"
+  },
+  {
+    "label": "Explain Laser Safety",
+    "id": "FMS-ES-C-FOU-9"
+  },
+  {
+    "label": "Explain Weapon Light Safety",
+    "id": "FMS-ES-C-FOU-10"
+  },
+  {
+    "label": "Complete the live fire zero practice with LAID whilst viewing through the BNVD",
+    "id": "FMS-ES-C-FOU-11"
+  },
+  {
+    "label": "Conduct safety precautions for the LAIRD",
+    "id": "FMS-ES-D-FOU-1"
+  },
+  {
+    "label": "Fit and remove the LAIRD to the weapon securely and without damange to the device or weapon",
+    "id": "FMS-ES-D-FOU-2"
+  },
+  {
+    "label": "Explain high and low power",
+    "id": "FMS-ES-D-FOU-3"
+  },
+  {
+    "label": "Explain the effective maintenance of the LAIRD",
+    "id": "FMS-ES-D-FOU-4"
+  },
+  {
+    "label": "Explain a likely fault and actions required to rectify the fault",
+    "id": "FMS-ES-D-FOU-5"
+  },
+  {
+    "label": "Explain and demonstrate dry zeroing",
+    "id": "FMS-ES-D-FOU-6"
+  },
+  {
+    "label": "Explain the live fire zero procedure",
+    "id": "FMS-ES-D-FOU-7"
+  },
+  {
+    "label": "Correctly operate the LAIRD",
+    "id": "FMS-ES-D-FOU-8"
+  },
+  {
+    "label": "Explain Laser Safety",
+    "id": "FMS-ES-D-FOU-9"
+  },
+  {
+    "label": "Explain Weapon Light Safety",
+    "id": "FMS-ES-D-FOU-10"
+  },
+  {
+    "label": "Complete the live fire zero practice with LAIRD whilst viewing through the BNVD",
+    "id": "FMS-ES-D-FOU-11"
+  },
+  {
+    "label": "Safety handle F3 practice grenades",
+    "id": "FMS-ES-E-FOU-1"
+  },
+  {
+    "label": "Safely handle F1 Fragmentation Grenades",
+    "id": "FMS-ES-E-FOU-2"
+  },
+  {
+    "label": "Demonstrate three positions when throwing F3 Practice Grenades (Kneeling",
+    "id": "standing",
+    "": "prone)"
+  },
+  {
+    "label": "Conduct grenade drills correctly when ordered",
+    "id": "FMS-ES-E-FOU-4"
+  },
+  {
+    "label": "Adopt throwing positions as required",
+    "id": "FMS-ES-E-FOU-5"
+  },
+  {
+    "label": "Apply the throwing principles",
+    "id": "FMS-ES-E-FOU-6"
+  },
+  {
+    "label": "Safely throw at least two F3 Practice grenades",
+    "id": "FMS-ES-E-FOU-7"
+  },
+  {
+    "label": "Safely throw two F1 Grenades",
+    "id": "FMS-ES-E-FOU-8"
+  },
+  {
+    "label": "Refurbish F3 Practice Grenades",
+    "id": "FMS-ES-E-FOU-9"
+  },
+  {
+    "label": "Complete the initial action plan including CPR",
+    "id": "FMS-FC-A-FOU-1"
+  },
+  {
+    "label": "Treat a fracture of either an upper or lower limb",
+    "id": "FMS-FC-A-FOU-2"
+  },
+  {
+    "label": "Manage truama injuries effectively",
+    "id": "FMS-FC-A-FOU-3"
+  },
+  {
+    "label": "Apply a PIT correctly",
+    "id": "FMS-FC-A-FOU-4"
+  },
+  {
+    "label": "Treat environmental illnesses",
+    "id": "FMS-FC-A-FOU-5"
+  },
+  {
+    "label": "Treat burns effectively",
+    "id": "FMS-FC-A-FOU-6"
+  },
+  {
+    "label": "Treat for shock",
+    "id": "FMS-FC-A-FOU-7"
+  },
+  {
+    "label": "Apply all precautions required for moving a casualty with a suspected spinal injury",
+    "id": "FMS-FC-A-FOU-8"
+  },
+  {
+    "label": "Describe the history of Chemical",
+    "id": "Biological",
+    "": "Radiological and Nuclear (CBRN) warfare"
+  },
+  {
+    "label": "Describe CBRN agents",
+    "id": "their characteristics and effects on human",
+    "": "animal and plant life and the environment"
+  },
+  {
+    "label": "Describe operations in CBRN threat environments and defensive countermeasures",
+    "id": "FMS-FC-B-FOU-3"
+  },
+  {
+    "label": "Describe CBRND doctrine and unit SOPs",
+    "id": "FMS-FC-B-FOU-4"
+  },
+  {
+    "label": "Use current in-Service Tier 1 CBRN detection equipment appropriately",
+    "id": "FMS-FC-B-FOU-5"
+  },
+  {
+    "label": "Report CBRN threats accurately",
+    "id": "FMS-FC-B-FOU-6"
+  },
+  {
+    "label": "Demonstrate knowledge of current in-Service CBRND Individual Protective Ensemble (IPE).",
+    "id": "FMS-FC-B-FOU-7"
+  },
+  {
+    "label": "Carry out CBRND Immediate Action (IA) and Immediate Decontamination (ID) Drills.",
+    "id": "FMS-FC-B-FOU-8"
+  },
+  {
+    "label": "Carry out IPE cleaning and maintenance.",
+    "id": "FMS-FC-B-FOU-9"
+  },
+  {
+    "label": "Judge distances accurately",
+    "id": "FMS-FC-C-FOU-1"
+  },
+  {
+    "label": "Observe the battlefield by day and night",
+    "id": "FMS-FC-C-FOU-2"
+  },
+  {
+    "label": "Identify and indicate targets",
+    "id": "FMS-FC-C-FOU-3"
+  },
+  {
+    "label": "Assemble",
+    "id": "adjust",
+    "": "wear and maintain field equipment & PPE"
+  },
+  {
+    "label": "Live in the field maintaining operational discipline",
+    "id": "FMS-FC-C-FOU-5"
+  },
+  {
+    "label": "Maintain a high standard of individual health and hygiene in the field",
+    "id": "FMS-FC-C-FOU-6"
+  },
+  {
+    "label": "Recognise why things are seen",
+    "id": "FMS-FC-C-FOU-7"
+  },
+  {
+    "label": "Apply and maintain individual camouflage and countersurveillance measures for personal protection",
+    "id": "FMS-FC-C-FOU-8"
+  },
+  {
+    "label": "Employ field signals effectively",
+    "id": "FMS-FC-C-FOU-9"
+  },
+  {
+    "label": "Apply individual movement techniques",
+    "id": "FMS-FC-C-FOU-10"
+  },
+  {
+    "label": "Explain the guidelines for good concealment",
+    "id": "FMS-FC-C-FOU-11"
+  },
+  {
+    "label": "Demonstrate the principles of personal camouflage",
+    "id": "FMS-FC-C-FOU-12"
+  },
+  {
+    "label": "Prepare and consume meals from CR1Ms",
+    "id": "FMS-FC-C-FOU-13"
+  },
+  {
+    "label": "Dispose of rubbish accordingly",
+    "id": "FMS-FC-C-FOU-14"
+  },
+  {
+    "label": "Interpret and relay field signals",
+    "id": "FMS-FC-C-FOU-15"
+  },
+  {
+    "label": "Prepare and sleep in a sleeping area",
+    "id": "FMS-FC-C-FOU-16"
+  },
+  {
+    "label": "Apply the principles of observation by night effectively",
+    "id": "FMS-FC-C-FOU-17"
+  },
+  {
+    "label": "Demonstrate effective movements for moving at night",
+    "id": "FMS-FC-C-FOU-18"
+  },
+  {
+    "label": ". Conduct morning",
+    "id": "afternoon",
+    "": "evening and defensive routines"
+  },
+  {
+    "label": "Plot and measure grid bearings within 20mils",
+    "id": "FMS-FC-D-FOU-1"
+  },
+  {
+    "label": "Calculate magnetic variation from the map",
+    "id": "FMS-FC-D-FOU-2"
+  },
+  {
+    "label": "Plot a six figure Grid Reference with a protractor",
+    "id": "FMS-FC-D-FOU-3"
+  },
+  {
+    "label": "Measure a distance on the map (within 100m accuracy)",
+    "id": "FMS-FC-D-FOU-4"
+  },
+  {
+    "label": "Convert grid bearings to magnetic bearings and magnetic bearings to grid bearings",
+    "id": "FMS-FC-D-FOU-5"
+  },
+  {
+    "label": "Determine distance by foot over varying terrain in patrol order",
+    "id": "FMS-FC-D-FOU-6"
+  },
+  {
+    "label": "Relate identifiable features on a map to corresponding ones on the ground",
+    "id": "FMS-FC-D-FOU-7"
+  },
+  {
+    "label": "Orientate a map using a compass",
+    "id": "FMS-FC-D-FOU-8"
+  },
+  {
+    "label": "Shoot a magnetic bearing to visible objects",
+    "id": "FMS-FC-D-FOU-9"
+  },
+  {
+    "label": "Maintain a bearing while on the move.",
+    "id": "FMS-FC-D-FOU-10"
+  },
+  {
+    "label": "Conduct three legs of navigation by day",
+    "id": "FMS-FC-D-FOU-11"
+  },
+  {
+    "label": "Conduct one leg of navigation by night",
+    "id": "FMS-FC-D-FOU-12"
+  },
+  {
+    "label": "Demonstrate a change in bearing by conducting two legs of navigation consecutively",
+    "id": "FMS-FC-D-FOU-13"
+  },
+  {
+    "label": "Navigate a minimum of 100m per leg",
+    "id": "FMS-FC-D-FOU-14"
+  },
+  {
+    "label": "Plot and measure distance on a map within 100m accuracy",
+    "id": "FMS-FC-D-FOU-15"
+  },
+  {
+    "label": "Suppress the enemy threat (conduct basic drill)",
+    "id": "FMS-BC-A-FOU-1"
+  },
+  {
+    "label": "Direct or move a casualty to safety within the tactical setting",
+    "id": "FMS-BC-A-FOU-2"
+  },
+  {
+    "label": "Identify the principles and clinical interventions associated with the management of combat casualties during care under e",
+    "id": "FMS-BC-A-FOU-3"
+  },
+  {
+    "label": "Determine the requirement and apply the in-service tourniquet",
+    "id": "FMS-BC-A-FOU-4"
+  },
+  {
+    "label": "Incorporate security setting into treatment",
+    "id": "FMS-BC-B-FOU-1"
+  },
+  {
+    "label": "Identify the principles and clinical interventions associated with the management of combat casualties during Tactical Field e",
+    "id": "FMS-BC-B-FOU-2"
+  },
+  {
+    "label": "Identify and address Catastrophic Haemorrhage",
+    "id": "FMS-BC-B-FOU-3"
+  },
+  {
+    "label": "Identify compromised Airway and need for interventions",
+    "id": "FMS-BC-B-FOU-4"
+  },
+  {
+    "label": "Identify Breathing status",
+    "id": "and need for interventions",
+    "": "FMS-BC-B-FOU-5"
+  },
+  {
+    "label": "Assess Circulation and address other haemorrhage",
+    "id": "FMS-BC-B-FOU-6"
+  },
+  {
+    "label": "Assess Disability",
+    "id": "FMS-BC-B-FOU-7"
+  },
+  {
+    "label": "Prepare casualty for Environment and Evacuation",
+    "id": "FMS-BC-B-FOU-8"
+  },
+  {
+    "label": "Maintain security perimeter in accordance with unit tactical operating procedures",
+    "id": "FMS-BC-C-FOU-1"
+  },
+  {
+    "label": "Discuss triage principles appropriate to the management of combat casualties during Tactical Evacuation",
+    "id": "FMS-BC-C-FOU-2"
+  },
+  {
+    "label": "Describe the fundamental principles involved in packaging",
+    "id": "transporting and handling of a casualty",
+    "": "FMS-BC-C-FOU-3"
+  },
+  {
+    "label": "Assessment and treatment as per tactical field care",
+    "id": "FMS-BC-C-FOU-4"
+  },
+  {
+    "label": "Discuss various evacuation platforms available in an Area of Operations",
+    "id": "FMS-BC-C-FOU-5"
+  },
+  {
+    "label": "Structure of a 9 liner CASEVAC request",
+    "id": "FMS-BC-C-FOU-6"
+  },
+  {
+    "label": "Complete a PM377-1 Tactical Combat Casualty Care card",
+    "id": "FMS-BC-C-FOU-7"
+  },
+  {
+    "label": "Send a MIST and use ATMIST as a handover to a clinician including the assessment of a casualty's pulse and pirations",
+    "id": "FMS-BC-C-FOU-8"
+  },
+  {
+    "label": "Explain medical care rendered when placed aboard evacuation platforms",
+    "id": "FMS-BC-C-FOU-9"
+  },
+  {
+    "label": "Discuss considerations for an evacuation route",
+    "id": "FMS-BC-C-FOU-10"
+  },
+  {
+    "label": "Describe the Army Combative Program and its evolution within the Australian Army context.",
+    "id": "FMS-BC-D-FOU-1"
+  },
+  {
+    "label": "Understand the use of force continuum in the Army Combative Program.",
+    "id": "FMS-BC-D-FOU-2"
+  },
+  {
+    "label": "Correctly employ the principles of the Army Combative Program.",
+    "id": "FMS-BC-D-FOU-3"
+  },
+  {
+    "label": "Demonstrate an understanding of the kinetic stance",
+    "id": "kinetic phase and kinetic IA",
+    "": "FMS-BC-D-FOU-4"
+  },
+  {
+    "label": "Correctly employ counter to strike techniques.",
+    "id": "FMS-BC-D-FOU-5"
+  },
+  {
+    "label": "Employ ground survival techniques whilst engaging a simulated enemy combatant.",
+    "id": "FMS-BC-D-FOU-6"
+  },
+  {
+    "label": "Correctly execute primary weapon retention.",
+    "id": "FMS-BC-D-FOU-7"
+  },
+  {
+    "label": "Correctly employ first responder - emergency assist actions.",
+    "id": "FMS-BC-D-FOU-8"
+  },
+  {
+    "label": "Adopt a firing position that provides comcealment and cover",
+    "id": "FMS-BC-E-FOU-1"
+  },
+  {
+    "label": "Adopt a firing positions that allow for observation of the enemy",
+    "id": "FMS-BC-E-FOU-2"
+  },
+  {
+    "label": "Adopt firing positions that allow the soldier to employ their weapon",
+    "id": "FMS-BC-E-FOU-3"
+  },
+  {
+    "label": "Adopt firing positions that can be occupied and left by a covered route",
+    "id": "FMS-BC-E-FOU-4"
+  },
+  {
+    "label": "Respond effectively to fire control orders",
+    "id": "FMS-BC-E-FOU-5"
+  },
+  {
+    "label": "Relay fire control orders",
+    "id": "FMS-BC-E-FOU-6"
+  },
+  {
+    "label": "Comply with individual fire control orders",
+    "id": "FMS-BC-E-FOU-7"
+  },
+  {
+    "label": "Comply with the rules for fire control orders (CLAP)",
+    "id": "FMS-BC-E-FOU-8"
+  },
+  {
+    "label": "Give fire control orders in the set sequence (GRIT)",
+    "id": "FMS-BC-E-FOU-9"
+  },
+  {
+    "label": "Use range cards appropriately",
+    "id": "FMS-BC-E-FOU-10"
+  },
+  {
+    "label": "Undertake tasks promulgated by various types of orders",
+    "id": "FMS-BC-E-FOU-11"
+  },
+  {
+    "label": "Relay and comply with fire-control orders",
+    "id": "FMS-BC-E-FOU-12"
+  },
+  {
+    "label": "Compile and use range cards",
+    "id": "FMS-BC-E-FOU-13"
+  },
+  {
+    "label": "Employ the Service Rifle and LSW on defined arcs",
+    "id": "FMS-BC-E-FOU-14"
+  },
+  {
+    "label": "When directed maintain various section formations",
+    "id": "FMS-BC-E-FOU-15"
+  },
+  {
+    "label": "Act as a sentry",
+    "id": "FMS-BC-E-FOU-16"
+  },
+  {
+    "label": ". Act as a section member during fighting",
+    "id": "standing and reconnaissance patrols",
+    "": "FMS-BC-E-FOU-17"
+  },
+  {
+    "label": "Conduct the basic contact drill",
+    "id": "FMS-BC-E-FOU-18"
+  },
+  {
+    "label": ". Apply LOAC & ROE",
+    "id": "comply with OFOF",
+    "": "FMS-BC-E-FOU-19"
+  },
+  {
+    "label": "Handle detainees and non-combatants (or refugees) / Capture and handle PWs",
+    "id": "FMS-BC-E-FOU-20"
+  },
+  {
+    "label": "Occupy a section defensive position & maintain defensive routine",
+    "id": "FMS-BC-E-FOU-21"
+  },
+  {
+    "label": "Cross Obstacles",
+    "id": "FMS-BC-E-FOU-22"
+  },
+  {
+    "label": "Occupy stage 3 defensive pits",
+    "id": "FMS-BC-E-FOU-23"
+  },
+  {
+    "label": "Construct a sandbag wall with at least one corner",
+    "id": "FMS-BC-E-FOU-24"
+  },
+  {
+    "label": "Construct 30m of Cat - wire Type 1",
+    "id": "FMS-BC-E-FOU-25"
+  },
+  {
+    "label": "Conduct protection at the halt in open and close country",
+    "id": "FMS-BC-E-FOU-26"
+  }
+]

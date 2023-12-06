@@ -1,0 +1,54 @@
+Competency,Skills,,,
+"Lead a small team
+(INT-1)",LEAD-A-INT- Lead a small team,,,
+,LEAD-B-FOU - Motivate and Influence a small team,,,
+,LEAD-C-FOU - Develop individuals within your team,,,
+,ETHI-A-INT - Make ethical decisions,,,
+,CHAR-A-INT - Develop own chatacter as a leader,,,
+,MA-ASO-A-INT -Support personal and personnel administration,,,
+,MA-ASO-B-INT - Support suborindate wellbeing,,,
+"Conducts Ceremonial Drill
+(INT-2)",CULT-A-INT - Performs drill for ceremonial activities,,,
+"Support and develop subordinates
+(INT-3)",MA-ASO-A-INT - Support personnel and personnel administration,,,
+,MA-ASO-B-INT - Support suborindate wellbeing,,,
+,TD-ID-A-FOU - Deliver Training,,,
+,TD-ID-B-FOU - Conduct Assessment,,,
+,C-AW-A-FOU - Produce basic written documents,,,
+"Produce a Risk Assessment
+(INT-4)",MA-GA-F-FOU - Produce a rsik assessment,,,
+"Apply military discipline law
+(INT-5)",CULT-B-INT - Apply military discipline law,,,
+"Supervise Land Materiel 
+(INT-6)",MA-RA-A-INT - Supervise Land Materiel,,,
+"Conduct the role of an Ammunition Safety Supervisor 
+(INT-7)",MA-RA-B-INT - Conduct explosive ordance processes as an ammunition safety supervisor,,,
+"Manage Defence resources 
+(INT-8)",MA-RA-A-INT - Supervise Land Materiel,,,
+,MA-RA-B-INT - Conduct explosive ordance processes as an ammunition safety supervisor,,,
+"Maintain a safe workplace
+(INT-9)",MA-GA-A-INT - Maintain a safe workplace,,,
+"Review general range safety for CAT 1-7 practices
+(INT-10)",MA-GA-B-INT - Review general range safety for CAT 1-7 practices,,,
+"Conduct the role of a Safety Supervisor at a CAT 1-7 practice
+(INT-11)",MA-GA-C-INT - Conduct the duties of a safety supervisor at a CAT 1-7 practice,,,
+"Conduct the role of an OIC at a CAT 1-7 practice
+(INT-12)",MA-GA-D-INT - Conduct the duties of an OIC at a CAT 1-7 practice,,,
+"Manage a permanent Basic Range
+(INT-13)",MA-GA-B-INT - Review general range safety for CAT 1-7 practices,,,
+,MA-GA-C-INT - Conduct the duties of a safety supervisor at a CAT 1-7 practice,,,
+,MA-GA-D-INT - Conduct the duties of an OIC at a CAT 1-7 practice,,,
+"Plan and deliver section level orders
+(INT-14)",P-IP-A-FOU - Plan and deliver section level orders,,,
+"Supervise field communications
+(INT-15)",FMS-ES-A-INT - Supervise field communications,,,
+"Supervise section field craft activities
+(INT-16)",FMS-FC-A-INT - Supervise section field craft activities,,,
+"Employ section battlecraft techniques and measures
+(INT-17)",FMS-BC-A-INT - Employ section battlecraft techniques and measures,,,
+"Employ combat skills as a section leaders
+(INT-18)",P-IP-A-FOU - Plan and deliver section level orders,,,
+,FMS-ES-A-INT - Supervise field communications,,,
+,FMS-FC-A-INT - Supervise section field craft activities,,,
+,FMS-BC-A-INT - Employ section battlecraft techniques and measures,,,
+,,,,

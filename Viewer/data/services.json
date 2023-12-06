@@ -1,0 +1,26 @@
+[
+	{
+		"id": "Land",
+		"label": "Land",
+		"description": "Mostly Army but also includes",
+		"schools": [
+			"aso"
+		]
+	},
+	{
+		"id": "Air",
+		"label": "Air",
+		"description": "Australia's best legal education",
+		"schools": [
+			"deots"
+		]
+	},
+	{
+		"id": "Sea",
+		"label": "Sea",
+		"description": "Australia's best legal education",
+		"schools": [
+			"tss"
+		]
+	}
+]

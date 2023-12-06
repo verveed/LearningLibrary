@@ -1,0 +1,3267 @@
+[
+{
+	"label" :"200377 ARMY: HIGH MOBILITY ENGINEER EXCAVATOR OPERATORS COURSE",
+	"id" :"200377",
+	"proficiencies":
+	[
+		"P020832"
+	]
+},
+{
+	"label" :"IIS BRIDGE BOAT INTERFACE MODULE DRIVER ",
+	"id" :"217914",
+	"proficiencies":
+	[
+		"P127522"
+	]
+},
+{
+	"label" :"IIS BBI BASIC OPERATOR",
+	"id" :"217915",
+	"proficiencies":
+	[
+		"P127523"
+	]
+},
+{
+	"label" :"Supervise Safety Category 'Dismounted Manoeuvre' Range Practice",
+	"id" :"202558",
+	"proficiencies":
+	[
+		"P103501"
+	]
+},
+{
+	"label" :"RAE IET: Combat Engineer",
+	"id" :"217220",
+	"proficiencies":
+	[
+		"P126309",
+		"P106198",
+		"P100028",
+		"P010990",
+		"P100326",
+		"P127883",
+		"P103348",
+		"P103349",
+		"P021140",
+		"P107412",
+		"P101481",
+		"P106161",
+		"P101114",
+		"P021539",
+		"P107626",
+		"P127558",
+		"P010124",
+		"P020163",
+		"P020259",
+		"P020267"
+	]
+},
+{
+	"label" :"SUBJ 4 WO RAA STA",
+	"id" :"120225",
+	"proficiencies":
+	[
+		"P105075"
+	]
+},
+{
+	"label" :"Regimental Officer Gunnery STA",
+	"id" :"209548",
+	"proficiencies":
+	[
+		"P020472"
+	]
+},
+{
+	"label" :"Regimental Officer Gunnery AMDS",
+	"id" :"120210",
+	"proficiencies":
+	[
+		"P020527"
+	]
+},
+{
+	"label" :"CRV Driver",
+	"id" :"120187",
+	"proficiencies":
+	[
+		"P103795",
+		"P020001",
+		"P021369",
+		"P020002",
+		"P105105",
+		"P100317",
+		"P020011",
+		"P103788",
+		"P108874",
+		"P020722",
+		"P108383",
+		"P109290",
+		"P107634",
+		"P115429",
+		"P115078",
+		"P021387",
+		"P109292",
+		"P125979",
+		"P020353",
+		"P103462",
+		"P103463",
+		"P101869",
+		"P128013",
+		"P128014"
+	]
+},
+{
+	"label" :"RAAC Common Course",
+	"id" :"213276",
+	"proficiencies":
+	[
+		"P104215",
+		"P104734",
+		"P100028",
+		"P114647",
+		"P109777",
+		"P109778",
+		"P010990",
+		"P103787",
+		"P103251",
+		"P103260",
+		"P107012",
+		"P107017",
+		"P021241",
+		"P107826",
+		"P126968",
+		"P127833"
+	]
+},
+{
+	"label" :"Tank Driver",
+	"id" :"203310",
+	"proficiencies":
+	[
+		"P021335",
+		"P021369",
+		"P021387",
+		"P100317",
+		"P100378",
+		"P103594",
+		"P103788",
+		"P103795",
+		"P104817",
+		"P104818",
+		"P105943",
+		"P106925",
+		"P108874",
+		"P114955",
+		"P115429",
+		"P124822",
+		"P125972",
+		"P126874",
+		"P127034",
+		"P020001",
+		"P020002",
+		"P020011",
+		"P115078"
+	]
+},
+{
+	"label" :"PMV Instructor",
+	"id" :"205481",
+	"proficiencies":
+	[
+		"P104736",
+		"P103786",
+		"P101574",
+		"P107710",
+		"P108384",
+		"P105464"
+	]
+},
+{
+	"label" :"Conduct a Category '9a' (Standard Grenade Range) Practice",
+	"id" :"202549",
+	"proficiencies":
+	[
+		"P103492"
+	]
+},
+{
+	"label" :"Supervise Safety Category '9B' (Assault Grenade Range)",
+	"id" :"202550",
+	"proficiencies":
+	[
+		"P103493"
+	]
+},
+{
+	"label" :"TANK RECOVERY VEHICLE DRIVER",
+	"id" :"203323",
+	"proficiencies":
+	[
+		"P124822",
+		"P104831",
+		"P100378",
+		"P103594",
+		"P102012",
+		"P103787",
+		"P103788",
+		"P127034",
+		"P108874",
+		"P125972",
+		"P021241"
+	]
+},
+{
+	"label" :"TYRE MAINTENANCE SHELTER",
+	"id" :"208015",
+	"proficiencies":
+	[
+		"P103757"
+	]
+},
+{
+	"label" :"Supervise Safety Category '9a' (Standard Grenade Range)",
+	"id" :"202548",
+	"proficiencies":
+	[
+		"P103491"
+	]
+},
+{
+	"label" :"Subject 4 Warrant Officer RAA AMDS",
+	"id" :"215097",
+	"proficiencies":
+	[
+		"P122629"
+	]
+},
+{
+	"label" :"ARMY: DFSW Javelin Tactical Employment Module Course",
+	"id" :"207965",
+	"proficiencies":
+	[
+		"P107485"
+	]
+},
+{
+	"label" :"Direct Fire Support Weapons (DFSW) Sustained Fire Machine Gun (SFMG) Module Course",
+	"id" :"207555",
+	"proficiencies":
+	[
+		"P104735"
+	]
+},
+{
+	"label" :"RFSU Patrol 2IC",
+	"id" :"200192",
+	"proficiencies":
+	[
+		"P020184"
+	]
+},
+{
+	"label" :"SUBJ 4 CPL RAE ADV CE Phase 3",
+	"id" :"207677",
+	"proficiencies":
+	[
+		"P103371",
+		"P103372",
+		"P103373",
+		"P107474",
+		"P127523"
+	]
+},
+{
+	"label" :"M88 Instructor",
+	"id" :"214782",
+	"proficiencies":
+	[
+		"P106921",
+		"P106922",
+		"P021211",
+		"P104736",
+		"P103786",
+		"P101574",
+		"P107710"
+	]
+},
+{
+	"label" :"SUBJ 4 CPL ADV CE Ph 4 (EHR & MWF Team Leader)",
+	"id" :"207678",
+	"proficiencies":
+	[
+		"P107252",
+		"P101147"
+	]
+},
+{
+	"label" :"Conduct a Category '8B' (Individual Sneaker Range) Practice",
+	"id" :"202547",
+	"proficiencies":
+	[
+		"P103490"
+	]
+},
+{
+	"label" :"ARMY: C AND D VEHICLE GROUND GUIDE COURSE",
+	"id" :"206710",
+	"proficiencies":
+	[
+		"P021354"
+	]
+},
+{
+	"label" :"SUBJ 2 CPL RAINF - Section  Commander(ARes) Mod 1",
+	"id" :"202520",
+	"proficiencies":
+	[
+		"P103652"
+	]
+},
+{
+	"label" :"SUBJ 2 CPL RAINF - Section Commander (ARES) Mod 2",
+	"id" :"202509",
+	"proficiencies":
+	[
+		"P103644"
+	]
+},
+{
+	"label" :"Supervise Safety Category '8B' (Individual Sneaker Range)",
+	"id" :"202545",
+	"proficiencies":
+	[
+		"P103489"
+	]
+},
+{
+	"label" :"Conduct a Category '8A' (Section Defence Range) Practice",
+	"id" :"202544",
+	"proficiencies":
+	[
+		"P103488"
+	]
+},
+{
+	"label" :"TACTICS INSTRUCTOR COURSE",
+	"id" :"205942",
+	"proficiencies":
+	[
+		"P106012"
+	]
+},
+{
+	"label" :"Supervise Safety Category '8A' (Section Defence) Range",
+	"id" :"202543",
+	"proficiencies":
+	[
+		"P103487"
+	]
+},
+{
+	"label" :"Army Combative Program (ACP) Level Two (All Corps)",
+	"id" :"216119",
+	"proficiencies":
+	[
+		"P109701"
+	]
+},
+{
+	"label" :"RAINF Offr/NCO Mortar Course",
+	"id" :"215059",
+	"proficiencies":
+	[
+		"P010242",
+		"P021241"
+	]
+},
+{
+	"label" :"ARMY: Miscellaneous Tools Course",
+	"id" :"208023",
+	"proficiencies":
+	[
+		"P107577"
+	]
+},
+{
+	"label" :"Basic Field Power Generation",
+	"id" :"200968",
+	"proficiencies":
+	[
+		"P104367"
+	]
+},
+{
+	"label" :"ARMY: Intermediate Power Generation",
+	"id" :"200969",
+	"proficiencies":
+	[
+		"P104362"
+	]
+},
+{
+	"label" :"CRV SUBJ 4 SGT RAAC D&S",
+	"id" :"120179",
+	"proficiencies":
+	[
+		"P100348",
+		"P108384",
+		"P103757",
+		"P126322"
+	]
+},
+{
+	"label" :"SUBJ 4 SGT RAA Joint Fires",
+	"id" :"209455",
+	"proficiencies":
+	[
+		"P109461",
+		"P108079",
+		"P109597"
+	]
+},
+{
+	"label" :"Basic Combat Shooting Course",
+	"id" :"214736",
+	"proficiencies":
+	[
+		"P122189"
+	]
+},
+{
+	"label" :"Character Development",
+	"id" :"215992",
+	"proficiencies":
+	[
+		"P107826"
+	]
+},
+{
+	"label" :"Armed Security Warden (ASW)",
+	"id" :"209638",
+	"proficiencies":
+	[
+		"P020526"
+	]
+},
+{
+	"label" :"Unarmed Security Warden",
+	"id" :"209637",
+	"proficiencies":
+	[
+		"P100380"
+	]
+},
+{
+	"label" :"Regimental Officers Basic Course (STA)",
+	"id" :"205715",
+	"proficiencies":
+	[
+		"P106404"
+	]
+},
+{
+	"label" :"JOINT FIRES TEAM BASIC (DIGITAL) ",
+	"id" :"213949",
+	"proficiencies":
+	[
+		"P108049",
+		"P114298",
+		"P020536",
+		"P129591",
+		"P109968"
+	]
+},
+{
+	"label" :"TANK SUBJ 4 SGT RAAC D&S",
+	"id" :"203315",
+	"proficiencies":
+	[
+		"P104823",
+		"P002767",
+		"P126322",
+		"P021242",
+		"P103960",
+		"P021211",
+		"P001012",
+		"P021255"
+	]
+},
+{
+	"label" :"Operate and Maintain ROVER ",
+	"id" :"209198",
+	"proficiencies":
+	[
+		"P100674"
+	]
+},
+{
+	"label" :"SUBJ 2 SGT RAINF (ARes)",
+	"id" :"203090",
+	"proficiencies":
+	[
+		"P104397",
+		"P104395",
+		"P104396"
+	]
+},
+{
+	"label" :"Cavalry Scout Grade 2",
+	"id" :"203243",
+	"proficiencies":
+	[
+		"P115429",
+		"P020002",
+		"P020011",
+		"P021387",
+		"P100028",
+		"P103787",
+		"P021112",
+		"P104734",
+		"P126968",
+		"P126969"
+	]
+},
+{
+	"label" :"High Capacity Line of Sight Course",
+	"id" :"218532",
+	"proficiencies":
+	[
+		"P128867"
+	]
+},
+{
+	"label" :"TARGET MENSURATION ONLY (TMO) COURSE",
+	"id" :"213954",
+	"proficiencies":
+	[
+		"P108054"
+	]
+},
+{
+	"label" :"Foundation Communications Course",
+	"id" :"214094",
+	"proficiencies":
+	[
+		"P021302"
+	]
+},
+{
+	"label" :"Permanent Basic Range CAT 1-7 (OIC & SS)",
+	"id" :"217076",
+	"proficiencies":
+	[
+		"P103485",
+		"P103486"
+	]
+},
+{
+	"label" :"Combat Officers Advanced Course (ARA & OS)",
+	"id" :"202831",
+	"proficiencies":
+	[
+		"P020473",
+		"P124954"
+	]
+},
+{
+	"label" :"Supervise Safety on Category 10B (Claymore) Range Practice",
+	"id" :"202555",
+	"proficiencies":
+	[
+		"P103497"
+	]
+},
+{
+	"label" :"Conduct a Category 10B (Claymore) Range Practice",
+	"id" :"202557",
+	"proficiencies":
+	[
+		"P103498"
+	]
+},
+{
+	"label" :"Part Time Military Engineer Regimental Officer Basic Course",
+	"id" :"200055",
+	"proficiencies":
+	[
+		"P103357",
+		"P103358"
+	]
+},
+{
+	"label" :"Mechanised Regimental Officers Course",
+	"id" :"216704",
+	"proficiencies":
+	[
+		"P125715",
+		"P020002",
+		"P021387",
+		"P124190",
+		"P021241",
+		"P103788",
+		"P108874",
+		"P021335",
+		"P020952",
+		"P021527",
+		"P021512",
+		"P021464",
+		"P122178",
+		"P021533",
+		"P106925",
+		"P103787",
+		"P100324",
+		"P104451",
+		"P120853",
+		"P104736",
+		"P103786",
+		"P101574",
+		"P120861",
+		"P115429",
+		"P104626",
+		"P107711"
+	]
+},
+{
+	"label" :"Sniper Supervisor Course",
+	"id" :"120240",
+	"proficiencies":
+	[
+		"P100458"
+	]
+},
+{
+	"label" :"SUBJ 4 SGT RAE SPVR CE Phase 3",
+	"id" :"207869",
+	"proficiencies":
+	[
+		"P101412",
+		"P103370",
+		"P107429"
+	]
+},
+{
+	"label" :"Medium Girder Bridge Constructor",
+	"id" :"209588",
+	"proficiencies":
+	[
+		"P101481"
+	]
+},
+{
+	"label" :"RFSU ENVIRONMENTAL SURVIVAL EXPONENT",
+	"id" :"202297",
+	"proficiencies":
+	[
+		"P103412"
+	]
+},
+{
+	"label" :"WASP AE SUAS OPERATOR",
+	"id" :"215355",
+	"proficiencies":
+	[
+		"P020343"
+	]
+},
+{
+	"label" :"ARMY: MILITARY ENGINEER REGIMENTAL OFFICER BASIC COURSE",
+	"id" :"120257",
+	"proficiencies":
+	[
+		"P020554",
+		"P103795",
+		"P020001",
+		"P021369",
+		"P103348",
+		"P103376",
+		"P103375",
+		"P000966",
+		"P103365",
+		"P021112",
+		"P103308",
+		"P114977",
+		"P101907",
+		"P127435",
+		"P103382",
+		"P108666",
+		"P103765",
+		"P107013",
+		"P107835",
+		"P107653",
+		"P128576"
+	]
+},
+{
+	"label" :"Part Time Military Engineer ",
+	"id" :"216604",
+	"proficiencies":
+	[
+		"P107826",
+		"P109814",
+		"P108658",
+		"P107577",
+		"P103343",
+		"P109054",
+		"P127560",
+		"P127561",
+		"P125316",
+		"P114977"
+	]
+},
+{
+	"label" :"BRIDGE ERECTION PROPULSION BOAT (BEPB) OPERATOR",
+	"id" :"202677",
+	"proficiencies":
+	[
+		"P103312",
+		"P105419",
+		"P127523"
+	]
+},
+{
+	"label" :"M113AS4 AFV Driver",
+	"id" :"205687",
+	"proficiencies":
+	[
+		"P103788",
+		"P108874",
+		"P021335",
+		"P105943",
+		"P114955",
+		"P106925"
+	]
+},
+{
+	"label" :"SUBJ 4 SGT RAE SPVR CE Phase 2",
+	"id" :"207880",
+	"proficiencies":
+	[
+		"P020334",
+		"P103308",
+		"P103365",
+		"P107428",
+		"P107653",
+		"P107835",
+		"P103375",
+		"P128576",
+		"P000966"
+	]
+},
+{
+	"label" :"PD-100 Black Hornet NUAS Operator",
+	"id" :"215400",
+	"proficiencies":
+	[
+		"P021600"
+	]
+},
+{
+	"label" :"Regimental Officer Basic RAA AMDS",
+	"id" :"120209",
+	"proficiencies":
+	[
+		"P020544",
+		"P100420",
+		"P105037"
+	]
+},
+{
+	"label" :"RAA Common Induction Training ",
+	"id" :"207846",
+	"proficiencies":
+	[
+		"P114647",
+		"P109777",
+		"P109778",
+		"P103251",
+		"P103260",
+		"P107012",
+		"P107017",
+		"P109701",
+		"P021241",
+		"P107826",
+		"P127883"
+	]
+},
+{
+	"label" :"Conduct a Category 10A (DFSW & A-Armour) Range Practice",
+	"id" :"202554",
+	"proficiencies":
+	[
+		"P103496"
+	]
+},
+{
+	"label" :"Basic Sniper",
+	"id" :"200162",
+	"proficiencies":
+	[
+		"P103326",
+		"P103333",
+		"P104227",
+		"P107410",
+		"P106121",
+		"P115171"
+	]
+},
+{
+	"label" :"Explosive Hazard Reduction and Mine Warfare Operator",
+	"id" :"208022",
+	"proficiencies":
+	[
+		"P107626"
+	]
+},
+{
+	"label" :"ARMY: RAE Search Operator",
+	"id" :"208165",
+	"proficiencies":
+	[
+		"P103349",
+		"P021140"
+	]
+},
+{
+	"label" :"Part Time Combat Engineer ",
+	"id" :"218372",
+	"proficiencies":
+	[
+		"P103348",
+		"P021140",
+		"P103349",
+		"P107626",
+		"P129033"
+	]
+},
+{
+	"label" :"Sniper Team Leader",
+	"id" :"120243",
+	"proficiencies":
+	[
+		"P021227"
+	]
+},
+{
+	"label" :"SUBJECT 2 RAINF WARRANT OFFICER - COMPANY SERGEANT MAJOR",
+	"id" :"120238",
+	"proficiencies":
+	[
+		"P021226"
+	]
+},
+{
+	"label" :"Civil Construction Plant Course",
+	"id" :"120290",
+	"proficiencies":
+	[
+		"P021045",
+		"P125106",
+		"P125108",
+		"P103395",
+		"P103397",
+		"P103398",
+		"P103399",
+		"P103400",
+		"P103402",
+		"P103403",
+		"P021037",
+		"P021234"
+	]
+},
+{
+	"label" :"Dozer Operator Course",
+	"id" :"208820",
+	"proficiencies":
+	[
+		"P103402"
+	]
+},
+{
+	"label" :"ARMY: Front End Loader Operator Course",
+	"id" :"208817",
+	"proficiencies":
+	[
+		"P103397"
+	]
+},
+{
+	"label" :"Combat Rescue Operator",
+	"id" :"218588",
+	"proficiencies":
+	[
+		"P128570",
+		"P128571",
+		"P128991"
+	]
+},
+{
+	"label" :"ARMY: Roller Operator Course",
+	"id" :"208819",
+	"proficiencies":
+	[
+		"P103400"
+	]
+},
+{
+	"label" :"ARMY: Excavator Operator Course",
+	"id" :"208815",
+	"proficiencies":
+	[
+		"P103398"
+	]
+},
+{
+	"label" :"Backhoe Operator Course",
+	"id" :"208814",
+	"proficiencies":
+	[
+		"P103395"
+	]
+},
+{
+	"label" :"Grader Operator course",
+	"id" :"208816",
+	"proficiencies":
+	[
+		"P103403"
+	]
+},
+{
+	"label" :"ARMY: Skid Steer Loader Operator Course",
+	"id" :"202818",
+	"proficiencies":
+	[
+		"P103399"
+	]
+},
+{
+	"label" :"RAINF RIFLEMAN COURSE",
+	"id" :"120241",
+	"proficiencies":
+	[
+		"P100326",
+		"P020382",
+		"P100028",
+		"P100319",
+		"P103845",
+		"P103257",
+		"P010984",
+		"P127883",
+		"P103251",
+		"P107012",
+		"P107017",
+		"P103260",
+		"P103795",
+		"P020001",
+		"P100317",
+		"P100320",
+		"P010990",
+		"P100321",
+		"P020943",
+		"P106198",
+		"P109701",
+		"P102201",
+		"P107826",
+		"P021150",
+		"P126968",
+		"P126969",
+		"P127280",
+		"P127281",
+		"P127337",
+		"P126961",
+		"P127598"
+	]
+},
+{
+	"label" :"AFV Individual Crew Commander Course",
+	"id" :"216211",
+	"proficiencies":
+	[
+		"P104451",
+		"P120853",
+		"P021241",
+		"P100324",
+		"P103787",
+		"P125407"
+	]
+},
+{
+	"label" :"C Vehicle Underpinning Knowledge Course",
+	"id" :"216602",
+	"proficiencies":
+	[
+		"P125108",
+		"P125106"
+	]
+},
+{
+	"label" :"ADF: CBRN BASIC OPERATOR CONVERSION COURSE",
+	"id" :"218156",
+	"proficiencies":
+	[
+		"P127560",
+		"P127561",
+		"P109054"
+	]
+},
+{
+	"label" :"SUBJ 4 BDR RAA JFT - MOD 2",
+	"id" :"200627",
+	"proficiencies":
+	[
+		"P104804"
+	]
+},
+{
+	"label" :"Army: Engineer Operations Officer ",
+	"id" :"200484",
+	"proficiencies":
+	[
+		"P105144"
+	]
+},
+{
+	"label" :"SUBJ 4 CPL RAE ADV CE Phase 2",
+	"id" :"207878",
+	"proficiencies":
+	[
+		"P107473",
+		"P020844",
+		"P103376",
+		"P103382",
+		"P021243",
+		"P108666",
+		"P103765",
+		"P107013"
+	]
+},
+{
+	"label" :"RAE Tactical Rope Rescue",
+	"id" :"218384",
+	"proficiencies":
+	[
+		"P128570",
+		"P128571",
+		"P128572",
+		"P128573"
+	]
+},
+{
+	"label" :"Claymore Instructor Course",
+	"id" :"209414",
+	"proficiencies":
+	[
+		"P103386"
+	]
+},
+{
+	"label" :"Explosive Supervisor",
+	"id" :"218503",
+	"proficiencies":
+	[
+		"P103375",
+		"P128576",
+		"P000966"
+	]
+},
+{
+	"label" :"SHADOW 200 Unmanned Aerial System Operator",
+	"id" :"214296",
+	"proficiencies":
+	[
+		"P021383",
+		"P000666",
+		"P105358",
+		"P122517"
+	]
+},
+{
+	"label" :"RAA Officer Orientation Course",
+	"id" :"208105",
+	"proficiencies":
+	[
+		"P107690",
+		"P021241"
+	]
+},
+{
+	"label" :"Remote Weapon Station Basic Operator",
+	"id" :"209604",
+	"proficiencies":
+	[
+		"P101869"
+	]
+},
+{
+	"label" :"Subject 4 Sergeant RAA Gunnery",
+	"id" :"209451",
+	"proficiencies":
+	[
+		"P109456",
+		"P109596"
+	]
+},
+{
+	"label" :"SUBJECT FOUR SERGEANT RAA ARTILLERY COMMAND SYSTEMS OPERATOR ",
+	"id" :"209454",
+	"proficiencies":
+	[
+		"P109458",
+		"P109602"
+	]
+},
+{
+	"label" :"Advanced UAS Course",
+	"id" :"120213",
+	"proficiencies":
+	[
+		"P021000"
+	]
+},
+{
+	"label" :"Basic Digital AN/PRC-117G Radio Module",
+	"id" :"212647",
+	"proficiencies":
+	[
+		"P020955"
+	]
+},
+{
+	"label" :"Specialist Digital AN/PRC-117G Radio Module",
+	"id" :"212648",
+	"proficiencies":
+	[
+		"P020536"
+	]
+},
+{
+	"label" :"Supervise Safety Category 10A (DFSW Range)",
+	"id" :"202553",
+	"proficiencies":
+	[
+		"P103495"
+	]
+},
+{
+	"label" :"MOD 1A MOUNTED SAFETY SUPERVISOR LASER OPERATIONS",
+	"id" :"208794",
+	"proficiencies":
+	[
+		"P100324"
+	]
+},
+{
+	"label" :"Multi-Rotor Unmanned Aerial System",
+	"id" :"216416",
+	"proficiencies":
+	[
+		"P124821"
+	]
+},
+{
+	"label" :"Demolitions Supervisor",
+	"id" :"120252",
+	"proficiencies":
+	[
+		"P103348",
+		"P103376",
+		"P103375",
+		"P128576",
+		"P000966"
+	]
+},
+{
+	"label" :"Training Improvised Explosive Device (TIED) Operator",
+	"id" :"208622",
+	"proficiencies":
+	[
+		"P106872"
+	]
+},
+{
+	"label" :"RFSU POWERED TACTICAL CRAFT SAFELY OPERATE AT SEA",
+	"id" :"208755",
+	"proficiencies":
+	[
+		"P107839",
+		"P021539"
+	]
+},
+{
+	"label" :"Artillery Gun Line Safety Digital - Chief Safety Supervisor",
+	"id" :"218186",
+	"proficiencies":
+	[
+		"P127367"
+	]
+},
+{
+	"label" :"Artillery Digital Gun Line Safety - Safety Supervisor Course",
+	"id" :"217974",
+	"proficiencies":
+	[
+		"P127370"
+	]
+},
+{
+	"label" :"Artillery Digital Gun Line Safety – Safety Supervisor Assistant Course",
+	"id" :"217969",
+	"proficiencies":
+	[
+		"P127372"
+	]
+},
+{
+	"label" :"Enhanced Combat Shooting Course",
+	"id" :"215579",
+	"proficiencies":
+	[
+		"P106198",
+		"P126962",
+		"P126963",
+		"P126964"
+	]
+},
+{
+	"label" :"COMBAT SHOOTING INSTRUCTOR COURSE",
+	"id" :"215580",
+	"proficiencies":
+	[
+		"P106199",
+		"P126961"
+	]
+},
+{
+	"label" :"Army: Combative Program (ACP) Level One (All Corps)",
+	"id" :"216118",
+	"proficiencies":
+	[
+		"P109685"
+	]
+},
+{
+	"label" :"Explosive Safety Supervisor",
+	"id" :"208183",
+	"proficiencies":
+	[
+		"P103376"
+	]
+},
+{
+	"label" :"Explosive User",
+	"id" :"204731",
+	"proficiencies":
+	[
+		"P103348"
+	]
+},
+{
+	"label" :"CRV Driver Non-RAAC",
+	"id" :"200618",
+	"proficiencies":
+	[
+		"P103793",
+		"P010990",
+		"P103462",
+		"P103463",
+		"P103788",
+		"P105105",
+		"P108874",
+		"P108383",
+		"P020958",
+		"P010057",
+		"P100793",
+		"P106923",
+		"P128569"
+	]
+},
+{
+	"label" :"CRV Commander Enabling Non-RAAC",
+	"id" :"214738",
+	"proficiencies":
+	[
+		"P100585",
+		"P010990",
+		"P100584",
+		"P101651",
+		"P103788",
+		"P105105",
+		"P020958",
+		"P010057",
+		"P100793",
+		"P108383",
+		"P108874",
+		"P128569"
+	]
+},
+{
+	"label" :"SUBJ 4 BDR RAA UAS",
+	"id" :"208293",
+	"proficiencies":
+	[
+		"P108163"
+	]
+},
+{
+	"label" :"Water Purification and Desalination System Operator",
+	"id" :"207142",
+	"proficiencies":
+	[
+		"P021233",
+		"P128543"
+	]
+},
+{
+	"label" :"Artillery Light Gunner Conversion Course",
+	"id" :"213272",
+	"proficiencies":
+	[
+		"P021640",
+		"P021487",
+		"P109453",
+		"P021342",
+		"P021493",
+		"P125105",
+		"P125104"
+	]
+},
+{
+	"label" :"SUBJ 4 SGT RAA ARTY LT MOD 2",
+	"id" :"216057",
+	"proficiencies":
+	[
+		"P109460",
+		"P021640",
+		"P021487",
+		"P109453",
+		"P021342",
+		"P021493",
+		"P020886",
+		"P125105",
+		"P125104"
+	]
+},
+{
+	"label" :"Artillery Light Command Post Operator",
+	"id" :"208963",
+	"proficiencies":
+	[
+		"P021640",
+		"P125104"
+	]
+},
+{
+	"label" :"ADF Electrician",
+	"id" :"200254",
+	"proficiencies":
+	[
+		"P021454"
+	]
+},
+{
+	"label" :"Light Urban Explosive Breaching Instructor",
+	"id" :"217626",
+	"proficiencies":
+	[
+		"P107672"
+	]
+},
+{
+	"label" :"Light Urban Explosive Breaching",
+	"id" :"208989",
+	"proficiencies":
+	[
+		"P107671"
+	]
+},
+{
+	"label" :"RFSU Patrol Commander Course",
+	"id" :"200193",
+	"proficiencies":
+	[
+		"P020238"
+	]
+},
+{
+	"label" :"TANK SUBJ 4 SGT RAAC Gunnery",
+	"id" :"203314",
+	"proficiencies":
+	[
+		"P104736",
+		"P103786",
+		"P101574",
+		"P104822",
+		"P107710",
+		"P021223",
+		"P020778",
+		"P105012",
+		"P126552",
+		"P126322"
+	]
+},
+{
+	"label" :"Patrol Persistent Surveillance System Operator Course",
+	"id" :"213761",
+	"proficiencies":
+	[
+		"P020932"
+	]
+},
+{
+	"label" :"CRV SUBJ 4 SGT RAAC Gunnery",
+	"id" :"120180",
+	"proficiencies":
+	[
+		"P104736",
+		"P103786",
+		"P101574",
+		"P021218",
+		"P107710",
+		"P107042",
+		"P103561",
+		"P126322"
+	]
+},
+{
+	"label" :"F2 81mm Mortar Conversion",
+	"id" :"218280",
+	"proficiencies":
+	[
+		"P128249"
+	]
+},
+{
+	"label" :"SUBJ 4 SGT RAA AMDS",
+	"id" :"215096",
+	"proficiencies":
+	[
+		"P100420",
+		"P122626"
+	]
+},
+{
+	"label" :"MOD 1B MOUNTED SAFETY SUPERVISOR",
+	"id" :"208795",
+	"proficiencies":
+	[
+		"P104451"
+	]
+},
+{
+	"label" :"200053 SUBJ 4 CPL RAE Construction Civil",
+	"id" :"200053",
+	"proficiencies":
+	[
+		"P020031",
+		"P107749"
+	]
+},
+{
+	"label" :"Lightweight Multi-Mode Radar (LMMR) Operator",
+	"id" :"214457",
+	"proficiencies":
+	[
+		"P100355"
+	]
+},
+{
+	"label" :"M224A1 60MM Mortar Conversion",
+	"id" :"213225",
+	"proficiencies":
+	[
+		"P021649"
+	]
+},
+{
+	"label" :"M32A1 Lightweight Handheld Mortar Ballistic Calculator course",
+	"id" :"217252",
+	"proficiencies":
+	[
+		"P125104"
+	]
+},
+{
+	"label" :"M252A1 LTWT 81mm Mortar Conversion",
+	"id" :"217253",
+	"proficiencies":
+	[
+		"P125105"
+	]
+},
+{
+	"label" :"ARMY: RFSU Combat Support Operator Basic Assistant Course",
+	"id" :"214080",
+	"proficiencies":
+	[
+		"P021297"
+	]
+},
+{
+	"label" :"BATTLE NOISE SIMULATION OPERATOR(BNS)",
+	"id" :"217075",
+	"proficiencies":
+	[
+		"P103309",
+		"P104449",
+		"P103765"
+	]
+},
+{
+	"label" :"Mortar Operator Course",
+	"id" :"208952",
+	"proficiencies":
+	[
+		"P021487",
+		"P020886",
+		"P125105"
+	]
+},
+{
+	"label" :"ADF Carpenter",
+	"id" :"200256",
+	"proficiencies":
+	[
+		"P020740"
+	]
+},
+{
+	"label" :"ADF Plumber",
+	"id" :"120105",
+	"proficiencies":
+	[
+		"P021442"
+	]
+},
+{
+	"label" :"M113AS4 AFV SPECIALIST EQUIPMENT",
+	"id" :"216667",
+	"proficiencies":
+	[
+		"P103783",
+		"P103782",
+		"P103774",
+		"P125407"
+	]
+},
+{
+	"label" :"Army Combative Program (ACP) Level Three ",
+	"id" :"214765",
+	"proficiencies":
+	[
+		"P102201"
+	]
+},
+{
+	"label" :"SUBJ 4 SGT RAE Construction Civil",
+	"id" :"120267",
+	"proficiencies":
+	[
+		"P103361"
+	]
+},
+{
+	"label" :"SUBJ 4 SGT RAA UAS",
+	"id" :"209825",
+	"proficiencies":
+	[
+		"P101152"
+	]
+},
+{
+	"label" :"Basic Operator GBAD",
+	"id" :"200172",
+	"proficiencies":
+	[
+		"P020978",
+		"P021387"
+	]
+},
+{
+	"label" :"Basic Operator Sense Warn and Locate Course",
+	"id" :"214851",
+	"proficiencies":
+	[
+		"P107846",
+		"P021387"
+	]
+},
+{
+	"label" :"Tank Recovery Commander",
+	"id" :"207008",
+	"proficiencies":
+	[
+		"P104451",
+		"P104830",
+		"P100324",
+		"P115429",
+		"P020002",
+		"P103788",
+		"P100317",
+		"P103594",
+		"P124822",
+		"P125972",
+		"P127034",
+		"P100378",
+		"P102012",
+		"P103787",
+		"P108874"
+	]
+},
+{
+	"label" :"Subject 4 BDR RAA Sense, Warn and Locate (SW&L) Course",
+	"id" :"214853",
+	"proficiencies":
+	[
+		"P107727",
+		"P105037"
+	]
+},
+{
+	"label" :"SUBJ 4 BDR RAA GBAD",
+	"id" :"120200",
+	"proficiencies":
+	[
+		"P020980",
+		"P105037"
+	]
+},
+{
+	"label" :"POPULATION PROTECTION AND CONTROL OPERATOR COURSE ",
+	"id" :"202539",
+	"proficiencies":
+	[
+		"P103755"
+	]
+},
+{
+	"label" :"M113AS4 AFV Echelon Crew Commander (M113AS4 AF, M806AS4 ARVL, M113AS4 ALV)",
+	"id" :"214837",
+	"proficiencies":
+	[
+		"P021335",
+		"P103787",
+		"P104451",
+		"P100324",
+		"P106953",
+		"P125407"
+	]
+},
+{
+	"label" :"Operator Command Post AMDS",
+	"id" :"215095",
+	"proficiencies":
+	[
+		"P122625",
+		"P020750"
+	]
+},
+{
+	"label" :"ARMY: Javelin Direct Fire Guided Weapon System Instructor ",
+	"id" :"202524",
+	"proficiencies":
+	[
+		"P103671"
+	]
+},
+{
+	"label" :"Ground Observer 12 RADAR Operator",
+	"id" :"217073",
+	"proficiencies":
+	[
+		"P126119"
+	]
+},
+{
+	"label" :"M113AS4 AFV CREW COMMANDER ENABLER",
+	"id" :"216210",
+	"proficiencies":
+	[
+		"P103788",
+		"P108874",
+		"P021335",
+		"P114955",
+		"P020952",
+		"P021527",
+		"P021512",
+		"P021464",
+		"P122178",
+		"P021533",
+		"P106925",
+		"P117653",
+		"P103787"
+	]
+},
+{
+	"label" :"M777A2 Ammunition Number",
+	"id" :"212932",
+	"proficiencies":
+	[
+		"P114502"
+	]
+},
+{
+	"label" :"Detachment Commander Gun Salute",
+	"id" :"205364",
+	"proficiencies":
+	[
+		"P105396"
+	]
+},
+{
+	"label" :"RAA Advanced Field Craft",
+	"id" :"209450",
+	"proficiencies":
+	[
+		"P109968"
+	]
+},
+{
+	"label" :"Artillery Meteorological System (AMS) IOC Course",
+	"id" :"215744",
+	"proficiencies":
+	[
+		"P106873",
+		"P100354"
+	]
+},
+{
+	"label" :"M2A2 Gun Salute Course",
+	"id" :"200590",
+	"proficiencies":
+	[
+		"P104470"
+	]
+},
+{
+	"label" :"Artillery Safety Supervisor Assistant (Alpha) Course",
+	"id" :"200516",
+	"proficiencies":
+	[
+		"P105058",
+		"P105068"
+	]
+},
+{
+	"label" :"Artillery Safety Supervisor (Alpha and Bravo) Course",
+	"id" :"204654",
+	"proficiencies":
+	[
+		"P105058",
+		"P105066",
+		"P105067",
+		"P105068"
+	]
+},
+{
+	"label" :"OBSERVATION OF FIRE (NON-RAA)",
+	"id" :"120226",
+	"proficiencies":
+	[
+		"P002762"
+	]
+},
+{
+	"label" :"Regimental Officers Basic Course (OS) Continuous",
+	"id" :"120208",
+	"proficiencies":
+	[
+		"P020528",
+		"P107556"
+	]
+},
+{
+	"label" :"CBRND BASIC USER",
+	"id" :"205340",
+	"proficiencies":
+	[
+		"P127560",
+		"P127561",
+		"P109054"
+	]
+},
+{
+	"label" :"SUBJ 4 BDR RAA JFT",
+	"id" :"214091",
+	"proficiencies":
+	[
+		"P021323",
+		"P102647",
+		"P108054",
+		"P107684",
+		"P021601",
+		"P103252"
+	]
+},
+{
+	"label" :"JOINT FIRES TEAM (COMMANDER)",
+	"id" :"200628",
+	"proficiencies":
+	[
+		"P102647",
+		"P115898",
+		"P114298",
+		"P104805",
+		"P021323",
+		"P104804",
+		"P104803",
+		"P108054",
+		"P021282",
+		"P021601",
+		"P107684"
+	]
+},
+{
+	"label" :"Regimental Officer Gunnery Course (Offensive Support)",
+	"id" :"120212",
+	"proficiencies":
+	[
+		"P100400",
+		"P124858",
+		"P125171"
+	]
+},
+{
+	"label" :"SUBJ 4 BDR RAA ACSO",
+	"id" :"120202",
+	"proficiencies":
+	[
+		"P021004",
+		"P100354"
+	]
+},
+{
+	"label" :"COMBAT ARMS MODULE IET ",
+	"id" :"209602",
+	"proficiencies":
+	[
+		"P010982",
+		"P010988",
+		"P103260",
+		"P103795",
+		"P021369",
+		"P020001",
+		"P107012",
+		"P107017",
+		"P109777",
+		"P103251",
+		"P010990",
+		"P109778",
+		"P020487",
+		"P106906",
+		"P106870",
+		"P106002",
+		"P114647"
+	]
+},
+{
+	"label" :"ARTILLERY COMMAND SYSTEMS OPERATOR BASIC",
+	"id" :"120203",
+	"proficiencies":
+	[
+		"P021005",
+		"P106873",
+		"P107557",
+		"P105058",
+		"P105068"
+	]
+},
+{
+	"label" :"CRV Gunner",
+	"id" :"120168",
+	"proficiencies":
+	[
+		"P020731",
+		"P010209"
+	]
+},
+{
+	"label" :"SUBJ 4 BDR RAA GNY",
+	"id" :"200034",
+	"proficiencies":
+	[
+		"P021012"
+	]
+},
+{
+	"label" :"Advanced Gunner Course",
+	"id" :"200209",
+	"proficiencies":
+	[
+		"P101521"
+	]
+},
+{
+	"label" :"CRV Multi-Spectral Surveillance Suite Operator",
+	"id" :"213161",
+	"proficiencies":
+	[
+		"P103760",
+		"P102215",
+		"P104277"
+	]
+},
+{
+	"label" :"M113AS4 AFV Driver Restricted Operator Grade One",
+	"id" :"203327",
+	"proficiencies":
+	[
+		"P104833",
+		"P108874",
+		"P020952",
+		"P021464",
+		"P021512",
+		"P021527",
+		"P021533",
+		"P122178",
+		"P106925"
+	]
+},
+{
+	"label" :"Gunner Grade 1 (IET) M777A2",
+	"id" :"212728",
+	"proficiencies":
+	[
+		"P101080",
+		"P020886",
+		"P107331"
+	]
+},
+{
+	"label" :"TANK GUNNER ",
+	"id" :"203311",
+	"proficiencies":
+	[
+		"P104819",
+		"P126553"
+	]
+},
+{
+	"label" :"SUBJ 4 SGT RAA ARTY LT MOD 3",
+	"id" :"208969",
+	"proficiencies":
+	[
+		"P124131"
+	]
+},
+{
+	"label" :"SUBJ 4 SGT RAA ARTY LT MOD 1",
+	"id" :"216056",
+	"proficiencies":
+	[
+		"P104803",
+		"P109459",
+		"P109968"
+	]
+},
+{
+	"label" :"SUBJ 4 BDR RAA ARTY LT",
+	"id" :"208960",
+	"proficiencies":
+	[
+		"P109453",
+		"P021342",
+		"P021493"
+	]
+},
+{
+	"label" :"ARES Fire Team Commander Course",
+	"id" :"214287",
+	"proficiencies":
+	[
+		"P102678"
+	]
+},
+{
+	"label" :"SUBJ 4 WO RAA ARTY LT MOD 3",
+	"id" :"216026",
+	"proficiencies":
+	[
+		"P109454",
+		"P109785"
+	]
+},
+{
+	"label" :"Artillery Forward Observer (AFO) Basic",
+	"id" :"200626",
+	"proficiencies":
+	[
+		"P104803",
+		"P109968"
+	]
+},
+{
+	"label" :"SUBJ 4 BDR RAA AFO - MOD 1",
+	"id" :"207609",
+	"proficiencies":
+	[
+		"P100789"
+	]
+},
+{
+	"label" :"SUBJ 4 WO RAA ARTY LT MOD 2",
+	"id" :"216027",
+	"proficiencies":
+	[
+		"P124130"
+	]
+},
+{
+	"label" :"RFSU Powered Tactical Craft Operators Course",
+	"id" :"203050",
+	"proficiencies":
+	[
+		"P104339"
+	]
+},
+{
+	"label" :"REGIMENTAL OFFICER GUNNERY OFFENSIVE SUPPORT COURSE (PT) MODULE FOUR",
+	"id" :"202355",
+	"proficiencies":
+	[
+		"P105148"
+	]
+},
+{
+	"label" :"SUBJ 4 WO RAA MOD 1 GNY",
+	"id" :"209613",
+	"proficiencies":
+	[
+		"P109596",
+		"P021012",
+		"P101080"
+	]
+},
+{
+	"label" :"SUBJ 4 WO RAA MOD 4 GEN LEG",
+	"id" :"209616",
+	"proficiencies":
+	[
+		"P109598",
+		"P105058",
+		"P105066",
+		"P108054",
+		"P124858"
+	]
+},
+{
+	"label" :"SUBJ 4 WO RAA OS",
+	"id" :"209612",
+	"proficiencies":
+	[
+		"P021184"
+	]
+},
+{
+	"label" :"SUBJ 4 WO RAA MOD 3  JF",
+	"id" :"209614",
+	"proficiencies":
+	[
+		"P109597"
+	]
+},
+{
+	"label" :"SUBJ 4 CPL RAE ADV CE",
+	"id" :"120261",
+	"proficiencies":
+	[
+		"P020155"
+	]
+},
+{
+	"label" :"SUBJ 4 WO RAA MOD 2 ACS",
+	"id" :"209615",
+	"proficiencies":
+	[
+		"P109602",
+		"P107556"
+	]
+},
+{
+	"label" :"Combat Officers Advanced Course (ARes)",
+	"id" :"202835",
+	"proficiencies":
+	[
+		"P104071"
+	]
+},
+{
+	"label" :"Specialist Combat Communications Course (SCCC) - Offensive Support",
+	"id" :"214199",
+	"proficiencies":
+	[
+		"P109451",
+		"P020750",
+		"P021387"
+	]
+},
+{
+	"label" :"ARMY: Giraffe Training System (GTS) Operator Course",
+	"id" :"213788",
+	"proficiencies":
+	[
+		"P020944"
+	]
+},
+{
+	"label" :"Advanced Operator Sense, Warn and Locate(SW&L) Course",
+	"id" :"214852",
+	"proficiencies":
+	[
+		"P107825"
+	]
+},
+{
+	"label" :"Unit All Arms Air Defence Instructors (UAAADI) Course ",
+	"id" :"120233",
+	"proficiencies":
+	[
+		"P100420",
+		"P105037"
+	]
+},
+{
+	"label" :"Air Missile Defence Workstation (AMDWS) Operator Course",
+	"id" :"214454",
+	"proficiencies":
+	[
+		"P021433",
+		"P021439"
+	]
+},
+{
+	"label" :"Forward Area Air Defence (FAAD) Course",
+	"id" :"214453",
+	"proficiencies":
+	[
+		"P100524",
+		"P021434"
+	]
+},
+{
+	"label" :"ICATS Module One (Basic)",
+	"id" :"215996",
+	"proficiencies":
+	[
+		"P115748"
+	]
+},
+{
+	"label" :"Advanced Operator Ground Based Air Defence",
+	"id" :"200592",
+	"proficiencies":
+	[
+		"P104744"
+	]
+},
+{
+	"label" :"Operator Command Post UAS Course",
+	"id" :"214461",
+	"proficiencies":
+	[
+		"P021511",
+		"P101982",
+		"P114532",
+		"P021387"
+	]
+},
+{
+	"label" :"M777A2 Howitzer Storeperson Course",
+	"id" :"214078",
+	"proficiencies":
+	[
+		"P021122"
+	]
+},
+{
+	"label" :"Programmer Digital AN/PRC-117G Radio Module",
+	"id" :"212649",
+	"proficiencies":
+	[
+		"P101240"
+	]
+},
+{
+	"label" :"SOPHIE MF HHTI Operators Course",
+	"id" :"213665",
+	"proficiencies":
+	[
+		"P114298"
+	]
+},
+{
+	"label" :"Handheld Global Positioning System (GPS) Course",
+	"id" :"212634",
+	"proficiencies":
+	[
+		"P021241"
+	]
+},
+{
+	"label" :"Portable Sawmill (PSM) Operator",
+	"id" :"202522",
+	"proficiencies":
+	[
+		"P103665"
+	]
+},
+{
+	"label" :"Advanced Target Pointer / Illuminator / Aiming Light (ATPIAL)",
+	"id" :"209249",
+	"proficiencies":
+	[
+		"P107043"
+	]
+},
+{
+	"label" :"SUBJ 4 WO RAA ARTY LT MOD 1",
+	"id" :"216028",
+	"proficiencies":
+	[
+		"P124129"
+	]
+},
+{
+	"label" :"Regimental Officer Gunnery Offensive Support Course (PT) Module 3",
+	"id" :"202354",
+	"proficiencies":
+	[
+		"P105115"
+	]
+},
+{
+	"label" :"Regimental Officer Gunnery Offensive Support Course (PT) Module 5",
+	"id" :"208972",
+	"proficiencies":
+	[
+		"P109784",
+		"P109785"
+	]
+},
+{
+	"label" :"Indirect Fire Observer Trainer Operator",
+	"id" :"120224",
+	"proficiencies":
+	[
+		"P109455"
+	]
+},
+{
+	"label" :"Basic Mortar Course (F/T & P/T)",
+	"id" :"200159",
+	"proficiencies":
+	[
+		"P101047",
+		"P125104",
+		"P125105"
+	]
+},
+{
+	"label" :"Tank Driver Ground Guide Only",
+	"id" :"203320",
+	"proficiencies":
+	[
+		"P108874",
+		"P103737",
+		"P102010"
+	]
+},
+{
+	"label" :"AFV Ground Guide Only Driver",
+	"id" :"203193",
+	"proficiencies":
+	[
+		"P104626",
+		"P108874",
+		"P020952",
+		"P021464",
+		"P021512",
+		"P021527",
+		"P021533",
+		"P106925",
+		"P122178"
+	]
+},
+{
+	"label" :"ARMY: AFV Ground Guide Only Instructor",
+	"id" :"213270",
+	"proficiencies":
+	[
+		"P115076"
+	]
+},
+{
+	"label" :"ARMY: DFSW 84mm MDFSW Module Cse",
+	"id" :"207552",
+	"proficiencies":
+	[
+		"P020154"
+	]
+},
+{
+	"label" :"ARMY: Water Point Supervisor",
+	"id" :"208182",
+	"proficiencies":
+	[
+		"P020844"
+	]
+},
+{
+	"label" :"ARMY: Medium Girder Bridge Assistant Supervisor",
+	"id" :"208171",
+	"proficiencies":
+	[
+		"P103372",
+		"P103373"
+	]
+},
+{
+	"label" :"ARMY: Water Purification Manager",
+	"id" :"208186",
+	"proficiencies":
+	[
+		"P106995"
+	]
+},
+{
+	"label" :"SUBJ 4 CPL RAE ADV CE Phase 1",
+	"id" :"120262",
+	"proficiencies":
+	[
+		"P107472"
+	]
+},
+{
+	"label" :"CRV Restricted Operator",
+	"id" :"200041",
+	"proficiencies":
+	[
+		"P103781"
+	]
+},
+{
+	"label" :"ARMY: Fixed Modular Bridge Supervisor",
+	"id" :"202945",
+	"proficiencies":
+	[
+		"P020451"
+	]
+},
+{
+	"label" :"ARMY: Fixed Modular Bridge Constructor ",
+	"id" :"209593",
+	"proficiencies":
+	[
+		"P104229"
+	]
+},
+{
+	"label" :"CBRND Advisor Course",
+	"id" :"120275",
+	"proficiencies":
+	[
+		"P000192"
+	]
+},
+{
+	"label" :"Tank Recovery Driver Ground Guide Only",
+	"id" :"207440",
+	"proficiencies":
+	[
+		"P108874",
+		"P103778",
+		"P020954",
+		"P100522"
+	]
+},
+{
+	"label" :"AFV Variant Armoured Logistic Vehicle (ALV) Driver Course",
+	"id" :"213185",
+	"proficiencies":
+	[
+		"P114534",
+		"P125407"
+	]
+},
+{
+	"label" :"ADF Range Qualification Course",
+	"id" :"202873",
+	"proficiencies":
+	[
+		"P103487",
+		"P103488",
+		"P103489",
+		"P103490",
+		"P103491",
+		"P103492",
+		"P103493",
+		"P103494",
+		"P103495",
+		"P103496",
+		"P103497",
+		"P103498",
+		"P103501",
+		"P103530",
+		"P104583"
+	]
+},
+{
+	"label" :"OPTR CE SECTION STORES MODULE",
+	"id" :"216251",
+	"proficiencies":
+	[
+		"P122408"
+	]
+},
+{
+	"label" :"215058 Mortar Fire Controller (MFC) Course",
+	"id" :"215058",
+	"proficiencies":
+	[
+		"P010238",
+		"P021241",
+		"P115173"
+	]
+},
+{
+	"label" :"Tank-AN/PRC-158 CNR Conversion",
+	"id" :"217656",
+	"proficiencies":
+	[
+		"P127034"
+	]
+},
+{
+	"label" :"GROUND SURVEILLANCE RADAR OPERATOR",
+	"id" :"203024",
+	"proficiencies":
+	[
+		"P104277"
+	]
+},
+{
+	"label" :"ARMY: RAINF AFV/RWA Recognition Module Cse",
+	"id" :"207558",
+	"proficiencies":
+	[
+		"P103258"
+	]
+},
+{
+	"label" :"CRV Commander Non-RAAC",
+	"id" :"200619",
+	"proficiencies":
+	[
+		"P103792",
+		"P104451",
+		"P108612",
+		"P021241"
+	]
+},
+{
+	"label" :"ADF: Senior Range Advisor Course",
+	"id" :"200027",
+	"proficiencies":
+	[
+		"P100426",
+		"P104347",
+		"P104348",
+		"P104349"
+	]
+},
+{
+	"label" :"Tank Restricted Operator",
+	"id" :"203316",
+	"proficiencies":
+	[
+		"P105111"
+	]
+},
+{
+	"label" :"CRV Driver Ground Guide Only",
+	"id" :"120190",
+	"proficiencies":
+	[
+		"P108874",
+		"P020721",
+		"P106923",
+		"P100793",
+		"P020958",
+		"P010057",
+		"P101651",
+		"P100584",
+		"P107833"
+	]
+},
+{
+	"label" :"Basic Sniper Pre Selection",
+	"id" :"214099",
+	"proficiencies":
+	[
+		"P021330"
+	]
+},
+{
+	"label" :"ARMY: Operator Crusher",
+	"id" :"202870",
+	"proficiencies":
+	[
+		"P104097"
+	]
+},
+{
+	"label" :"ARMY: RAE Search Operations and Training Supervisor",
+	"id" :"120287",
+	"proficiencies":
+	[
+		"P103365",
+		"P021112"
+	]
+},
+{
+	"label" :"ARMY: RAINF Reconnaissance Officer / NCO Course",
+	"id" :"200564",
+	"proficiencies":
+	[
+		"P105013"
+	]
+},
+{
+	"label" :"Fell Trees Manually Basic",
+	"id" :"214617",
+	"proficiencies":
+	[
+		"P103666"
+	]
+},
+{
+	"label" :"Fell Trees Manually Intermediate",
+	"id" :"214619",
+	"proficiencies":
+	[
+		"P101679"
+	]
+},
+{
+	"label" :"Chainsaw Operator",
+	"id" :"200967",
+	"proficiencies":
+	[
+		"P108658"
+	]
+},
+{
+	"label" :"Observer Trainer Course",
+	"id" :"216115",
+	"proficiencies":
+	[
+		"P109346"
+	]
+},
+{
+	"label" :"ARMY: Shotgun Method of Entry",
+	"id" :"208988",
+	"proficiencies":
+	[
+		"P010978",
+		"P104959"
+	]
+},
+{
+	"label" :"Visual Tracker Course",
+	"id" :"200179",
+	"proficiencies":
+	[
+		"P109538"
+	]
+},
+{
+	"label" :"SubJ 4 SGT RAAC COMMUNICATIONS INSTRUCTOR",
+	"id" :"120181",
+	"proficiencies":
+	[
+		"P020783",
+		"P020559",
+		"P020535",
+		"P020750",
+		"P021137",
+		"P114357",
+		"P115746",
+		"P103797"
+	]
+},
+{
+	"label" :"Soils Technician",
+	"id" :"120277",
+	"proficiencies":
+	[
+		"P103335",
+		"P115401"
+	]
+},
+{
+	"label" :"ARMY: Remote Vehicle Light - Dragon Operator",
+	"id" :"200526",
+	"proficiencies":
+	[
+		"P104241"
+	]
+},
+{
+	"label" :"MINEHOUND  DETECTOR VMR3G",
+	"id" :"207188",
+	"proficiencies":
+	[
+		"P021224"
+	]
+},
+{
+	"label" :"ARMY: Electrical Trade Advanced Field Power Generation",
+	"id" :"120281",
+	"proficiencies":
+	[
+		"P100365",
+		"P100466",
+		"P103363"
+	]
+},
+{
+	"label" :"Specialist Combat Communications Course (SCCC) - Mod 1",
+	"id" :"120195",
+	"proficiencies":
+	[
+		"P100531",
+		"P020007",
+		"P020000",
+		"P020562",
+		"P020558"
+	]
+},
+{
+	"label" :"Specialist Digital Combat Radio System Conversion Course (Program)",
+	"id" :"213854",
+	"proficiencies":
+	[
+		"P020000",
+		"P020007",
+		"P020558",
+		"P020562",
+		"P020011"
+	]
+},
+{
+	"label" :"Conduct/ Safety Supervise Weapon Test Fire Facility Range Practice",
+	"id" :"214848",
+	"proficiencies":
+	[
+		"P109742"
+	]
+},
+{
+	"label" :"SMALL ARMS COACH - PISTOL ",
+	"id" :"202576",
+	"proficiencies":
+	[
+		"P103809"
+	]
+},
+{
+	"label" :"ARMY: SELF PROTECTIVE ADAPTIVE ROLLER KIT",
+	"id" :"209410",
+	"proficiencies":
+	[
+		"P114464"
+	]
+},
+{
+	"label" :"Small Arms Coach - Machine Gun",
+	"id" :"202575",
+	"proficiencies":
+	[
+		"P103808"
+	]
+},
+{
+	"label" :"Small Arms Coach – Rifle",
+	"id" :"202574",
+	"proficiencies":
+	[
+		"P103807"
+	]
+},
+{
+	"label" :"Officer in Charge and Safety Officer Mounted Ranges",
+	"id" :"214171",
+	"proficiencies":
+	[
+		"P104736",
+		"P103786",
+		"P101574"
+	]
+},
+{
+	"label" :"Basic Combat Radio System Course (Program)",
+	"id" :"213853",
+	"proficiencies":
+	[
+		"P020001",
+		"P020002",
+		"P021369",
+		"P021387"
+	]
+},
+{
+	"label" :"Explosive Hazard Reduction and Mine Warfare Operations and Training Supervisor",
+	"id" :"200200",
+	"proficiencies":
+	[
+		"P103308"
+	]
+},
+{
+	"label" :"SUBJ 4 WO2 RAE Construction",
+	"id" :"120294",
+	"proficiencies":
+	[
+		"P107475"
+	]
+},
+{
+	"label" :"SUBJ 4 WO1 RAE Construction",
+	"id" :"207874",
+	"proficiencies":
+	[
+		"P103332"
+	]
+},
+{
+	"label" :"ARMY: RAE Search Team Commander Course",
+	"id" :"208185",
+	"proficiencies":
+	[
+		"P021243"
+	]
+},
+{
+	"label" :"SOTAS MK3 INTEGRAL COMPUTING SYSTEM",
+	"id" :"217140",
+	"proficiencies":
+	[
+		"P126307"
+	]
+},
+{
+	"label" :"ARMY: Explosive Hazard Awareness and Protection Training - Module 2",
+	"id" :"207793",
+	"proficiencies":
+	[
+		"P107441"
+	]
+},
+{
+	"label" :"Explosive Hazard Awareness & Protection Training - Module 1",
+	"id" :"207839",
+	"proficiencies":
+	[
+		"P107440"
+	]
+},
+{
+	"label" :"Conduct a Restricted Category ‘Dismounted Manoeuvre’ Range Practice",
+	"id" :"206840",
+	"proficiencies":
+	[
+		"P021358"
+	]
+},
+{
+	"label" :"ROBC RAAC ARES MOD 2",
+	"id" :"203284",
+	"proficiencies":
+	[
+		"P104738",
+		"P021241"
+	]
+},
+{
+	"label" :"Basic Combat Communications Course (BCCC) - Module 1",
+	"id" :"120166",
+	"proficiencies":
+	[
+		"P103795",
+		"P020001",
+		"P021369"
+	]
+},
+{
+	"label" :"Basic Combat Communications Course (BCCC)- Module 2",
+	"id" :"214150",
+	"proficiencies":
+	[
+		"P115429",
+		"P020002"
+	]
+},
+{
+	"label" :"Tank-Abrams Reactive Armour Tile System",
+	"id" :"214294",
+	"proficiencies":
+	[
+		"P001012"
+	]
+},
+{
+	"label" :"SUB 4 CPL CAVALRY SCOUT PATROL COMMANDER",
+	"id" :"203244",
+	"proficiencies":
+	[
+		"P104738",
+		"P021241"
+	]
+},
+{
+	"label" :"SUBJ 2 SGT RAAC TROOP OPS",
+	"id" :"120174",
+	"proficiencies":
+	[
+		"P103633",
+		"P104736",
+		"P103786",
+		"P101574"
+	]
+},
+{
+	"label" :" ASSAULT PIONEER (Basic) COURSE",
+	"id" :"200160",
+	"proficiencies":
+	[
+		"P020654",
+		"P103343",
+		"P107577",
+		"P108658",
+		"P103666",
+		"P103345",
+		"P103347",
+		"P103348",
+		"P103381",
+		"P107671",
+		"P010978",
+		"P104959"
+	]
+},
+{
+	"label" :"TANK-MINE CLEARING BLADE",
+	"id" :"214107",
+	"proficiencies":
+	[
+		"P021255"
+	]
+},
+{
+	"label" :"Tank-Mounted Family of Computer Systems",
+	"id" :"216415",
+	"proficiencies":
+	[
+		"P124822"
+	]
+},
+{
+	"label" :"Conduct a Category '9B' (Assault Grenade Range) Practice",
+	"id" :"202552",
+	"proficiencies":
+	[
+		"P103494"
+	]
+},
+{
+	"label" :"Protected Weapon Station Mk2 Instructor",
+	"id" :"216128",
+	"proficiencies":
+	[
+		"P109748",
+		"P104736",
+		"P103786",
+		"P101574",
+		"P109601"
+	]
+},
+{
+	"label" :"Remote Weapon Station Gunner",
+	"id" :"202356",
+	"proficiencies":
+	[
+		"P010209"
+	]
+},
+{
+	"label" :"ARMY: CBRND Training and Operations Assistant Supervisor",
+	"id" :"207200",
+	"proficiencies":
+	[
+		"P103382",
+		"P108666",
+		"P103765",
+		"P107013"
+	]
+},
+{
+	"label" :"RAE IET Phase 2",
+	"id" :"120270",
+	"proficiencies":
+	[
+		"P107030",
+		"P103348",
+		"P107626",
+		"P103349",
+		"P021140"
+	]
+},
+{
+	"label" :"AFV Guide",
+	"id" :"208670",
+	"proficiencies":
+	[
+		"P108874"
+	]
+},
+{
+	"label" :"Advanced Small Craft Operations Supervisor",
+	"id" :"213916",
+	"proficiencies":
+	[
+		"P115066"
+	]
+},
+{
+	"label" :"Specialist Combat Communications Course (SCCC) - Line",
+	"id" :"214198",
+	"proficiencies":
+	[
+		"P103796"
+	]
+},
+{
+	"label" :"Protected Weapon Station MK2 Basic Operators",
+	"id" :"216126",
+	"proficiencies":
+	[
+		"P101470",
+		"P100324"
+	]
+},
+{
+	"label" :"Protected Weapon Station MK2 Gunner",
+	"id" :"216127",
+	"proficiencies":
+	[
+		"P109747",
+		"P100324"
+	]
+},
+{
+	"label" :"Basic Combat Communications Course (BCCC) - Mod 3",
+	"id" :"214151",
+	"proficiencies":
+	[
+		"P020011",
+		"P115078",
+		"P115429"
+	]
+},
+{
+	"label" :"Basic Combat Communications Course (BCCC) Mod 4",
+	"id" :"216812",
+	"proficiencies":
+	[
+		"P125715",
+		"P021387"
+	]
+},
+{
+	"label" :"RFSU Patrol Signaller Course",
+	"id" :"200195",
+	"proficiencies":
+	[
+		"P104002",
+		"P103795",
+		"P020001",
+		"P021369",
+		"P115429",
+		"P020002",
+		"P020011"
+	]
+},
+{
+	"label" :"Army Combative Program (ACP) Instructor (All Corps)",
+	"id" :"216120",
+	"proficiencies":
+	[
+		"P109743"
+	]
+},
+{
+	"label" :"ARMY: RAINF REGIMENTAL OFFICER BASIC COURSE (PT) SUITE OF COURSES",
+	"id" :"203110",
+	"proficiencies":
+	[
+		"P104415",
+		"P104416",
+		"P104417"
+	]
+},
+{
+	"label" :"Advanced Small Craft Operations",
+	"id" :"213915",
+	"proficiencies":
+	[
+		"P115048"
+	]
+},
+{
+	"label" :"RAINF SUBJ 2 SGT - PL SGT",
+	"id" :"202862",
+	"proficiencies":
+	[
+		"P020124"
+	]
+},
+{
+	"label" :"ARMY: Floating Support Bridge Supervisor",
+	"id" :"120274",
+	"proficiencies":
+	[
+		"P101412"
+	]
+},
+{
+	"label" :"ARMY: Floating Support Bridge Assistant Supervisor",
+	"id" :"208178",
+	"proficiencies":
+	[
+		"P103371",
+		"P103374"
+	]
+},
+{
+	"label" :"ARMY: Medium Girder Bridge Supervisor",
+	"id" :"208179",
+	"proficiencies":
+	[
+		"P103370"
+	]
+},
+{
+	"label" :"ARMY: RFSU PATROL MASTER COURSE",
+	"id" :"200190",
+	"proficiencies":
+	[
+		"P021134"
+	]
+},
+{
+	"label" :"ICATS MODULE TWO (Advanced)",
+	"id" :"215997",
+	"proficiencies":
+	[
+		"P115851"
+	]
+},
+{
+	"label" :"RAINF REGIMENTAL OFFICER BASIC COURSE",
+	"id" :"212721",
+	"proficiencies":
+	[
+		"P104414"
+	]
+},
+{
+	"label" :"OFFR/NCO DFSW",
+	"id" :"200030",
+	"proficiencies":
+	[
+		"P100437",
+		"P103671",
+		"P100429",
+		"P104800"
+	]
+},
+{
+	"label" :"ARMY: BASIC RECONNAISSANCE COURSE",
+	"id" :"200161",
+	"proficiencies":
+	[
+		"P103988"
+	]
+},
+{
+	"label" :"Dismounted Digital RT-1922 Microlight Module Course",
+	"id" :"212460",
+	"proficiencies":
+	[
+		"P021388"
+	]
+},
+{
+	"label" :"Specialist Digital EPLRS Mission System (RT1915/1922)",
+	"id" :"212625",
+	"proficiencies":
+	[
+		"P020750"
+	]
+},
+{
+	"label" :"Specialist Digital AN/PRC-150 Radio Module",
+	"id" :"209869",
+	"proficiencies":
+	[
+		"P020007",
+		"P020011"
+	]
+},
+{
+	"label" :"Mounted Digital RT-1915 EPLRS Module",
+	"id" :"212456",
+	"proficiencies":
+	[
+		"P021387"
+	]
+},
+{
+	"label" :"Mounted Digital AN/PRC-150 Radio Module",
+	"id" :"209858",
+	"proficiencies":
+	[
+		"P020011"
+	]
+},
+{
+	"label" :"Specialist Digital AN/PRC-152 Radio Module",
+	"id" :"209871",
+	"proficiencies":
+	[
+		"P020000"
+	]
+},
+{
+	"label" :"Mounted Digital AN/PRC-152 Radio Module",
+	"id" :"209859",
+	"proficiencies":
+	[
+		"P020002"
+	]
+},
+{
+	"label" :"Basic Digital AN/PRC-152 Radio Module",
+	"id" :"209828",
+	"proficiencies":
+	[
+		"P020001"
+	]
+},
+{
+	"label" :"RFSU POWERED TACTICAL CRAFT SUPERVISORS CSE",
+	"id" :"208754",
+	"proficiencies":
+	[
+		"P107838"
+	]
+},
+{
+	"label" :"Conduct & Supervise Safety on Restricted Category 'A' Range Practices",
+	"id" :"213856",
+	"proficiencies":
+	[
+		"P021008"
+	]
+},
+{
+	"label" :"Environmental  Survival Supervisors Course",
+	"id" :"202410",
+	"proficiencies":
+	[
+		"P103413"
+	]
+},
+{
+	"label" :"RFSU Vehicle Operator",
+	"id" :"200194",
+	"proficiencies":
+	[
+		"P104001"
+	]
+},
+{
+	"label" :"LOW RISK SEARCH OPERATOR",
+	"id" :"200962",
+	"proficiencies":
+	[
+		"P124141"
+	]
+},
+{
+	"label" :"RAINF IET ECN 343-2 (PT) MOD 2",
+	"id" :"201260",
+	"proficiencies":
+	[
+		"P021151"
+	]
+},
+{
+	"label" :"SUBJ 2 WO RAE",
+	"id" :"120260",
+	"proficiencies":
+	[
+		"P020133"
+	]
+},
+{
+	"label" :"IMPROVED RIBBON BRIDGE CONVERSION COURSE",
+	"id" :"212718",
+	"proficiencies":
+	[
+		"P106161"
+	]
+},
+{
+	"label" :"Bridge Erection Propulsion Boat (BEPB) Mk II Conversion Course",
+	"id" :"213184",
+	"proficiencies":
+	[
+		"P105419"
+	]
+},
+{
+	"label" :"ARMY: Floating Support Bridge Constructor Course",
+	"id" :"208180",
+	"proficiencies":
+	[
+		"P106161"
+	]
+},
+{
+	"label" :"SUBJ 4 SGT RAE SPVR CE Phase 1",
+	"id" :"120265",
+	"proficiencies":
+	[
+		"P107427"
+	]
+},
+{
+	"label" :"RAE Demolitions Supervisor Requalification",
+	"id" :"213183",
+	"proficiencies":
+	[
+		"P103968"
+	]
+},
+{
+	"label" :"FOOTBRIDGE SYSTEM OPERATOR",
+	"id" :"209639",
+	"proficiencies":
+	[
+		"P107412"
+	]
+}
+]

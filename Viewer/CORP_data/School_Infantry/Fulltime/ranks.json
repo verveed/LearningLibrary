@@ -1,0 +1,510 @@
+[
+	{
+		"id": "P109334",
+		"corp": "RAIC",
+		"proficiencies":[
+			"P107236",
+			"P021150"
+		],
+		"payGrade": 2,
+		"label": "Rifleman Grade 2"
+	},
+	{
+		"id": "P021152",
+		"proficiencies":[
+			"P109334"
+		],
+		"payGrade": 3,	
+		"label": "Rifleman Grade 3"
+	},
+	{
+		"id": "P021154",
+		"proficiencies":[
+			"P021152",
+			"P105943"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Mechanised Driver"
+	},
+	{
+		"id": "ecn343_31G",
+		"proficiencies":[
+			"P021152"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Mechanised Gunner"
+	},
+	{
+		"id": "P109631",
+		"optionals":[
+			"P021154",
+			"P120853"
+		],
+		"proficiencies":[
+
+			"P117653"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Crew Commander Mechanised"
+	},
+	{
+		"id": "P020736",
+		"optionals":[
+			"P103933",
+			"P021349",
+			"P124840"
+		],
+		"proficiencies":[
+			"P021152"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Motorised Driver"
+	},
+	{
+		"id": "P109632",
+		"proficiencies":[
+			"P020736",
+			"P103935",
+			"P126829"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Crew Commander Motorised"
+	},
+	{
+		"id": "P109633",
+		"proficiencies":[
+			"P021152",
+			"P101047"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Mortar"
+	},
+	{
+		"id": "P101988",
+		"proficiencies":[
+			"P021152",
+			"P100531"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Communications"
+	},	
+	{
+		"id": "P109649",
+		"proficiencies":[
+			"P021152",
+			"P103988"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Reconnaissance"
+	},
+	{
+		"id": "P109650",
+		"proficiencies":[
+			"P021152"
+
+		],
+		"optionals":[
+			"P104277",
+			"P020967"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Surveillance"
+	},			
+	{
+		"id": "P109651",
+		"proficiencies":[
+			"P021152",
+			"P103258",
+			"P104735",
+			"P020154",
+			"P107485",
+			"P103670"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - DFSW"
+	},	
+	{
+		"id": "P109356",
+		"proficiencies":[
+			"P021152",
+			"P021330",
+			"P104227"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Sniper"
+	},	
+	{
+		"id": "P010432",
+		"proficiencies":[
+			"P021152",
+			"P020654"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Assault Pioneer"
+	},
+	{
+		"id": "P021153",
+		"proficiencies":[
+			"P021152",
+			"P020108",
+			"P020117",
+			"P103643"
+		],
+		"payGrade": 4,
+		"label": "Rifleman Grade 3 - Supervisor Section Operations Grade 2"
+	},	
+	{
+		"label" :"Supervisor Section Operations Grade 2 Specialist Mechanised",
+		"id": "P109359",
+		"payGrade": 5,
+		"proficiencies":[
+			"P021153",
+			"P109631"
+
+		],
+		"optionals":[
+			"P021154",
+			"P117653"
+		]
+	},	
+	{
+		"label" :"Supervisor Section Operations Grade 2 Specialist Motorised",
+		"id": "P109656",
+		"payGrade": 5,
+		"proficiencies":[
+			"P021153",
+			"P109632"
+
+		],
+		"optionals":[
+			"P103935",
+			"P126648",
+			"P126485",
+			"P126648"
+		]
+	},	
+	{
+		"label" :"Supervisor Section Operations Grade 2 Specialist Mortar",
+		"id": "P109657",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P021153",
+			"P109633",
+			"P010242"
+		]
+	},	
+	{
+		"label" :"Supervisor Section Operations Grade 2 Specialist Communications",
+		"id": "P109658",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P021153",
+			"P101988",
+			"P103797"
+		]
+	},
+	{
+		"label" :"Supervisor Section Operations Grade 2 Specialist Reconnaissance",
+		"id": "P109659",
+		"payGrade": 5,
+
+		"proficiencies":[
+			"P021153",
+			"P109649",
+			"P105013"
+		]
+	},	
+	{
+		"label" :"Supervisor Section Operations Grade 2 Specialist Surveillance",
+		"id": "P109660",
+		"payGrade": 5,
+
+		"proficiencies":[
+			"P021153",
+			"P109650",
+			"P104277"
+
+		],
+		"optionals":[
+			"P104279",
+			"P020968"
+		]		
+	},
+	{
+		"label" :"Supervisor Section Operations Grade 2 Specialist DFSW",
+		"id": "P109661",
+		"payGrade": 5,
+
+		"proficiencies":[
+			"P021153",
+			"P109651",
+			"P100437"
+		]
+	},	
+	{
+		"label" :"Supervisor Section Operations Grade 2 Specialist Sniper",
+		"id": "P021228",
+		"payGrade": 5,
+
+		"proficiencies":[
+			"P021153",
+			"P109356",
+			"P021227"
+		]
+	},	
+	{
+		"label" :"Supervisor Section Operations Grade 2 Specialist  Assault Pioneer",
+		"id": "P010263",
+		"payGrade": 5,
+
+		"proficiencies":[
+			"P021153",
+			"P010432",
+			"P103389"
+		]
+	},	
+	{
+		"label" :"Supervisor Platoon Operations Grade 2",
+		"id": "P109350",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P021153",
+			"P020110",
+			"P020124",
+			"P104583"
+		]
+	},	
+	{
+		"label" :"Supervisor Platoon Operations Grade 2 Specialist Mechanised",
+		"id": "P109360",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P109350",
+			"P109359",
+			"P002767"
+
+		],
+		"optionals":[
+			"P105012",
+			"P101574"
+		]		
+	},	
+	{
+		"label" :"Supervisor Platoon Operations Grade 2 Specialist Motorised",
+		"id": "P109667",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P109350",
+			"P109656",
+			"P109748"
+		]
+	},	
+	{
+		"label" :"Supervisor Platoon Operations Grade 2 Specialist Mortar",
+		"id": "ECN_343_73",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P109350",
+			"P109657",
+			"P010242"
+		]
+	},	
+	{
+		"label" :"Supervisor Platoon Operations Grade 2 Specialist Communications",
+		"id": "P109668",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P109350",
+			"P109658",
+			"P103797",
+			"P126364"
+		]
+	},	
+	{
+		"label" :"Supervisor Platoon Operations Grade 2 Specialist Reconnaissance",
+		"id": "P109669",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P109350",
+			"P109659",
+			"P105013"
+		]
+	},
+	{
+		"label" :"Supervisor Platoon Operations Grade 2 Specialist Surveillance",
+		"id": "P109670",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P109350",
+			"P109660",
+			"P020968"
+		]
+	},	
+	{
+		"label" :"Supervisor Platoon Operations Grade 2 Specialist DFSW",
+		"id": "P109671",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P109350",
+			"P109661",
+			"P100437"
+		]
+	},	
+	{
+		"label" :"Supervisor Platoon Operations Grade 2 Specialist Sniper",
+		"id": "P021229",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P109350",
+			"P021228",
+			"P100458"
+		]
+	},	
+	{
+		"label" :"Supervisor Platoon Operations Grade 2 Specialist  Assault Pioneer",
+		"id": "P010775",
+		"payGrade": 5,		
+		"proficiencies":[
+			"P109350",
+			"P010263",
+			"P103389"
+		]
+	},
+	{
+		"label" :"Manager Company Operations Grade 2",
+		"id": "P109351",
+		"payGrade": 6,		
+		"proficiencies":[
+			"P109350",
+			"P020112",
+			"P021226",
+			"P100426"
+		]
+	},	
+	{
+		"label" :"Manager Company Operations Grade 2 Specialist Mechanised",
+		"id": "P109361",
+		"payGrade": 6,				
+		"proficiencies":[
+			"P109351",
+			"P109360",
+			"P105012"
+		]
+	},	
+	{
+		"label" :"Manager Company Operations Grade 2 Specialist Motorised",
+		"id": "P109673",
+		"payGrade": 6,				
+		"proficiencies":[
+			"P109351",
+			"P109666"
+		]
+	},	
+	{
+		"label" :"Manager Company Operations Grade 2 Specialist Mortar",
+		"id": "P109674",
+		"payGrade": 6,				
+		"proficiencies":[
+			"P109351",
+			"P109667"
+		]
+	},	
+	{
+		"label" :"Manager Company Operations Grade 2 Specialist Communications",
+		"id": "P109675",
+		"payGrade": 6,				
+		"proficiencies":[
+			"P109351",
+			"P109668"
+		]
+	},	
+	{
+		"label" :"Manager Company Operations Grade 2 Specialist Reconnaissance",
+		"id": "P109676",
+		"payGrade": 6,				
+		"proficiencies":[
+			"P109351",
+			"P109669"
+		]
+	},
+	{
+		"label" :"Manager Company Operations Grade 2 Specialist Surveillance",
+		"id": "P109677",
+		"payGrade": 6,				
+		"proficiencies":[
+			"P109351",
+			"P109670"
+		]
+	},
+	{
+		"label" :"Manager Company Operations Grade 2 Specialist DFSW",
+		"id": "P109678",
+		"payGrade": 6,				
+		"proficiencies":[
+			"P109351",
+			"P109671",
+			"P103671"
+		]
+	},	
+	{
+		"label" :"Manager Company Operations Grade 2 Specialist Sniper",
+		"id": "P021230",
+		"payGrade": 6,				
+		"proficiencies":[
+			"P109351",
+			"P021229"
+		]
+	},	
+	{
+		"label" :"Manager Company Operations Grade 2 Specialist Assault Pioneer",
+		"id": "P010857",
+		"payGrade": 6,				
+		"proficiencies":[
+			"P109351",
+			"P010775"
+		]
+	},
+	{
+		"label" :"Manager Company Operations Grade 2A",
+		"id": "P109679",
+		"payGrade": 6,				
+		"proficiencies":[
+			"P109351",
+			"P125266"
+		]
+	},	
+	{
+		"label" :"Manager Company Operations Grade 2B",
+		"id": "P021155",
+		"payGrade": 7,				
+		"proficiencies":[
+			"P109679",
+			"P125266"
+		]
+	},
+	{
+		"label" :"RA INF RSM Tier A",
+		"id": "P109521",
+		"payGrade": 6,						
+		"proficiencies":[
+			"P109351",
+			"P100672"
+		]
+	},	
+	{
+		"label" :"RA INF RSM Tier B",
+		"id": "P109522",
+		"payGrade": 7,						
+		"proficiencies":[
+			"P109521"
+		]
+	},	
+	{
+		"label" :"RA INF RSM Tier C",
+		"id": "P109523",
+		"payGrade": 8,						
+		"proficiencies":[
+			"P109522"
+		]
+	}
+]

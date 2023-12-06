@@ -1,0 +1,29 @@
+[
+{
+	"label" :"RAINF Officer Full-time",
+	"id" :"RAINF_officer_fulltime",
+	"proficiencies":
+	[
+		"P104414",
+		"P104583",
+		"P105114",
+		"P020473",
+		"P101202"
+	]
+},
+{
+	"label": "RAINF Officer Reserve",
+	"id": "RAINF_officer_reserve",
+	"proficiencies":[
+		"P104417",
+		"P104415",
+		"P104416",
+		"P104583",
+		"P105114",
+		"P020473",
+		"P10202",
+		"P10204"													
+	]
+
+}
+]

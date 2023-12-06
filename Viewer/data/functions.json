@@ -1,0 +1,68 @@
+[
+	{
+		"id":"Research_Design_and_Development",
+		"label": "Research Design and Development",
+		"color": "227,26,56"
+	},
+	{
+		"id":"Safety_Management",
+		"label": "Safety Management",
+		"color": "247,202,13"
+	},
+	{
+		"id":"Test_Evaluation",
+		"label": "Test & Evaluation",
+		"color": "232,120,8"
+	},
+	{
+		"id": "Manufacture",
+		"label": "Manufacture",
+		"color": "229,161,10"
+	},
+	{
+		"id": "Maintenance",
+		"label": "Maintenance",
+		"color": "209,209,1"
+	},
+	{
+		"id":"Procurement_and_Item_Management",
+		"label": "Procurement and Item Management",
+		"color": "124,193,5"
+	},
+	{
+		"id": "Storage",
+		"label": "Storage",
+		"color": "13,170,120"
+
+	},
+	{
+		"id": "Transport",
+		"label": "Transport",
+		"color": "28,198,226"				
+	},
+	{
+		"id": "Facilities",
+		"label": "Facilities",
+		"color": "25,71,120"				
+	},
+	{
+		"id": "Disposal",
+		"label": "Disposal",
+		"color": "108,117,126"						
+	},
+	{
+		"id":"Search_and_Clearance",
+		"label": "Search and Clearance",
+		"color": "98,71,151"						
+	},
+	{
+		"id": "General",
+		"label": "General",
+		"color": "27,42,58"						
+	},
+	{
+		"id":"Design_Management",
+		"label": "Design Management",
+		"color": "211,19,133"				
+	}
+]

@@ -1,0 +1,224 @@
+[
+{
+	"type":"competency",
+	"label":"Lead self in a small team",
+	"id":"FOU-1",
+	"skills":[
+	"LEAD-A-FOU",
+	"CHAR-A-FOU",
+	"CHAR-B-FOU",
+	"CULT-A-FOU",
+	"CULT-C-FOU",
+	"TD-PMF-A-FOU",
+	"TD-PMF-B-FOU",
+	"MA-ASO-A-FOU",
+	"FMS-UME-A-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Act ethically",
+	"id":"FOU-2",
+	"skills":[
+	"ETHI-A-FOU",
+	"ETHI-B-FOU",
+	"CHAR-A-FOU",
+	"CHAR-B-FOU",
+	"CULT-A-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Conduct basic individual and collective drill",
+	"id":"FOU-3",
+	"skills":[
+	"CULT-B-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Continually develop self",
+	"id":"FOU-4",
+	"skills":[
+	"LEAD-A-FOU",
+	"CHAR-A-FOU",
+	"CHAR-B-FOU",
+	"TD-PMF-A-FOU",
+	"TD-PMF-B-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Deliver and assess training",
+	"id":"FOU-5",
+	"skills":[
+	"TD-ID-A-FOU",
+	"TD-ID-B-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Comply with Defence Policy and Governance Requirements",
+	"id":"FOU-6",
+	"skills":[
+	"CULT-C-FOU",
+	"MA-ASO-A-FOU",
+	"MA-GA-A-FOU",
+	"MA-GA-B-FOU",
+	"MA-GA-C-FOU",
+	"MA-GA-D-FOU",
+	"MA-GA-E-FOU",
+	"MA-RA-A-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Produce a risk assessment",
+	"id":"FOU-7",
+	"skills":[
+	"MA-GA-F-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Utilise Defence resources appropriately",
+	"id":"FOU-8",
+	"skills":[
+	"MA-ASO-A-FOU",
+	"MA-RA-A-FOU",
+	"FMS-UME-A-FOU",
+	"FMS-UME-B-FOU",
+	"FMS-DFW-A-FOU",
+	"FMS-DFW-C-FOU",
+	"FMS-ES-A-FOU",
+	"FMS-ES-B-FOU",
+	"FMS-ES-C-FOU",
+	"FMS-ES-D-FOU",
+	"FMS-ES-E-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Plan  and conduct Section level orders ",
+	"id":"FOU-9",
+	"skills":[
+	"P-IP-A-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Produce basic written documents",
+	"id":"FOU-10",
+	"skills":[
+	"CA-AW-A-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Operate Night Fighting Equipment",
+	"id":"FOU-11",
+	"skills":[
+	"FMS-ES-B-FOU",
+	"FMS-ES-C-FOU",
+	"FMS-ES-D-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Operate individual weapons systems",
+	"id":"FOU-12",
+	"skills":[
+	"FMS-DFW-A-FOU",
+	"FMS-DFW-B-FOU",
+	"FMS-DFW-C-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Provide medical support",
+	"id":"FOU-13",
+	"skills":[
+	"FMS-FC-A-FOU",
+	"FMS-BC-A-FOU",
+	"FMS-BC-B-FOU",
+	"FMS-BC-C-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Conduct Tactical Casualty Care",
+	"id":"FOU-14",
+	"skills":[
+	"FMS-BC-A-FOU",
+	"FMS-BC-B-FOU",
+	"FMS-BC-C-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Survive in a CBRN Threat Environment",
+	"id":"FOU-15",
+	"skills":[
+	"FMS-FC-B-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Demonstrate navigation skills",
+	"id":"FOU-16",
+	"skills":[
+	"FMS-FC-D-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Demonstrate foundational field craft skills",
+	"id":"FOU-17",
+	"skills":[
+	"FMS-FC-A-FOU",
+	"FMS-FC-B-FOU",
+	"FMS-FC-C-FOU",
+	"FMS-FC-D-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Apply the principles of the Army Combatives Program Level 1",
+	"id":"FOU-18",
+	"skills":[
+	"FMS-BC-D-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Demonstrate foundational battle craft skills",
+	"id":"FOU-19",
+	"skills":[
+	"FMS-BC-A-FOU",
+	"FMS-BC-B-FOU",
+	"FMS-BC-C-FOU",
+	"FMS-BC-D-FOU",
+	"FMS-BC-E-FOU"
+]
+},
+{
+	"type":"competency",
+	"label":"Operate as a section member in the field",
+	"id":"FOU-20",
+	"skills":[
+	"FMS-UME-B-FOU",
+	"FMS-DFW-A-FOU",
+	"FMS-DFW-B-FOU",
+	"FMS-DFW-C-FOU",
+	"FMS-FC-A-FOU",
+	"FMS-FC-B-FOU",
+	"FMS-FC-C-FOU",
+	"FMS-FC-D-FOU",
+	"FMS-BC-A-FOU",
+	"FMS-BC-B-FOU",
+	"FMS-BC-C-FOU",
+	"FMS-BC-D-FOU",
+	"FMS-BC-E-FOU"
+]
+}
+]

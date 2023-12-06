@@ -1,0 +1,632 @@
+let network, data, allNodes, allRankNodes, services, schools, modules, courses, functions, allEntries;
+let highlightActive = false;
+	let proficiencyArrayContainer = [];
+
+const NODE_COLOR = '#9b4dca';
+const NODE_ICON_SIZE = 40;
+const EDGE_COLOR = '#4B0082';
+// const highlightActive = false;
+
+
+ const location69 = (function () {
+                if (document.currentScript) {
+                    let link = document.currentScript.src;
+                    let lastIndex = link.lastIndexOf('/');
+                    link = link.substring(0, lastIndex);
+                    return link;
+                }
+ })();
+ console.log(location69);
+
+
+// const ADELE_Folder_URI = () => {
+
+
+// 	https://www.adele.edu.au/pluginfile.php/4840571/mod_folder/content/0/vis_LCC/app2.js?forcedownload=1
+// }
+const DEFAULT_EDGE_SETTINGS = {
+	// color: EDGE_COLOR,
+	arrows: {
+		to: {
+			enabled: true
+		}
+	}
+}
+const GROUPS = {
+	zero:{
+		color:{
+			background: "rgba(14,178,98,0)",
+			border: "rgba(14,178,98,0)"			
+		},
+		
+	}
+
+};
+// async function getCATC_ranks() {
+// 	return fetch('./LCC_data/CATC/ranks.json').then(response => response.json());
+// }
+async function get_ranks() {
+	return fetch('./CORP_data/School_Infantry/Fulltime/ranks.json').then(response => response.json());
+}
+async function getSOI_proficiences() {
+	return fetch('./CORP_data/School_Infantry/proficiencies.json').then(response => response.json());
+}
+
+  function getADELECompetencyInfo(nodeId) {
+require(['jquery','core/ajax'], function($, ajax) {
+
+  // -----------------------------
+
+
+    //  toggle event
+
+      // get current value then call ajax to get new data
+      ajax.call([{
+        methodname: 'tool_lp_list_courses_using_competency',
+        args: {
+          id: nodeId
+        },
+      }])[0].done(function(response) {
+        // clear out old values
+        console.log(response);
+        return response;
+      }).fail(function(err) {
+        console.log(err);
+        //notification.exception(new Error('Failed to load data'));
+        return err;
+      });
+  
+});
+    };
+
+function ProficienciesToRanks() {
+	const proficiencies_to_ranks_Edges = new Set;
+	// const proficiencyNodes = new Set;
+	const rankNodes = new Set;
+	// proficiencies.forEach(proficiency => {
+	// 	proficiencyNodes.add({
+	// 		id: proficiency,
+	// 		hiddenLabel: proficiency,
+	// 		label: undefined,
+	// 		group: 'zero'
+	// 	})
+	// })
+
+	ranks.forEach(rank => {
+		let i = 0;
+	
+
+		const rankProficiency = rank.proficiencies || [];
+		rankProficiency.forEach(prof => {
+			i++
+			rank.value = i;
+			// rankNodes.add({
+			// 	id: prof,
+			// })
+
+			proficiencies_to_ranks_Edges.add({
+				from: prof,
+				to: rank.id,
+			})
+		});
+		const rankOptionals = rank.optionals || [];
+		rankOptionals.forEach(optional => {
+				// rankNodes.add({
+				// 	id: optional
+				// })
+			
+			proficiencies_to_ranks_Edges.add({
+				from:optional,
+				to: rank.id,
+			})
+		})
+				rankNodes.add({id: rank.id, label: rank.label, hiddenLabel: undefined, group: rank.payGrade});
+		// nodes.updateOnly({id: rank.id, label: rank.label, hiddenLabel: undefined, group: rank.payGrade, value: rank.value});	
+	});
+		nodes = new vis.DataSet([
+		...rankNodes
+		]);
+	rankNodesDataSet = new vis.DataSet([
+		...rankNodes
+		]);
+	const edges = new vis.DataSet([
+		...proficiencies_to_ranks_Edges
+		]);
+	allNodes = rankNodesDataSet.get({ returnType: "Object" });
+	allRankNodes = rankNodesDataSet.get({ returnType: "Object" });
+
+	return {
+		nodes,
+		edges
+	}
+}
+
+
+
+
+function getSelectedInfos(id) {
+
+	return allEntries.find(entry => entry.id === id);
+}
+
+/**
+ * Get all child ids and return the data-entries of them
+ */
+function getChildInfos(id) {
+	const childIds = network.getConnectedNodes(id, 'to');
+	return allEntries.filter(entry => childIds.includes(entry.id));
+}
+	function zoomIn(nodeId,scale){
+			const zoomOptions = {
+  scale: scale ? scale : 1,
+  offset: {x:0, y:0},
+  animation: {
+    duration: 1000,
+    easingFunction: "easeInQuad"
+  }
+};
+console.log(zoomOptions);
+network.focus(nodeId,zoomOptions);
+network.selectNodes([nodeId]);
+onclick(nodeId);
+	}
+/**
+ * Show infos about the selected node
+ */
+function showSelectedInfo(info) {
+	const $container = document.getElementById('selected');
+	console.log(info);
+	/* clean container */
+	if (!info) return;
+
+
+
+	// const $accordionVisInfo_header_moduleTitle = document.getElementById('accordionVisInfo_header_moduleTitle');
+	// const $accordionVisInfo_header_moduleImages = document.getElementById('accordionVisInfo_header_moduleImage');
+	// const $accordionVisInfo_header_serviceTitle = document.getElementById('accordionVisInfo_serviceTitle');
+	// const $accordionVisInfo_header_serviceIcon = document.getElementById('accordionVisInfo_serviceIcon');
+
+
+	// $accordionVisInfo_header_serviceTitle.innerHTML = info.service;
+	// $accordionVisInfo_header_moduleTitle.innerHTML = info.label;
+	// $accordionVisInfo_header_moduleImages.src =`./module_headers/${info.id}.jpg`
+	// $accordionVisInfo_header_serviceIcon.src =`./service_icons/${info.service}.png`
+
+
+const $accordionVisInfo_header = document.getElementById('accordionVisInfo_header');
+$accordionVisInfo_header.innerHTML = '';
+const $accordionVisInfo_corp = info.corp || null;
+			$accordionVisInfo_header_serviceIcon = document.createElement('img');
+			$accordionVisInfo_header_serviceIcon.classList.add('rounded-circle','mr-3');
+			$accordionVisInfo_header.innerHTML = [
+			// `${accordionVisInfo_header_serviceIcon}`,
+			`<img class='rounded-circle mr-3' src='./corp_icons/${info.corp}.png'>`,
+			`<div><h4 class='card-title font-weight-bold mb-2'>${info.label}<h4>`,
+			`<p class='card-text'>Corp: ${info.corp}</p></div>`
+			].filter(Boolean).join('\n');
+			// $accordionVisInfo_header.appendChild($accordion);
+
+
+
+	const $liveCourses_ul = document.getElementById('accordionVisInfo_liveCourses_ul');
+	$liveCourses_ul.innerHTML = '';
+	 let tempCompetencyCourses_API_Return = [{
+    "label": "Supervisor Platoon Operations Grade 2",
+    "id": "P109350",
+    "payGrade": 5,
+    "proficiencies": [
+        "P021153",
+        "P020110",
+        "P020124",
+        "P104583"
+    ],
+    "value": 4
+}];
+	//this is where the "tool_lp_list_courses_using_competency" fetch needs to occur.  For this to work
+	//we need to ensure there's accurate mapping from the UoL/skill/competency to each ADELE Competency.
+	const $liveCourses = tempCompetencyCourses_API_Return || [];
+		$liveCourses.forEach(liveCourse => {
+			// liveCourse = liveCourse.replace(/_/g," ");
+			$accordion = document.createElement('span');
+			$accordion.innerHTML = [
+			`<a class="pr-2"><span onclick="zoomIn('${liveCourse.id}');";`,
+			`class="grey-text"></a>${liveCourse.label}</span>`,
+			].filter(Boolean).join('\n');
+			$liveCourses_ul.appendChild($accordion);
+		})
+
+
+// const $prerequisites_ul = document.getElementById('accordionVisInfo_prerequisites_ul');
+// $prerequisites_ul.innerHTML = '';
+// const $prerequisites = info.prerequisites || [];
+// 	$prerequisites.forEach(prerequisite => {
+// 		const prerequisite_module = modules.find(module => module.id === prerequisite);
+// 			$accordion = document.createElement('div');
+// 			$accordion.innerHTML = [
+// 			`<li class="list-group-item pr-2"><a class="font-weight-bold cyan-lighter-hover mb-3" onclick="zoomIn('${prerequisite_module.id}');"`,
+// 			`class="grey-text">${prerequisite_module.label.replace(/_/g," ")}</a>`,
+// 			].filter(Boolean).join('\n');
+// 			$prerequisites_ul.appendChild($accordion);
+// 	})
+
+
+
+	// const tradePaths = courses.filter(course => course.modules.includes(info.id));
+		const courseCardContainer = document.getElementById('children');
+
+	
+	/* Clean container */
+	courseCardContainer.innerHTML = '';
+	if (!children) return;
+// 	tradePaths.forEach(usedCourse => {
+
+// 			usedusedCourse = usedusedCourse.replace(/_/g," ");
+// 			$accordion = document.createElement('div');
+// 			$accordion.innerHTML = [
+// 			`<li class="list-group-item pr-2"><a class="font-weight-bold cyan-lighter-hover mb-3" onclick="zoomIn('${usedCourse.id}');"`,
+// 			`class="grey-text">${usedCourse.label.replace(/_/g," ")}</a>`,
+// 			].filter(Boolean).join('\n');
+// 			$tradePaths_ul.appendChild($accordion);
+// })
+
+
+	// $infoBlock = document.createElement('div');
+	// $infoBlock.innerHTML = [
+	// 	`<h2>${info.label}</h2>`,
+	// 	info.location ?  `<div>${info.location}</div>` : null,
+	// 	info.description ? `<div>${info.description}</div>` : null,
+	// 	`<hr />`
+	// ].filter(Boolean).join('\n');
+	// $container.appendChild($infoBlock);
+}
+
+/*
+ * Show information of the provided child-entries
+ */
+function showChildInfo(children) {
+	const $tradePaths_ul = document.getElementById('accordionVisInfo_tradePaths_ul');
+	$tradePaths_ul.innerHTML = '';
+	/* For each entry create a new DOM-element */
+	children.forEach(child => {
+		// console.log(child);
+
+				$accordion = document.createElement('div');
+			$accordion.innerHTML = [
+			`<li class="list-group-item pr-2"><a class="font-weight-bold cyan-lighter-hover mb-3" onclick="zoomIn('${child.id}');"`,
+			`class="grey-text">${child.label.replace(/_/g," ")}</a>`,
+			].filter(Boolean).join('\n');
+			$tradePaths_ul.appendChild($accordion);
+	
+	// 	const $childInfo = document.createElement('div');
+	// 	$childInfo.classList.add('grid-item','col-md-4','m-4');
+	// 	$childInfo.innerHTML = [
+	// 	`<div class="card">`,
+	// 	  `<div class="view view-cascade overlay">`,
+  //  `<img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="Card image cap">`,
+  //   `<a>`,
+  //     `<div class="mask rgba-white-slight"></div>`,
+  //   `</a>`,
+  // `</div>`,
+	// 	  `<div class="card-body card-body-cascade text-center">`,
+
+	// 	`<h4 class="card-title"><strong>${child.label}</strong></h4>`,
+	// 		child.location ?  `<div>${child.location}</div>` : null,
+	// 		child.description ? `<p class="card-text">${ child.description}</p>` : null,
+	// 		`</div>`,
+	// 		`</div>`
+	// 	].join('\n');
+	// 	$container.appendChild($childInfo);
+	});
+}
+
+
+const touchedEdges = [];
+
+function neighbourhoodHighlight(params) {
+        // if something is selected:
+	console.log(highlightActive);
+	var tester = network.getSelection();
+	var selectedNode = tester.nodes[0];
+	let selectedEdges = tester.edges;
+
+
+	touchedEdges.forEach((edge) => {
+		data.edges.updateOnly({id: edge, color: undefined});
+	})
+	touchedEdges.length = 0;
+
+	if (tester.nodes.length > 0) {
+		console.log("in network.getSelection's returned array, which is more than 0");
+
+		selectedEdges.forEach((edge) => {
+			touchedEdges.push(edge);
+			data.edges.updateOnly({id: edge, color: {inherit:'from'}});
+
+	// return selectedEdges[edge].hidden == false;
+		});        	
+
+
+
+		selectedEdges = [];
+		highlightActive = true;
+
+		var i, j;
+          // var selectedNode = params.nodes[0];
+          // console.log(selectedNode);
+
+		var degrees = 2;
+          // var tester = network.getSelection();
+          // var selectedNode = tester.nodes[0];
+          // mark all nodes as hard to read.
+		for (var nodeId in allRankNodes) {
+			allRankNodes[nodeId].color = "rgba(200,200,200,0.5)";
+						// allNodes[nodeId].opacity = ;            
+            //below does not fire on FIRST run
+			if (allRankNodes[nodeId].hiddenLabel === undefined) {
+				allRankNodes[nodeId].hiddenLabel = allRankNodes[nodeId].label;
+				allRankNodes[nodeId].label = undefined;
+			}
+		}
+		var connectedNodes = network.getConnectedNodes(selectedNode);
+		var allConnectedNodes = [];
+          // get the second degree nodes
+		for (i = 1; i < degrees; i++) {
+			for (j = 0; j < connectedNodes.length; j++) {
+				// allNodes[selectedNode].value = j;
+				allConnectedNodes = allConnectedNodes.concat(
+					network.getConnectedNodes(connectedNodes[j])
+					);
+			}
+		}
+
+          // all second degree nodes get a different color and their label back
+		for (i = 0; i < allConnectedNodes.length; i++) {
+			console.log()
+			if(allRankNodes[allConnectedNodes[i]]){
+			allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+						// allRankNodes[allConnectedNodes[i]].opacity = undefined;            
+			if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+				allNodes[allConnectedNodes[i]].label =
+				allNodes[allConnectedNodes[i]].hiddenLabel;
+				allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+			}
+		}
+		}
+
+          // all first degree nodes get their own color and their label back
+		for (i = 0; i < connectedNodes.length; i++) {
+							console.log(allNodes[connectedNodes[i]]);
+
+			if (allNodes[connectedNodes[i]].group == 'zero'){
+				allNodes[connectedNodes[i]].color = "rgba(15,27,180,1)";
+			}
+			else{
+				allNodes[connectedNodes[i]].color = undefined;
+			}
+						// allNodes[connectedNodes[i]].opacity = 1;            
+			if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+				allNodes[connectedNodes[i]].label = allNodes[connectedNodes[i]].hiddenLabel;
+				allNodes[connectedNodes[i]].hiddenLabel = allNodes[connectedNodes[i]].label;
+			}
+		}
+
+          // the main node gets its own color and its label back.
+		allNodes[selectedNode].color = undefined;
+					// allNodes[selectedNode].opacity = undefined;                      
+		if (allNodes[selectedNode].hiddenLabel !== undefined) {
+			allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+			allNodes[selectedNode].hiddenLabel = allNodes[selectedNode].label;
+		}
+	} else if (highlightActive === true) {
+          // reset all nodes
+		for (var nodeId in allNodes) {
+			allNodes[nodeId].color = undefined;
+			if (allRankNodes[nodeId] && allRankNodes[nodeId].hiddenLabel !== undefined) {
+				allRankNodes[nodeId].label = allRankNodes[nodeId].hiddenLabel;
+				allRankNodes[nodeId].hiddenLabel = undefined;
+			}
+			else{
+				allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;							
+				allNodes[nodeId].label = undefined; 
+			}
+		}
+
+		highlightActive = false;
+
+	}
+
+        // transform the object into an array
+	var updateArray = [];
+	for (nodeId in allNodes) {
+		if (allNodes.hasOwnProperty(nodeId)) {
+			updateArray.push(allNodes[nodeId]);
+		}
+	}
+
+	data.nodes.updateOnly(updateArray);
+
+}
+/**
+ * Handler for node-select
+ */
+function onclick(clickEventData) {
+	/* get selected node */
+	const selectedNodeId = clickEventData.nodes ? clickEventData.nodes[0] : clickEventData;
+if (!selectedNodeId){	nodes.remove(proficiencyArrayContainer)}
+	// const competencyData = getADELECompetencyInfo(selectedNodeId);
+// console.log (competencyData);
+// 	highlightActive = true;
+// 	let i,j;
+// 	let degrees = 2;
+// 	console.log(data);
+// allEntries.forEach(module =>{
+// 	module.color="red";
+// })
+
+// var blah = network.getDataSet();
+// console.log(blah);
+		console.log(selectedNodeId);
+
+		let thisEntry = allEntries.find(entry => entry.id === selectedNodeId);
+
+	// const childIds = network.getConnectedNodes(id, 'to');
+ 
+console.log(thisEntry);
+if (thisEntry){
+		const rankProficiency = thisEntry.proficiencies || [];
+		rankProficiency.forEach(prof => {
+		let currentNetworkNodesSearch = network.findNode(prof);
+		if (!currentNetworkNodesSearch.length){
+			console.log(prof);
+		proficiencyArrayContainer.push(prof);
+nodes.update([
+  {
+  	id: prof, 
+  label: prof.label ? prof.label : prof
+}
+]);
+}
+
+		});
+	}
+
+// network.setOptions({nodes:{color:"red"}});
+	if (selectedNodeId) {
+		const selectedEntry = getSelectedInfos(selectedNodeId);
+		showSelectedInfo(selectedEntry);
+		const childEntries = getChildInfos(selectedNodeId);
+		showChildInfo(childEntries);
+		// neighbourhoodHighlight(selectedEntry);
+	} else {
+		return;
+		showSelectedInfo(null);
+		showChildInfo(null);
+		// neighbourhoodHighlight(null);
+	}
+}
+
+/**
+ * Load data and initialize the network.
+ */
+async function init() {
+
+	ranks = await get_ranks();
+	proficiencies = await getSOI_proficiences();
+
+
+
+	/* Create one array with all entries for easy lookup */
+	allEntries = Object.freeze([
+		// ...services,
+		// ...schools,
+		// ...modules,
+		// ...courses,
+		// ...functions,
+		...ranks
+		// ...proficiencies,
+		// ...courses,
+		]);
+
+	/* Ensure teh uses fontawesome is loaded */
+	await document.fonts.load('normal normal 400 24px/1 "FontAwesome"');
+	
+
+	var container = document.getElementById("network");
+
+	/* Show "colleges > schools > courses" by default.
+	 * Could also be {} for an empty network by default. */
+	data = ProficienciesToRanks();
+
+	var options = {
+
+		groups:GROUPS,
+		nodes: {
+			shape: 'dot',
+			mass: 4,
+			widthConstraint: 100,
+			margin: {
+				top: 30
+			},
+      // scaling: {
+      //   min: 10,
+      //   max: 30,
+      //   label: {
+      //     min: 8,
+      //     max: 30,
+      //     drawThreshold: 12,
+      //     maxVisible: 20
+      //   }
+      // },
+			font: {
+				size: 12,
+				face: 'Tahoma'
+			}
+		},
+		layout: {
+			improvedLayout:true,
+			hierarchical: {
+				enabled:false,
+				levelSeparation: 150,
+				nodeSpacing: 100,
+				treeSpacing: 200,
+				blockShifting: true,
+				edgeMinimization: true,
+				parentCentralization: true,
+      direction: 'UD',        // UD, DU, LR, RL
+      sortMethod: 'directed',  // hubsize, directed
+      shakeTowards: 'roots'  // roots, leaves
+    }
+  },
+  edges: {
+  	arrows: 'to',
+  	width: 0.15,
+  	color: {inherit: 'from'},
+  	smooth: {
+  		type: 'continuous'
+  	}
+  },
+  physics: {
+  	enabled: true,
+  	barnesHut: {
+  		gravitationalConstant: -3000,
+  		centralGravity: 0.3,
+  		springLength: 4,
+  		springConstant: 0.09,
+  		damping: 1,
+  		avoidOverlap: 1
+  	},
+  	maxVelocity: 33,
+  	minVelocity: 0.12,
+  	solver: "barnesHut",
+  	timestep: 0.4
+  },
+  interaction: {
+  	navigationButtons: true,
+  	keyboard: true,
+  	tooltipDelay: 200,
+  	hideEdgesOnDrag: true
+  },
+
+  configure: {
+  	enabled: false,
+  	filter: 'nodes,edges',
+  	container: document.getElementById('info'),
+  	showButton: true
+  }
+};
+
+//       }
+
+
+network = new vis.Network(container, data, options);
+
+	/* Add network click handler */
+	network.on('click', onclick);
+// network.on("click", neighbourhoodHighlight);
+
+
+}
+
+
+
+document.addEventListener("DOMContentLoaded", init);
