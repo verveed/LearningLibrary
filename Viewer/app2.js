@@ -8,15 +8,15 @@ const EDGE_COLOR = '#4B0082';
 // const highlightActive = false;
 
 
- const location69 = (function () {
-                if (document.currentScript) {
-                    let link = document.currentScript.src;
-                    let lastIndex = link.lastIndexOf('/');
-                    link = link.substring(0, lastIndex);
-                    return link;
-                }
- })();
- console.log(location69);
+ // const location69 = (function () {
+ //                if (document.currentScript) {
+ //                    let link = document.currentScript.src;
+ //                    let lastIndex = link.lastIndexOf('/');
+ //                    link = link.substring(0, lastIndex);
+ //                    return link;
+ //                }
+ // })();
+ // console.log(location69);
 
 
 // const ADELE_Folder_URI = () => {
@@ -42,14 +42,15 @@ const GROUPS = {
 	}
 
 };
+https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/js/vis-network.min.js
 // async function getCATC_ranks() {
 // 	return fetch('./LCC_data/CATC/ranks.json').then(response => response.json());
 // }
 async function get_ranks() {
-	return fetch('./CORP_data/School_Infantry/Fulltime/ranks.json').then(response => response.json());
+	return fetch('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/Fulltime/ranks.json').then(response => response.json());
 }
 async function getSOI_proficiences() {
-	return fetch('./CORP_data/School_Infantry/proficiencies.json').then(response => response.json());
+	return fetch('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/proficiencies.json').then(response => response.json());
 }
 
   function getADELECompetencyInfo(nodeId) {
@@ -200,7 +201,7 @@ const $accordionVisInfo_corp = info.corp || null;
 			$accordionVisInfo_header_serviceIcon.classList.add('rounded-circle','mr-3');
 			$accordionVisInfo_header.innerHTML = [
 			// `${accordionVisInfo_header_serviceIcon}`,
-			`<img class='rounded-circle mr-3' src='./corp_icons/${info.corp}.png'>`,
+			`<img class='rounded-circle mr-3' src='https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/corp_icons/${info.corp}.png'>`,
 			`<div><h4 class='card-title font-weight-bold mb-2'>${info.label}<h4>`,
 			`<p class='card-text'>Corp: ${info.corp}</p></div>`
 			].filter(Boolean).join('\n');
@@ -235,49 +236,13 @@ const $accordionVisInfo_corp = info.corp || null;
 			$liveCourses_ul.appendChild($accordion);
 		})
 
-
-// const $prerequisites_ul = document.getElementById('accordionVisInfo_prerequisites_ul');
-// $prerequisites_ul.innerHTML = '';
-// const $prerequisites = info.prerequisites || [];
-// 	$prerequisites.forEach(prerequisite => {
-// 		const prerequisite_module = modules.find(module => module.id === prerequisite);
-// 			$accordion = document.createElement('div');
-// 			$accordion.innerHTML = [
-// 			`<li class="list-group-item pr-2"><a class="font-weight-bold cyan-lighter-hover mb-3" onclick="zoomIn('${prerequisite_module.id}');"`,
-// 			`class="grey-text">${prerequisite_module.label.replace(/_/g," ")}</a>`,
-// 			].filter(Boolean).join('\n');
-// 			$prerequisites_ul.appendChild($accordion);
-// 	})
-
-
-
-	// const tradePaths = courses.filter(course => course.modules.includes(info.id));
 		const courseCardContainer = document.getElementById('children');
 
 	
 	/* Clean container */
 	courseCardContainer.innerHTML = '';
 	if (!children) return;
-// 	tradePaths.forEach(usedCourse => {
 
-// 			usedusedCourse = usedusedCourse.replace(/_/g," ");
-// 			$accordion = document.createElement('div');
-// 			$accordion.innerHTML = [
-// 			`<li class="list-group-item pr-2"><a class="font-weight-bold cyan-lighter-hover mb-3" onclick="zoomIn('${usedCourse.id}');"`,
-// 			`class="grey-text">${usedCourse.label.replace(/_/g," ")}</a>`,
-// 			].filter(Boolean).join('\n');
-// 			$tradePaths_ul.appendChild($accordion);
-// })
-
-
-	// $infoBlock = document.createElement('div');
-	// $infoBlock.innerHTML = [
-	// 	`<h2>${info.label}</h2>`,
-	// 	info.location ?  `<div>${info.location}</div>` : null,
-	// 	info.description ? `<div>${info.description}</div>` : null,
-	// 	`<hr />`
-	// ].filter(Boolean).join('\n');
-	// $container.appendChild($infoBlock);
 }
 
 /*
@@ -296,26 +261,7 @@ function showChildInfo(children) {
 			`class="grey-text">${child.label.replace(/_/g," ")}</a>`,
 			].filter(Boolean).join('\n');
 			$tradePaths_ul.appendChild($accordion);
-	
-	// 	const $childInfo = document.createElement('div');
-	// 	$childInfo.classList.add('grid-item','col-md-4','m-4');
-	// 	$childInfo.innerHTML = [
-	// 	`<div class="card">`,
-	// 	  `<div class="view view-cascade overlay">`,
-  //  `<img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/men.jpg" alt="Card image cap">`,
-  //   `<a>`,
-  //     `<div class="mask rgba-white-slight"></div>`,
-  //   `</a>`,
-  // `</div>`,
-	// 	  `<div class="card-body card-body-cascade text-center">`,
 
-	// 	`<h4 class="card-title"><strong>${child.label}</strong></h4>`,
-	// 		child.location ?  `<div>${child.location}</div>` : null,
-	// 		child.description ? `<p class="card-text">${ child.description}</p>` : null,
-	// 		`</div>`,
-	// 		`</div>`
-	// 	].join('\n');
-	// 	$container.appendChild($childInfo);
 	});
 }
 
