@@ -42,10 +42,7 @@ const GROUPS = {
 	}
 
 };
-https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/js/vis-network.min.js
-// async function getCATC_ranks() {
-// 	return fetch('./LCC_data/CATC/ranks.json').then(response => response.json());
-// }
+
 async function get_ranks() {
 	return fetch('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/Fulltime/ranks.json').then(response => response.json());
 }
