@@ -50,9 +50,10 @@ async function getSOI_proficiences() {
 	return fetch('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/proficiencies.json').then(response => response.json());
 }
 
-  function getADELECompetencyInfo(nodeId) {
-require(['jquery','core/ajax'], function($, ajax) {
+// const nodeId = 1457;
 
+require(['jquery','core/ajax'], function getADELECompetencyInfo($,ajax) {
+console.log(nodeId);
   // -----------------------------
 
 
@@ -75,7 +76,11 @@ require(['jquery','core/ajax'], function($, ajax) {
       });
   
 });
-    };
+
+
+// const compInfo = getADELECompetencyInfo(nodeId);
+// console.log(compInfo);
+ 
 
 function ProficienciesToRanks() {
 	const proficiencies_to_ranks_Edges = new Set;
@@ -396,8 +401,9 @@ function onclick(clickEventData) {
 	/* get selected node */
 	const selectedNodeId = clickEventData.nodes ? clickEventData.nodes[0] : clickEventData;
 if (!selectedNodeId){	nodes.remove(proficiencyArrayContainer)}
-	// const competencyData = getADELECompetencyInfo(selectedNodeId);
-// console.log (competencyData);
+	
+	const competencyData = getADELECompetencyInfo(selectedNodeId);
+console.log (competencyData);
 // 	highlightActive = true;
 // 	let i,j;
 // 	let degrees = 2;
