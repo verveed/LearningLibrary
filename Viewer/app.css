@@ -1,22 +1,4 @@
-html, body {
-	height: 100%;
-}
 
-body {
-	display: flex;
-	flex-direction: column;
-	flex: 0 0 auto 0;
-
-	padding: 1rem;
-}
-
-main {
-	display: flex;
-	flex-direction: row;
-	flex: auto 0;
-
-	height: 85%
-}
 
 #network {
 	display: block;
