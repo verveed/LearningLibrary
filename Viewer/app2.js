@@ -52,6 +52,32 @@ async function getSOI_proficiences() {
 
 // const nodeId = 1457;
 
+await require(['jquery','core/ajax'], function getADELECompetencyInfo($,ajax) {
+console.log(nodeId);
+  // -----------------------------
+
+
+    //  toggle event
+
+      // get current value then call ajax to get new data
+      ajax.call([{
+        methodname: 'tool_lp_list_courses_using_competency',
+        args: {
+          id: nodeId
+        },
+      }])[0].done(function(response) {
+        // clear out old values
+        console.log(response);
+        return response;
+      }).fail(function(err) {
+        console.log(err);
+        //notification.exception(new Error('Failed to load data'));
+        return err;
+      });
+  
+});
+
+
 // const compInfo = getADELECompetencyInfo(nodeId);
 // console.log(compInfo);
  
@@ -375,7 +401,7 @@ function onclick(clickEventData) {
 	/* get selected node */
 	const selectedNodeId = clickEventData.nodes ? clickEventData.nodes[0] : clickEventData;
 if (!selectedNodeId){	nodes.remove(proficiencyArrayContainer)}
-	
+
 	const competencyData = getADELECompetencyInfo(selectedNodeId);
 console.log (competencyData);
 // 	highlightActive = true;
