@@ -52,32 +52,6 @@ async function getSOI_proficiences() {
 
 // const nodeId = 1457;
 
-require(['jquery','core/ajax'], function getADELECompetencyInfo($,ajax) {
-console.log(nodeId);
-  // -----------------------------
-
-
-    //  toggle event
-
-      // get current value then call ajax to get new data
-      ajax.call([{
-        methodname: 'tool_lp_list_courses_using_competency',
-        args: {
-          id: nodeId
-        },
-      }])[0].done(function(response) {
-        // clear out old values
-        console.log(response);
-        return response;
-      }).fail(function(err) {
-        console.log(err);
-        //notification.exception(new Error('Failed to load data'));
-        return err;
-      });
-  
-});
-
-
 // const compInfo = getADELECompetencyInfo(nodeId);
 // console.log(compInfo);
  
