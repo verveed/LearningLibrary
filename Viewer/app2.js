@@ -74,7 +74,6 @@ async function getSOI_proficiences() {
   
 // });
 
-// const compInfo = getADELECompetencyInfo(nodeId);
 // console.log(compInfo);
  
 
@@ -397,8 +396,10 @@ function onclick(clickEventData) {
 	/* get selected node */
 	const selectedNodeId = clickEventData.nodes ? clickEventData.nodes[0] : clickEventData;
 if (!selectedNodeId){	nodes.remove(proficiencyArrayContainer)}
+console.log(myNamespace);
+console.log(window.myNamespace);
+	const competencyData = myNamespace.getCompetencyData(selectedNodeId,"tool_lp_list_courses_using_competency");
 
-	const competencyData = getADELECompetencyInfo(selectedNodeId);
 console.log (competencyData);
 // 	highlightActive = true;
 // 	let i,j;
@@ -574,7 +575,7 @@ network = new vis.Network(container, data, options);
 
 
 document.addEventListener("DOMContentLoaded", init);
-let someData = getCompetencyData();
-console.log(someData);
-let someData2 = getData();
-console.log(someData2);
+// let someData = getCompetencyData();
+// console.log(someData);
+// let someData2 = getData();
+// console.log(someData2);
