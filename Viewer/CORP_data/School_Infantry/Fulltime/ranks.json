@@ -1,510 +1,1343 @@
 [
-	{
-		"id": "P109334",
-		"corp": "RAIC",
-		"proficiencies":[
-			"P107236",
-			"P021150"
-		],
-		"payGrade": 2,
-		"label": "Rifleman Grade 2"
-	},
-	{
-		"id": "P021152",
-		"proficiencies":[
-			"P109334"
-		],
-		"payGrade": 3,	
-		"label": "Rifleman Grade 3"
-	},
-	{
-		"id": "P021154",
-		"proficiencies":[
-			"P021152",
-			"P105943"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Mechanised Driver"
-	},
-	{
-		"id": "ecn343_31G",
-		"proficiencies":[
-			"P021152"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Mechanised Gunner"
-	},
-	{
-		"id": "P109631",
-		"optionals":[
-			"P021154",
-			"P120853"
-		],
-		"proficiencies":[
-
-			"P117653"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Crew Commander Mechanised"
-	},
-	{
-		"id": "P020736",
-		"optionals":[
-			"P103933",
-			"P021349",
-			"P124840"
-		],
-		"proficiencies":[
-			"P021152"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Motorised Driver"
-	},
-	{
-		"id": "P109632",
-		"proficiencies":[
-			"P020736",
-			"P103935",
-			"P126829"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Crew Commander Motorised"
-	},
-	{
-		"id": "P109633",
-		"proficiencies":[
-			"P021152",
-			"P101047"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Mortar"
-	},
-	{
-		"id": "P101988",
-		"proficiencies":[
-			"P021152",
-			"P100531"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Communications"
-	},	
-	{
-		"id": "P109649",
-		"proficiencies":[
-			"P021152",
-			"P103988"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Reconnaissance"
-	},
-	{
-		"id": "P109650",
-		"proficiencies":[
-			"P021152"
-
-		],
-		"optionals":[
-			"P104277",
-			"P020967"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Surveillance"
-	},			
-	{
-		"id": "P109651",
-		"proficiencies":[
-			"P021152",
-			"P103258",
-			"P104735",
-			"P020154",
-			"P107485",
-			"P103670"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - DFSW"
-	},	
-	{
-		"id": "P109356",
-		"proficiencies":[
-			"P021152",
-			"P021330",
-			"P104227"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Sniper"
-	},	
-	{
-		"id": "P010432",
-		"proficiencies":[
-			"P021152",
-			"P020654"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Assault Pioneer"
-	},
-	{
-		"id": "P021153",
-		"proficiencies":[
-			"P021152",
-			"P020108",
-			"P020117",
-			"P103643"
-		],
-		"payGrade": 4,
-		"label": "Rifleman Grade 3 - Supervisor Section Operations Grade 2"
-	},	
-	{
-		"label" :"Supervisor Section Operations Grade 2 Specialist Mechanised",
-		"id": "P109359",
-		"payGrade": 5,
-		"proficiencies":[
-			"P021153",
-			"P109631"
-
-		],
-		"optionals":[
-			"P021154",
-			"P117653"
-		]
-	},	
-	{
-		"label" :"Supervisor Section Operations Grade 2 Specialist Motorised",
-		"id": "P109656",
-		"payGrade": 5,
-		"proficiencies":[
-			"P021153",
-			"P109632"
-
-		],
-		"optionals":[
-			"P103935",
-			"P126648",
-			"P126485",
-			"P126648"
-		]
-	},	
-	{
-		"label" :"Supervisor Section Operations Grade 2 Specialist Mortar",
-		"id": "P109657",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P021153",
-			"P109633",
-			"P010242"
-		]
-	},	
-	{
-		"label" :"Supervisor Section Operations Grade 2 Specialist Communications",
-		"id": "P109658",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P021153",
-			"P101988",
-			"P103797"
-		]
-	},
-	{
-		"label" :"Supervisor Section Operations Grade 2 Specialist Reconnaissance",
-		"id": "P109659",
-		"payGrade": 5,
-
-		"proficiencies":[
-			"P021153",
-			"P109649",
-			"P105013"
-		]
-	},	
-	{
-		"label" :"Supervisor Section Operations Grade 2 Specialist Surveillance",
-		"id": "P109660",
-		"payGrade": 5,
-
-		"proficiencies":[
-			"P021153",
-			"P109650",
-			"P104277"
-
-		],
-		"optionals":[
-			"P104279",
-			"P020968"
-		]		
-	},
-	{
-		"label" :"Supervisor Section Operations Grade 2 Specialist DFSW",
-		"id": "P109661",
-		"payGrade": 5,
-
-		"proficiencies":[
-			"P021153",
-			"P109651",
-			"P100437"
-		]
-	},	
-	{
-		"label" :"Supervisor Section Operations Grade 2 Specialist Sniper",
-		"id": "P021228",
-		"payGrade": 5,
-
-		"proficiencies":[
-			"P021153",
-			"P109356",
-			"P021227"
-		]
-	},	
-	{
-		"label" :"Supervisor Section Operations Grade 2 Specialist  Assault Pioneer",
-		"id": "P010263",
-		"payGrade": 5,
-
-		"proficiencies":[
-			"P021153",
-			"P010432",
-			"P103389"
-		]
-	},	
-	{
-		"label" :"Supervisor Platoon Operations Grade 2",
-		"id": "P109350",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P021153",
-			"P020110",
-			"P020124",
-			"P104583"
-		]
-	},	
-	{
-		"label" :"Supervisor Platoon Operations Grade 2 Specialist Mechanised",
-		"id": "P109360",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P109350",
-			"P109359",
-			"P002767"
-
-		],
-		"optionals":[
-			"P105012",
-			"P101574"
-		]		
-	},	
-	{
-		"label" :"Supervisor Platoon Operations Grade 2 Specialist Motorised",
-		"id": "P109667",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P109350",
-			"P109656",
-			"P109748"
-		]
-	},	
-	{
-		"label" :"Supervisor Platoon Operations Grade 2 Specialist Mortar",
-		"id": "ECN_343_73",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P109350",
-			"P109657",
-			"P010242"
-		]
-	},	
-	{
-		"label" :"Supervisor Platoon Operations Grade 2 Specialist Communications",
-		"id": "P109668",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P109350",
-			"P109658",
-			"P103797",
-			"P126364"
-		]
-	},	
-	{
-		"label" :"Supervisor Platoon Operations Grade 2 Specialist Reconnaissance",
-		"id": "P109669",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P109350",
-			"P109659",
-			"P105013"
-		]
-	},
-	{
-		"label" :"Supervisor Platoon Operations Grade 2 Specialist Surveillance",
-		"id": "P109670",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P109350",
-			"P109660",
-			"P020968"
-		]
-	},	
-	{
-		"label" :"Supervisor Platoon Operations Grade 2 Specialist DFSW",
-		"id": "P109671",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P109350",
-			"P109661",
-			"P100437"
-		]
-	},	
-	{
-		"label" :"Supervisor Platoon Operations Grade 2 Specialist Sniper",
-		"id": "P021229",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P109350",
-			"P021228",
-			"P100458"
-		]
-	},	
-	{
-		"label" :"Supervisor Platoon Operations Grade 2 Specialist  Assault Pioneer",
-		"id": "P010775",
-		"payGrade": 5,		
-		"proficiencies":[
-			"P109350",
-			"P010263",
-			"P103389"
-		]
-	},
-	{
-		"label" :"Manager Company Operations Grade 2",
-		"id": "P109351",
-		"payGrade": 6,		
-		"proficiencies":[
-			"P109350",
-			"P020112",
-			"P021226",
-			"P100426"
-		]
-	},	
-	{
-		"label" :"Manager Company Operations Grade 2 Specialist Mechanised",
-		"id": "P109361",
-		"payGrade": 6,				
-		"proficiencies":[
-			"P109351",
-			"P109360",
-			"P105012"
-		]
-	},	
-	{
-		"label" :"Manager Company Operations Grade 2 Specialist Motorised",
-		"id": "P109673",
-		"payGrade": 6,				
-		"proficiencies":[
-			"P109351",
-			"P109666"
-		]
-	},	
-	{
-		"label" :"Manager Company Operations Grade 2 Specialist Mortar",
-		"id": "P109674",
-		"payGrade": 6,				
-		"proficiencies":[
-			"P109351",
-			"P109667"
-		]
-	},	
-	{
-		"label" :"Manager Company Operations Grade 2 Specialist Communications",
-		"id": "P109675",
-		"payGrade": 6,				
-		"proficiencies":[
-			"P109351",
-			"P109668"
-		]
-	},	
-	{
-		"label" :"Manager Company Operations Grade 2 Specialist Reconnaissance",
-		"id": "P109676",
-		"payGrade": 6,				
-		"proficiencies":[
-			"P109351",
-			"P109669"
-		]
-	},
-	{
-		"label" :"Manager Company Operations Grade 2 Specialist Surveillance",
-		"id": "P109677",
-		"payGrade": 6,				
-		"proficiencies":[
-			"P109351",
-			"P109670"
-		]
-	},
-	{
-		"label" :"Manager Company Operations Grade 2 Specialist DFSW",
-		"id": "P109678",
-		"payGrade": 6,				
-		"proficiencies":[
-			"P109351",
-			"P109671",
-			"P103671"
-		]
-	},	
-	{
-		"label" :"Manager Company Operations Grade 2 Specialist Sniper",
-		"id": "P021230",
-		"payGrade": 6,				
-		"proficiencies":[
-			"P109351",
-			"P021229"
-		]
-	},	
-	{
-		"label" :"Manager Company Operations Grade 2 Specialist Assault Pioneer",
-		"id": "P010857",
-		"payGrade": 6,				
-		"proficiencies":[
-			"P109351",
-			"P010775"
-		]
-	},
-	{
-		"label" :"Manager Company Operations Grade 2A",
-		"id": "P109679",
-		"payGrade": 6,				
-		"proficiencies":[
-			"P109351",
-			"P125266"
-		]
-	},	
-	{
-		"label" :"Manager Company Operations Grade 2B",
-		"id": "P021155",
-		"payGrade": 7,				
-		"proficiencies":[
-			"P109679",
-			"P125266"
-		]
-	},
-	{
-		"label" :"RA INF RSM Tier A",
-		"id": "P109521",
-		"payGrade": 6,						
-		"proficiencies":[
-			"P109351",
-			"P100672"
-		]
-	},	
-	{
-		"label" :"RA INF RSM Tier B",
-		"id": "P109522",
-		"payGrade": 7,						
-		"proficiencies":[
-			"P109521"
-		]
-	},	
-	{
-		"label" :"RA INF RSM Tier C",
-		"id": "P109523",
-		"payGrade": 8,						
-		"proficiencies":[
-			"P109522"
-		]
-	}
+  {
+    "x": -1014,
+    "y": 405,
+    "id": "P021150",
+    "payGrade": 0,
+    "label": "P021150",
+    "group": 0,
+    "proficiencies": [
+      "P109334"
+    ]
+  },
+  {
+    "x": -817,
+    "y": -1120,
+    "id": "P105943",
+    "payGrade": 0,
+    "label": "P105943",
+    "group": 0,
+    "proficiencies": [
+      "P021154"
+    ]
+  },
+  {
+    "x": -763,
+    "y": 1143,
+    "id": "P120853",
+    "payGrade": 0,
+    "label": "P120853",
+    "group": 0,
+    "proficiencies": []
+  },
+  {
+    "x": 452,
+    "y": -1348,
+    "id": "P117653",
+    "payGrade": 0,
+    "label": "Operational First Aid",
+    "group": 0,
+    "proficiencies": [
+      "P109631"
+    ]
+  },
+  {
+    "x": -1225,
+    "y": -735,
+    "id": "P103933",
+    "payGrade": 0,
+    "label": "P103933",
+    "group": 0,
+    "proficiencies": []
+  },
+  {
+    "x": 515,
+    "y": 1283,
+    "id": "P021349",
+    "payGrade": 0,
+    "label": "P021349",
+    "group": 0,
+    "proficiencies": []
+  },
+  {
+    "x": -1286,
+    "y": 573,
+    "id": "P124840",
+    "payGrade": 0,
+    "label": "P124840",
+    "group": 0,
+    "proficiencies": []
+  },
+  {
+    "x": -366,
+    "y": 766,
+    "id": "P103935",
+    "payGrade": 0,
+    "label": "P103935",
+    "group": 0,
+    "proficiencies": [
+      "P109632"
+    ]
+  },
+  {
+    "x": -591,
+    "y": 777,
+    "id": "P126829",
+    "payGrade": 0,
+    "label": "P126829",
+    "group": 0,
+    "proficiencies": [
+      "P109632"
+    ]
+  },
+  {
+    "x": -1169,
+    "y": -96,
+    "id": "P101047",
+    "payGrade": 0,
+    "label": "P101047",
+    "group": 0,
+    "proficiencies": [
+      "P109633"
+    ]
+  },
+  {
+    "x": -667,
+    "y": 282,
+    "id": "P100531",
+    "payGrade": 0,
+    "label": "P100531",
+    "group": 0,
+    "proficiencies": [
+      "P101988"
+    ]
+  },
+  {
+    "x": 223,
+    "y": -1163,
+    "id": "P104277",
+    "payGrade": 0,
+    "label": "P104277",
+    "group": 0,
+    "proficiencies": [
+      "P109660"
+    ]
+  },
+  {
+    "x": -990,
+    "y": 979,
+    "id": "P020967",
+    "payGrade": 0,
+    "label": "P020967",
+    "group": 0,
+    "proficiencies": []
+  },
+  {
+    "x": -1022,
+    "y": 234,
+    "id": "P103258",
+    "payGrade": 0,
+    "label": "P103258",
+    "group": 0,
+    "proficiencies": [
+      "P109651"
+    ]
+  },
+  {
+    "x": -1240,
+    "y": -227,
+    "id": "P104735",
+    "payGrade": 0,
+    "label": "P104735",
+    "group": 0,
+    "proficiencies": [
+      "P109651"
+    ]
+  },
+  {
+    "x": -1254,
+    "y": 36,
+    "id": "P020154",
+    "payGrade": 0,
+    "label": "P020154",
+    "group": 0,
+    "proficiencies": [
+      "P109651"
+    ]
+  },
+  {
+    "x": -1166,
+    "y": 162,
+    "id": "P107485",
+    "payGrade": 0,
+    "label": "P107485",
+    "group": 0,
+    "proficiencies": [
+      "P109651"
+    ]
+  },
+  {
+    "x": -1114,
+    "y": -397,
+    "id": "P103670",
+    "payGrade": 0,
+    "label": "P103670",
+    "group": 0,
+    "proficiencies": [
+      "P109651"
+    ]
+  },
+  {
+    "x": -993,
+    "y": -978,
+    "id": "P021330",
+    "payGrade": 0,
+    "label": "P021330",
+    "group": 0,
+    "proficiencies": [
+      "P109356"
+    ]
+  },
+  {
+    "x": -603,
+    "y": -1211,
+    "id": "P104227",
+    "payGrade": 0,
+    "label": "P104227",
+    "group": 0,
+    "proficiencies": [
+      "P109356"
+    ]
+  },
+  {
+    "x": -103,
+    "y": -1186,
+    "id": "P020654",
+    "payGrade": 0,
+    "label": "P020654",
+    "group": 0,
+    "proficiencies": [
+      "P010432"
+    ]
+  },
+  {
+    "x": 26,
+    "y": -703,
+    "id": "P020108",
+    "payGrade": 0,
+    "label": "P020108",
+    "group": 0,
+    "proficiencies": [
+      "P021153"
+    ]
+  },
+  {
+    "x": -439,
+    "y": -453,
+    "id": "P020117",
+    "payGrade": 0,
+    "label": "P020117",
+    "group": 0,
+    "proficiencies": [
+      "P021153"
+    ]
+  },
+  {
+    "x": -133,
+    "y": -740,
+    "id": "P103643",
+    "payGrade": 0,
+    "label": "P103643",
+    "group": 0,
+    "proficiencies": [
+      "P021153"
+    ]
+  },
+  {
+    "x": 882,
+    "y": -1132,
+    "id": "P126648",
+    "payGrade": 0,
+    "label": "P126648",
+    "group": 0,
+    "proficiencies": []
+  },
+  {
+    "x": 8,
+    "y": 1137,
+    "id": "P126485",
+    "payGrade": 0,
+    "label": "P126485",
+    "group": 0,
+    "proficiencies": []
+  },
+  {
+    "x": -416,
+    "y": 152,
+    "id": "P010242",
+    "payGrade": 0,
+    "label": "P010242",
+    "group": 0,
+    "proficiencies": [
+      "P109657",
+      "ECN_343_73"
+    ]
+  },
+  {
+    "x": 276,
+    "y": 90,
+    "id": "P103797",
+    "payGrade": 0,
+    "label": "P103797",
+    "group": 0,
+    "proficiencies": [
+      "P109658",
+      "P109668"
+    ]
+  },
+  {
+    "x": 378,
+    "y": -945,
+    "id": "P105013",
+    "payGrade": 0,
+    "label": "P105013",
+    "group": 0,
+    "proficiencies": [
+      "P109659",
+      "P109669"
+    ]
+  },
+  {
+    "x": -1426,
+    "y": -384,
+    "id": "P104279",
+    "payGrade": 0,
+    "label": "P104279",
+    "group": 0,
+    "proficiencies": []
+  },
+  {
+    "x": 894,
+    "y": -815,
+    "id": "P020968",
+    "payGrade": 0,
+    "label": "P020968",
+    "group": 0,
+    "proficiencies": [
+      "P109670"
+    ]
+  },
+  {
+    "x": -280,
+    "y": 439,
+    "id": "P100437",
+    "payGrade": 0,
+    "label": "P100437",
+    "group": 0,
+    "proficiencies": [
+      "P109661",
+      "P109671"
+    ]
+  },
+  {
+    "x": -326,
+    "y": -1038,
+    "id": "P021227",
+    "payGrade": 0,
+    "label": "P021227",
+    "group": 0,
+    "proficiencies": [
+      "P021228"
+    ]
+  },
+  {
+    "x": 575,
+    "y": -794,
+    "id": "P103389",
+    "payGrade": 0,
+    "label": "P103389",
+    "group": 0,
+    "proficiencies": [
+      "P010263",
+      "P010775"
+    ]
+  },
+  {
+    "x": 606,
+    "y": 206,
+    "id": "P020110",
+    "payGrade": 0,
+    "label": "P020110",
+    "group": 0,
+    "proficiencies": [
+      "P109350"
+    ]
+  },
+  {
+    "x": 707,
+    "y": 66,
+    "id": "P020124",
+    "payGrade": 0,
+    "label": "P020124",
+    "group": 0,
+    "proficiencies": [
+      "P109350"
+    ]
+  },
+  {
+    "x": 446,
+    "y": 273,
+    "id": "P104583",
+    "payGrade": 0,
+    "label": "P104583",
+    "group": 0,
+    "proficiencies": [
+      "P109350"
+    ]
+  },
+  {
+    "x": 1056,
+    "y": -651,
+    "id": "P002767",
+    "payGrade": 0,
+    "label": "P002767",
+    "group": 0,
+    "proficiencies": [
+      "P109360"
+    ]
+  },
+  {
+    "x": 1389,
+    "y": -135,
+    "id": "P105012",
+    "payGrade": 0,
+    "label": "P105012",
+    "group": 0,
+    "proficiencies": [
+      "P109361"
+    ]
+  },
+  {
+    "x": -1095,
+    "y": 763,
+    "id": "P101574",
+    "payGrade": 0,
+    "label": "P101574",
+    "group": 0,
+    "proficiencies": []
+  },
+  {
+    "x": 164,
+    "y": 784,
+    "id": "P109748",
+    "payGrade": 0,
+    "label": "P109748",
+    "group": 0,
+    "proficiencies": [
+      "P109667"
+    ]
+  },
+  {
+    "x": 16,
+    "y": 688,
+    "id": "P126364",
+    "payGrade": 0,
+    "label": "P126364",
+    "group": 0,
+    "proficiencies": [
+      "P109668"
+    ]
+  },
+  {
+    "x": 111,
+    "y": -12,
+    "id": "P100458",
+    "payGrade": 0,
+    "label": "P100458",
+    "group": 0,
+    "proficiencies": [
+      "P021229"
+    ]
+  },
+  {
+    "x": 1081,
+    "y": 556,
+    "id": "P020112",
+    "payGrade": 0,
+    "label": "P020112",
+    "group": 0,
+    "proficiencies": [
+      "P109351"
+    ]
+  },
+  {
+    "x": 1203,
+    "y": 289,
+    "id": "P021226",
+    "payGrade": 0,
+    "label": "P021226",
+    "group": 0,
+    "proficiencies": [
+      "P109351"
+    ]
+  },
+  {
+    "x": 1172,
+    "y": 443,
+    "id": "P100426",
+    "payGrade": 0,
+    "label": "P100426",
+    "group": 0,
+    "proficiencies": [
+      "P109351"
+    ]
+  },
+  {
+    "x": 1063,
+    "y": 955,
+    "id": "P109666",
+    "payGrade": 0,
+    "label": "P109666",
+    "group": 0,
+    "proficiencies": [
+      "P109673"
+    ]
+  },
+  {
+    "x": -351,
+    "y": -1261,
+    "id": "P103988",
+    "payGrade": 0,
+    "label": "P103988",
+    "group": 0,
+    "proficiencies": [
+      "P109649"
+    ]
+  },
+  {
+    "x": 376,
+    "y": 921,
+    "id": "P103671",
+    "payGrade": 0,
+    "label": "P103671",
+    "group": 0,
+    "proficiencies": [
+      "P109678"
+    ]
+  },
+  {
+    "x": 877,
+    "y": 1093,
+    "id": "P125266",
+    "payGrade": 0,
+    "label": "P125266",
+    "group": 0,
+    "proficiencies": [
+      "P109679",
+      "P021155"
+    ]
+  },
+  {
+    "x": 1197,
+    "y": -353,
+    "id": "P100672",
+    "payGrade": 0,
+    "label": "P100672",
+    "group": 0,
+    "proficiencies": [
+      "P109521"
+    ]
+  },
+  {
+    "x": -831,
+    "y": 496,
+    "id": "P107236",
+    "payGrade": 0,
+    "label": "Rifleman",
+    "group": 0,
+    "proficiencies": [
+      "ecm343",
+      "P109334"
+    ]
+  },
+  {
+    "x": -826,
+    "y": 59,
+    "id": "P109334",
+    "payGrade": 0,
+    "label": "Rifleman Grade 2",
+    "group": 0,
+    "proficiencies": [
+      "P021150",
+      "P107236",
+      "P021152"
+    ]
+  },
+  {
+    "x": -614,
+    "y": -452,
+    "id": "P021152",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3",
+    "group": 0,
+    "proficiencies": [
+      "P109334",
+      "P021154",
+      "ecn343_31G",
+      "P020736",
+      "P109633",
+      "P101988",
+      "P109649",
+      "P109650",
+      "P109651",
+      "P109356",
+      "P010432",
+      "P021153"
+    ]
+  },
+  {
+    "x": -843,
+    "y": -761,
+    "id": "P021154",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Mechanised Driver",
+    "group": 0,
+    "proficiencies": [
+      "P105943",
+      "P021152"
+    ]
+  },
+  {
+    "x": -951,
+    "y": -596,
+    "id": "ecn343_31G",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Mechanised Gunner",
+    "group": 0,
+    "proficiencies": [
+      "P021152"
+    ]
+  },
+  {
+    "x": 602,
+    "y": -1030,
+    "id": "P109631",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Crew Commander Mechanised",
+    "group": 0,
+    "proficiencies": [
+      "P117653",
+      "P109359"
+    ]
+  },
+  {
+    "x": -647,
+    "y": 11,
+    "id": "P020736",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Motorised Driver",
+    "group": 0,
+    "proficiencies": [
+      "P021152",
+      "P109632"
+    ]
+  },
+  {
+    "x": -509,
+    "y": 437,
+    "id": "P109632",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Crew Commander Motorised",
+    "group": 0,
+    "proficiencies": [
+      "P103935",
+      "P126829",
+      "P020736",
+      "P109656"
+    ]
+  },
+  {
+    "x": -886,
+    "y": -312,
+    "id": "P109633",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Mortar",
+    "group": 0,
+    "proficiencies": [
+      "P101047",
+      "P021152",
+      "P109657"
+    ]
+  },
+  {
+    "x": -483,
+    "y": -63,
+    "id": "P101988",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Communications",
+    "group": 0,
+    "proficiencies": [
+      "P100531",
+      "P021152",
+      "P109658"
+    ]
+  },
+  {
+    "x": -436,
+    "y": -879,
+    "id": "P109649",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Reconnaissance",
+    "group": 0,
+    "proficiencies": [
+      "P103988",
+      "P021152",
+      "P109659"
+    ]
+  },
+  {
+    "x": -192,
+    "y": -563,
+    "id": "P109650",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Surveillance",
+    "group": 0,
+    "proficiencies": [
+      "P021152",
+      "P109660"
+    ]
+  },
+  {
+    "x": -878,
+    "y": -109,
+    "id": "P109651",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - DFSW",
+    "group": 0,
+    "proficiencies": [
+      "P103258",
+      "P104735",
+      "P020154",
+      "P107485",
+      "P103670",
+      "P021152",
+      "P109661"
+    ]
+  },
+  {
+    "x": -661,
+    "y": -846,
+    "id": "P109356",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Sniper",
+    "group": 0,
+    "proficiencies": [
+      "P021330",
+      "P104227",
+      "P021152",
+      "P021228"
+    ]
+  },
+  {
+    "x": -263,
+    "y": -816,
+    "id": "P010432",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Assault Pioneer",
+    "group": 0,
+    "proficiencies": [
+      "P020654",
+      "P021152",
+      "P010263"
+    ]
+  },
+  {
+    "x": -82,
+    "y": -359,
+    "id": "P021153",
+    "payGrade": 0,
+    "label": "Rifleman Grade 3 - Supervisor Section Operations Grade 2",
+    "group": 0,
+    "proficiencies": [
+      "P020108",
+      "P020117",
+      "P103643",
+      "P021152",
+      "P109359",
+      "P109656",
+      "P109657",
+      "P109658",
+      "P109659",
+      "P109660",
+      "P109661",
+      "P021228",
+      "P010263",
+      "P109350"
+    ]
+  },
+  {
+    "x": 405,
+    "y": -651,
+    "id": "P109359",
+    "payGrade": 0,
+    "label": "Supervisor Section Operations Grade 2 Specialist Mechanised",
+    "group": 0,
+    "proficiencies": [
+      "P109631",
+      "P021153",
+      "P109360"
+    ]
+  },
+  {
+    "x": -189,
+    "y": 169,
+    "id": "P109656",
+    "payGrade": 0,
+    "label": "Supervisor Section Operations Grade 2 Specialist Motorised",
+    "group": 0,
+    "proficiencies": [
+      "P109632",
+      "P021153",
+      "P109667"
+    ]
+  },
+  {
+    "x": -478,
+    "y": -239,
+    "id": "P109657",
+    "payGrade": 0,
+    "label": "Supervisor Section Operations Grade 2 Specialist Mortar",
+    "group": 0,
+    "proficiencies": [
+      "P010242",
+      "P109633",
+      "P021153",
+      "ECN_343_73"
+    ]
+  },
+  {
+    "x": -69,
+    "y": 83,
+    "id": "P109658",
+    "payGrade": 0,
+    "label": "Supervisor Section Operations Grade 2 Specialist Communications",
+    "group": 0,
+    "proficiencies": [
+      "P103797",
+      "P101988",
+      "P021153",
+      "P109668"
+    ]
+  },
+  {
+    "x": 21,
+    "y": -853,
+    "id": "P109659",
+    "payGrade": 0,
+    "label": "Supervisor Section Operations Grade 2 Specialist Reconnaissance",
+    "group": 0,
+    "proficiencies": [
+      "P105013",
+      "P109649",
+      "P021153",
+      "P109669"
+    ]
+  },
+  {
+    "x": 213,
+    "y": -766,
+    "id": "P109660",
+    "payGrade": 0,
+    "label": "Supervisor Section Operations Grade 2 Specialist Surveillance",
+    "group": 0,
+    "proficiencies": [
+      "P104277",
+      "P109650",
+      "P021153",
+      "P109670"
+    ]
+  },
+  {
+    "x": -348,
+    "y": 24,
+    "id": "P109661",
+    "payGrade": 0,
+    "label": "Supervisor Section Operations Grade 2 Specialist DFSW",
+    "group": 0,
+    "proficiencies": [
+      "P100437",
+      "P109651",
+      "P021153",
+      "P109671"
+    ]
+  },
+  {
+    "x": -328,
+    "y": -635,
+    "id": "P021228",
+    "payGrade": 0,
+    "label": "Supervisor Section Operations Grade 2 Specialist Sniper",
+    "group": 0,
+    "proficiencies": [
+      "P021227",
+      "P109356",
+      "P021153",
+      "P021229"
+    ]
+  },
+  {
+    "x": 187,
+    "y": -634,
+    "id": "P010263",
+    "payGrade": 0,
+    "label": "Supervisor Section Operations Grade 2 Specialist  Assault Pioneer",
+    "group": 0,
+    "proficiencies": [
+      "P103389",
+      "P010432",
+      "P021153",
+      "P010775"
+    ]
+  },
+  {
+    "x": 352,
+    "y": -87,
+    "id": "P109350",
+    "payGrade": 0,
+    "label": "Supervisor Platoon Operations Grade 2",
+    "group": 0,
+    "proficiencies": [
+      "P020110",
+      "P020124",
+      "P104583",
+      "P021153",
+      "P109360",
+      "P109667",
+      "ECN_343_73",
+      "P109668",
+      "P109669",
+      "P109670",
+      "P109671",
+      "P021229",
+      "P010775",
+      "P109351"
+    ]
+  },
+  {
+    "x": 765,
+    "y": -405,
+    "id": "P109360",
+    "payGrade": 0,
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Mechanised",
+    "group": 0,
+    "proficiencies": [
+      "P002767",
+      "P109359",
+      "P109350",
+      "P109361"
+    ]
+  },
+  {
+    "x": 149,
+    "y": 399,
+    "id": "P109667",
+    "payGrade": 0,
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Motorised",
+    "group": 0,
+    "proficiencies": [
+      "P109748",
+      "P109656",
+      "P109350",
+      "P109674"
+    ]
+  },
+  {
+    "x": -106,
+    "y": -110,
+    "id": "ECN_343_73",
+    "payGrade": 0,
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Mortar",
+    "group": 0,
+    "proficiencies": [
+      "P010242",
+      "P109657",
+      "P109350"
+    ]
+  },
+  {
+    "x": 274,
+    "y": 402,
+    "id": "P109668",
+    "payGrade": 0,
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Communications",
+    "group": 0,
+    "proficiencies": [
+      "P103797",
+      "P126364",
+      "P109658",
+      "P109350",
+      "P109675"
+    ]
+  },
+  {
+    "x": 358,
+    "y": -510,
+    "id": "P109669",
+    "payGrade": 0,
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Reconnaissance",
+    "group": 0,
+    "proficiencies": [
+      "P105013",
+      "P109659",
+      "P109350",
+      "P109676"
+    ]
+  },
+  {
+    "x": 629,
+    "y": -537,
+    "id": "P109670",
+    "payGrade": 0,
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Surveillance",
+    "group": 0,
+    "proficiencies": [
+      "P020968",
+      "P109660",
+      "P109350",
+      "P109677"
+    ]
+  },
+  {
+    "x": 46,
+    "y": 280,
+    "id": "P109671",
+    "payGrade": 0,
+    "label": "Supervisor Platoon Operations Grade 2 Specialist DFSW",
+    "group": 0,
+    "proficiencies": [
+      "P100437",
+      "P109661",
+      "P109350",
+      "P109678"
+    ]
+  },
+  {
+    "x": 113,
+    "y": -351,
+    "id": "P021229",
+    "payGrade": 0,
+    "label": "Supervisor Platoon Operations Grade 2 Specialist Sniper",
+    "group": 0,
+    "proficiencies": [
+      "P100458",
+      "P021228",
+      "P109350",
+      "P021230"
+    ]
+  },
+  {
+    "x": 543,
+    "y": -412,
+    "id": "P010775",
+    "payGrade": 0,
+    "label": "Supervisor Platoon Operations Grade 2 Specialist  Assault Pioneer",
+    "group": 0,
+    "proficiencies": [
+      "P103389",
+      "P010263",
+      "P109350",
+      "P010857"
+    ]
+  },
+  {
+    "x": 833,
+    "y": 266,
+    "id": "P109351",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2",
+    "group": 0,
+    "proficiencies": [
+      "P020112",
+      "P021226",
+      "P100426",
+      "P109350",
+      "P109361",
+      "P109673",
+      "P109674",
+      "P109675",
+      "P109676",
+      "P109677",
+      "P109678",
+      "P021230",
+      "P010857",
+      "P109679",
+      "P109521"
+    ]
+  },
+  {
+    "x": 1040,
+    "y": -88,
+    "id": "P109361",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2 Specialist Mechanised",
+    "group": 0,
+    "proficiencies": [
+      "P105012",
+      "P109360",
+      "P109351"
+    ]
+  },
+  {
+    "x": 950,
+    "y": 633,
+    "id": "P109673",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2 Specialist Motorised",
+    "group": 0,
+    "proficiencies": [
+      "P109666",
+      "P109351"
+    ]
+  },
+  {
+    "x": 545,
+    "y": 504,
+    "id": "P109674",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2 Specialist Mortar",
+    "group": 0,
+    "proficiencies": [
+      "P109667",
+      "P109351"
+    ]
+  },
+  {
+    "x": 637,
+    "y": 612,
+    "id": "P109675",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2 Specialist Communications",
+    "group": 0,
+    "proficiencies": [
+      "P109668",
+      "P109351"
+    ]
+  },
+  {
+    "x": 650,
+    "y": -165,
+    "id": "P109676",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2 Specialist Reconnaissance",
+    "group": 0,
+    "proficiencies": [
+      "P109669",
+      "P109351"
+    ]
+  },
+  {
+    "x": 907,
+    "y": -209,
+    "id": "P109677",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2 Specialist Surveillance",
+    "group": 0,
+    "proficiencies": [
+      "P109670",
+      "P109351"
+    ]
+  },
+  {
+    "x": 417,
+    "y": 553,
+    "id": "P109678",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2 Specialist DFSW",
+    "group": 0,
+    "proficiencies": [
+      "P103671",
+      "P109671",
+      "P109351"
+    ]
+  },
+  {
+    "x": 497,
+    "y": -55,
+    "id": "P021230",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2 Specialist Sniper",
+    "group": 0,
+    "proficiencies": [
+      "P021229",
+      "P109351"
+    ]
+  },
+  {
+    "x": 822,
+    "y": -110,
+    "id": "P010857",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2 Specialist Assault Pioneer",
+    "group": 0,
+    "proficiencies": [
+      "P010775",
+      "P109351"
+    ]
+  },
+  {
+    "x": 806,
+    "y": 739,
+    "id": "P109679",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2A",
+    "group": 0,
+    "proficiencies": [
+      "P125266",
+      "P109351",
+      "P021155"
+    ]
+  },
+  {
+    "x": 568,
+    "y": 1028,
+    "id": "P021155",
+    "payGrade": 0,
+    "label": "Manager Company Operations Grade 2B",
+    "group": 0,
+    "proficiencies": [
+      "P125266",
+      "P109679"
+    ]
+  },
+  {
+    "x": 1184,
+    "y": 32,
+    "id": "P109521",
+    "payGrade": 0,
+    "label": "RA INF RSM Tier A",
+    "group": 0,
+    "proficiencies": [
+      "P100672",
+      "P109351",
+      "P109522"
+    ]
+  },
+  {
+    "x": 1373,
+    "y": -302,
+    "id": "P109522",
+    "payGrade": 0,
+    "label": "RA INF RSM Tier B",
+    "group": 0,
+    "proficiencies": [
+      "P109521",
+      "P109523"
+    ]
+  },
+  {
+    "x": 1453,
+    "y": 57,
+    "id": "P109523",
+    "payGrade": 0,
+    "label": "RA INF RSM Tier C",
+    "group": 0,
+    "proficiencies": [
+      "P109522"
+    ]
+  },
+  {
+    "x": -471,
+    "y": 1392,
+    "id": "RAA_AllCorp",
+    "payGrade": 0,
+    "label": "All Corp",
+    "group": 0,
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "x": -414,
+    "y": 1046,
+    "id": "RAA",
+    "payGrade": 0,
+    "label": "RAA",
+    "group": 0,
+    "proficiencies": [
+      "land",
+      "ecm343"
+    ]
+  },
+  {
+    "x": 183,
+    "y": 1417,
+    "id": "RAAC",
+    "payGrade": 0,
+    "label": "RAAC",
+    "group": 0,
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "x": -162,
+    "y": 974,
+    "id": "RAEC",
+    "payGrade": 0,
+    "label": "RAEC",
+    "group": 0,
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "x": -477,
+    "y": 1210,
+    "id": "RAEME",
+    "payGrade": 0,
+    "label": "RAEME",
+    "group": 0,
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "x": 199,
+    "y": 1218,
+    "id": "RAIC",
+    "payGrade": 0,
+    "label": "RAIC",
+    "group": 0,
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "x": -147,
+    "y": 1312,
+    "id": "land",
+    "payGrade": 0,
+    "label": "land",
+    "group": 0,
+    "proficiencies": [
+      "RAA_AllCorp",
+      "RAA",
+      "RAAC",
+      "RAEC",
+      "RAEME",
+      "RAIC"
+    ]
+  },
+  {
+    "x": -746,
+    "y": 862,
+    "id": "ecm343",
+    "payGrade": 0,
+    "label": "ecm343",
+    "group": 0,
+    "proficiencies": [
+      "P107236",
+      "RAA"
+    ]
+  }
 ]
