@@ -598,21 +598,18 @@ let exportDataSet;
   		type: 'continuous'
   	}
   },
-  physics: {
-  	enabled: true,
-  	barnesHut: {
-  		gravitationalConstant: -3000,
-  		centralGravity: 0.3,
-  		springLength: 4,
-  		springConstant: 0.09,
-  		damping: 1,
-  		avoidOverlap: 1
-  	},
-  	maxVelocity: 33,
-  	minVelocity: 0.12,
-  	solver: "barnesHut",
-  	timestep: 0.4
-  },
+	physics: {
+            forceAtlas2Based: {
+              gravitationalConstant: -26,
+              centralGravity: 0.005,
+              springLength: 230,
+              springConstant: 0.18,
+            },
+            maxVelocity: 146,
+            solver: "forceAtlas2Based",
+            timestep: 0.35,
+            stabilization: { iterations: 150 },
+          },
   groups:GROUPS,
           manipulation: {
             addNode: function (data, callback) {
