@@ -179,6 +179,18 @@ function showSelectedInfo(info) {
 
 
 
+	// const $accordionVisInfo_header_moduleTitle = document.getElementById('accordionVisInfo_header_moduleTitle');
+	// const $accordionVisInfo_header_moduleImages = document.getElementById('accordionVisInfo_header_moduleImage');
+	// const $accordionVisInfo_header_serviceTitle = document.getElementById('accordionVisInfo_serviceTitle');
+	// const $accordionVisInfo_header_serviceIcon = document.getElementById('accordionVisInfo_serviceIcon');
+
+
+	// $accordionVisInfo_header_serviceTitle.innerHTML = info.service;
+	// $accordionVisInfo_header_moduleTitle.innerHTML = info.label;
+	// $accordionVisInfo_header_moduleImages.src =`./module_headers/${info.id}.jpg`
+	// $accordionVisInfo_header_serviceIcon.src =`./service_icons/${info.service}.png`
+
+
 const $accordionVisInfo_header = document.getElementById('accordionVisInfo_header');
 $accordionVisInfo_header.innerHTML = '';
 const $accordionVisInfo_corp = info.corp || null;
@@ -192,14 +204,7 @@ const $accordionVisInfo_corp = info.corp || null;
 			].filter(Boolean).join('\n');
 			// $accordionVisInfo_header.appendChild($accordion);
 
-const payGrade_ul = document.getElementById("accordionVisInfo_deliveryModes_payGrade");
-			for (const child of payGrade_ul.children) {
-				child.classList = "";
-  console.log(child.tagName);
-}
-const payGrade_li_string = `accordionVisInfo_deliveryModes_payGrade_li_${info.payGrade}`
- const payGrade_li = document.getElementById(payGrade_li_string);
-payGrade_li.classList="active";
+
 
 	const $liveCourses_ul = document.getElementById('accordionVisInfo_liveCourses_ul');
 	$liveCourses_ul.innerHTML = '';
@@ -222,7 +227,7 @@ payGrade_li.classList="active";
 			// liveCourse = liveCourse.replace(/_/g," ");
 			$accordion = document.createElement('span');
 			$accordion.innerHTML = [
-			`<a class="pr-2"><img src="./Assets/adele_icon.png"><span onclick="zoomIn('${liveCourse.id}');";`,
+			`<a class="pr-2"><span onclick="zoomIn('${liveCourse.id}');";`,
 			`class="grey-text"></a>${liveCourse.label}</span>`,
 			].filter(Boolean).join('\n');
 			$liveCourses_ul.appendChild($accordion);
@@ -391,11 +396,11 @@ function onclick(clickEventData) {
 	/* get selected node */
 	const selectedNodeId = clickEventData.nodes ? clickEventData.nodes[0] : clickEventData;
 if (!selectedNodeId){	nodes.remove(proficiencyArrayContainer)}
-// console.log(myNamespace);
-// console.log(window.myNamespace);
-// 	const competencyData = myNamespace.getCompetencyData(1457,"tool_lp_list_courses_using_competency");
+console.log(myNamespace);
+console.log(window.myNamespace);
+	const competencyData = myNamespace.getCompetencyData(selectedNodeId,"tool_lp_list_courses_using_competency");
 
-// console.log (competencyData);
+console.log (competencyData);
 // 	highlightActive = true;
 // 	let i,j;
 // 	let degrees = 2;
@@ -422,9 +427,7 @@ if (thisEntry){
 		proficiencyArrayContainer.push(prof);
 nodes.update([
   {
-  	id: prof,
-  	x: prof.x,
-  	y: prof.y, 
+  	id: prof, 
   label: prof.label ? prof.label : prof
 }
 ]);
@@ -485,9 +488,7 @@ async function init() {
 		groups:GROUPS,
 		nodes: {
 			shape: 'dot',
-			mass: 8,
-			shadow: true,
-			borderWidth: 2,
+			mass: 4,
 			widthConstraint: 100,
 			margin: {
 				top: 30
@@ -524,24 +525,40 @@ async function init() {
   },
   edges: {
   	arrows: 'to',
-  	shadow: true,
-  	width: 2,
+  	width: 0.15,
   	color: {inherit: 'from'},
   	smooth: {
   		type: 'continuous'
   	}
   },
   physics: {
-    barnesHut: {
-    	springLength: 90,
-    	springConstant: 0.05,
-      centralGravity: -1.1,
-      damping: 2,
-      avoidOverlap: 0.2,
-    },
-    minVelocity: 0.75
+  	enabled: true,
+  	barnesHut: {
+  		gravitationalConstant: -3000,
+  		centralGravity: 0.3,
+  		springLength: 4,
+  		springConstant: 0.09,
+  		damping: 1,
+  		avoidOverlap: 1
+  	},
+  	maxVelocity: 33,
+  	minVelocity: 0.12,
+  	solver: "barnesHut",
+  	timestep: 0.4
+  },
+  interaction: {
+  	navigationButtons: true,
+  	keyboard: true,
+  	tooltipDelay: 200,
+  	hideEdgesOnDrag: true
   },
 
+  configure: {
+  	enabled: false,
+  	filter: 'nodes,edges',
+  	container: document.getElementById('info'),
+  	showButton: true
+  }
 };
 
 //       }
