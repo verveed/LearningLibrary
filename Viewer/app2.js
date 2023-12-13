@@ -44,7 +44,7 @@ const GROUPS = {
 };
 
 async function get_ranks() {
-	return fetch('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/Fulltime/ranks.json').then(response => response.json());
+	return fetch('./CORP_data/School_Infantry/Fulltime/ranks.json').then(response => response.json());
 }
 async function getSOI_proficiences() {
 	return fetch('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/proficiencies.json').then(response => response.json());
@@ -220,9 +220,9 @@ payGrade_li.classList="active";
 	const $liveCourses = tempCompetencyCourses_API_Return || [];
 		$liveCourses.forEach(liveCourse => {
 			// liveCourse = liveCourse.replace(/_/g," ");
-			$accordion = document.createElement('span');
+			$accordion = document.createElement('button');
 			$accordion.innerHTML = [
-			`<a class="pr-2"><img src="./Assets/adele_icon.png"><span onclick="zoomIn('${liveCourse.id}');";`,
+			`<a class="pr-2"><img style="width:20px;" src="./Assets/adele_icon.png"><span onclick="zoomIn('${liveCourse.id}');";`,
 			`class="grey-text"></a>${liveCourse.label}</span>`,
 			].filter(Boolean).join('\n');
 			$liveCourses_ul.appendChild($accordion);
