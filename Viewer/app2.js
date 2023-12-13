@@ -44,7 +44,7 @@ const GROUPS = {
 };
 
 async function get_ranks() {
-	return fetch('./CORP_data/School_Infantry/Fulltime/ranks.json').then(response => response.json());
+	return fetch('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/Fulltime/ranks.json').then(response => response.json());
 }
 async function getSOI_proficiences() {
 	return fetch('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/proficiencies.json').then(response => response.json());
