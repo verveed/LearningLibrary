@@ -222,7 +222,7 @@ payGrade_li.classList="active";
 			// liveCourse = liveCourse.replace(/_/g," ");
 			$accordion = document.createElement('button');
 			$accordion.innerHTML = [
-			`<a class="pr-2"><img style="width:20px;" src="./Assets/adele_icon.png"><span onclick="zoomIn('${liveCourse.id}');";`,
+			`<a class="pr-2"><img style="width:20px;" src="https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/Assets/adele_icon.png"><span onclick="zoomIn('${liveCourse.id}');";`,
 			`class="grey-text"></a>${liveCourse.label}</span>`,
 			].filter(Boolean).join('\n');
 			$liveCourses_ul.appendChild($accordion);
