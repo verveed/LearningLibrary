@@ -186,7 +186,7 @@ const $accordionVisInfo_corp = info.corp || null;
 			$accordionVisInfo_header_serviceIcon.classList.add('rounded-circle','mr-3');
 			$accordionVisInfo_header.innerHTML = [
 			// `${accordionVisInfo_header_serviceIcon}`,
-			`<img class='rounded-circle mr-3' src='https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/corp_icons/raic.png'>`,
+			`<img class='rounded-circle mr-3' src='https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/corp_icons/RAIC.png'>`,
 			`<div><h4 class='card-title font-weight-bold mb-2'>${info.label}<h4>`,
 			// `<p class='card-text'>Corp: RAIC</p></div>`
 			].filter(Boolean).join('\n');
