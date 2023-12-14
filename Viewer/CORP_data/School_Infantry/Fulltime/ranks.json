@@ -1,5 +1,66 @@
 [
-  
+  {
+    "id": "RAA_AllCorp",
+    "group": "corp",
+    "label": "All Corp",
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "id": "RAA",
+    "group": "corp",
+    "label": "RAA",
+    "proficiencies": [
+      "land",
+      "ecm343"
+    ]
+  },
+  {
+    "id": "RAAC",
+    "group": "corp",
+    "label": "RAAC",
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "id": "RAEC",
+    "group": "corp",
+    "label": "RAEC",
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "id": "RAEME",
+    "group": "corp",
+    "label": "RAEME",
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "id": "RAIC",
+    "group": "corp",
+    "label": "RAIC",
+    "proficiencies": [
+      "land"
+    ]
+  },
+  {
+    "id": "land",
+    "group": "land",
+    "label": "land",
+    "proficiencies": [
+      "RAA_AllCorp",
+      "RAA",
+      "RAAC",
+      "RAEC",
+      "RAEME",
+      "RAIC"
+    ]
+  },
   {
     "id": "P109334",
     "corp": "RAIC",
