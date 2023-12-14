@@ -33,6 +33,13 @@ const DEFAULT_EDGE_SETTINGS = {
 	}
 }
 const GROUPS = {
+	corp:{
+ 				shape: "circularImage",
+ 				image: "./corp_icons/"+corp.id+".png",
+ 				color:"white",
+ 				size: 35,
+ 				mass:4
+	},
 	zero:{
 		color:{
 			background: "rgba(14,178,98,0)",
@@ -49,6 +56,10 @@ async function get_ranks() {
 async function getSOI_proficiences() {
 	return fetch('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/proficiencies.json').then(response => response.json());
 }
+async function get_corps() {
+	return fetch('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/corps.json').then(response => response.json());
+}
+
 
 // const nodeId = 1457;
 
@@ -89,7 +100,28 @@ function ProficienciesToRanks() {
 	// 		group: 'zero'
 	// 	})
 	// })
-
+ 	const corpNodes = [];
+ 	const corpToDomain = [];
+ 	corps.forEach(corp => {
+ 		 corpToDomain.push({
+ 				from:"land",
+ 				to:corp.id,
+ 				color:corp.color
+ 			})
+ 		// if (corpCategories.has(corp.id)) {
+ 			corpNodes.push({
+ 				id: corp.id,
+ 				label: corp.label,
+ 				shape: "circularImage",
+ 				image: "./corp_icons/"+corp.id+".png",
+ 				level: 0,
+ 				color:"white",
+ 				size: 35,
+ 				mass:4
+				// group: 'corp'
+			});
+ 		// }
+ 	});
 	ranks.forEach(rank => {
 		let i = 0;
 	
@@ -122,12 +154,15 @@ function ProficienciesToRanks() {
 		// nodes.updateOnly({id: rank.id, label: rank.label, hiddenLabel: undefined, group: rank.payGrade, value: rank.value});	
 	});
 		nodes = new vis.DataSet([
-		...rankNodes
+		...rankNodes,
+		...corpNodes
 		]);
 	rankNodesDataSet = new vis.DataSet([
-		...rankNodes
+		...rankNodes,
+		...corpNodes
 		]);
 	const edges = new vis.DataSet([
+		...corpToDomain
 		...proficiencies_to_ranks_Edges
 		]);
 	allNodes = rankNodesDataSet.get({ returnType: "Object" });
@@ -186,7 +221,7 @@ const $accordionVisInfo_corp = info.corp || null;
 			$accordionVisInfo_header_serviceIcon.classList.add('rounded-circle','mr-3');
 			$accordionVisInfo_header.innerHTML = [
 			// `${accordionVisInfo_header_serviceIcon}`,
-			`<img class='rounded-circle mr-3' src='https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/corp_icons/raic.png'>`,
+			`<img class='rounded-circle mr-3' src='https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/corp_icons/RAIC.png'>`,
 			`<div><h4 class='card-title font-weight-bold mb-2'>${info.label}<h4>`,
 			// `<p class='card-text'>Corp: RAIC</p></div>`
 			].filter(Boolean).join('\n');
@@ -222,8 +257,8 @@ payGrade_li.classList="active";
 			// liveCourse = liveCourse.replace(/_/g," ");
 			$accordion = document.createElement('button');
 			$accordion.innerHTML = [
-			`<a class="pr-2"><img style="width:20px;" src="./Assets/adele_icon.png"><span onclick="zoomIn('${liveCourse.id}');";`,
-			`class="grey-text"></a>${liveCourse.label}</span>`,
+			`<button class="btn-sml btn-info"> <a class="pr-2"><img style="width:20px;" src="https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/Assets/adele_icon.png"><span onclick="zoomIn('${liveCourse.id}');";`,
+			`class="grey-text"></a>${liveCourse.label}</span></button>`,
 			].filter(Boolean).join('\n');
 			$liveCourses_ul.appendChild($accordion);
 		})
@@ -247,9 +282,9 @@ function showChildInfo(children) {
 	children.forEach(child => {
 		// console.log(child);
 
-				$accordion = document.createElement('div');
+				$accordion = document.createElement('li');
 			$accordion.innerHTML = [
-			`<li class="list-group-item pr-2"><a class="font-weight-bold cyan-lighter-hover mb-3" onclick="zoomIn('${child.id}');"`,
+			`<a class="card-text mb-3" onclick="zoomIn('${child.id}');"`,
 			`class="grey-text">${child.label.replace(/_/g," ")}</a>`,
 			].filter(Boolean).join('\n');
 			$tradePaths_ul.appendChild($accordion);
@@ -452,7 +487,7 @@ nodes.update([
  * Load data and initialize the network.
  */
 async function init() {
-
+	corps = await get_corps();
 	ranks = await get_ranks();
 	proficiencies = await getSOI_proficiences();
 
