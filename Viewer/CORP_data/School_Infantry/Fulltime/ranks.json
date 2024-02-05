@@ -52,7 +52,7 @@
     "group": "corp",
     "label": "RAIC",
     "proficiencies": [
-        "P109334"
+
     ]
   },
 
@@ -61,7 +61,8 @@
     "corp": "RAIC",
     "proficiencies":[
       "P107236",
-      "P021150"
+      "P021150",
+      "RAIC"
     ],
     "payGrade": 2,
     "label": "Rifleman Grade 2"

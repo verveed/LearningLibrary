@@ -38,15 +38,6 @@ const initNetworkWithTopNode = (allEntries) => {
   return { nodes, edges };
 };
 
-
-const DEFAULT_EDGE_SETTINGS = {
-	// color: EDGE_COLOR,
-	arrows: {
-		to: {
-			enabled: true
-		}
-	}
-}
 const GROUPS = {
 	zero:{
 		color:{
@@ -61,94 +52,6 @@ const GROUPS = {
 
 
 
-// const nodeId = 1457;
-
-// await require(['jquery','core/ajax'], function getADELECompetencyInfo($,ajax) {
-// console.log(nodeId);
-//   // -----------------------------
-//     //  toggle event
-//       // get current value then call ajax to get new data
-//       ajax.call([{
-//         methodname: 'tool_lp_list_courses_using_competency',
-//         args: {
-//           id: nodeId
-//         },
-//       }])[0].done(function(response) {
-//         // clear out old values
-//         console.log(response);
-//         return response;
-//       }).fail(function(err) {
-//         console.log(err);
-//         //notification.exception(new Error('Failed to load data'));
-//         return err;
-//       });
-  
-// });
-
-// console.log(compInfo);
- 
-
-function ProficienciesToRanks() {
-	const proficiencies_to_ranks_Edges = new Set;
-	// const proficiencyNodes = new Set;
-	const rankNodes = new Set;
-	// proficiencies.forEach(proficiency => {
-	// 	proficiencyNodes.add({
-	// 		id: proficiency,
-	// 		hiddenLabel: proficiency,
-	// 		label: undefined,
-	// 		group: 'zero'
-	// 	})
-	// })
-
-	ranks.forEach(rank => {
-		let i = 0;
-	
-
-		const rankProficiency = rank.proficiencies || [];
-		rankProficiency.forEach(prof => {
-			i++
-			rank.value = i;
-			// rankNodes.add({
-			// 	id: prof,
-			// })
-
-			proficiencies_to_ranks_Edges.add({
-				from: prof,
-				to: rank.id,
-			})
-		});
-		const rankOptionals = rank.optionals || [];
-		rankOptionals.forEach(optional => {
-				// rankNodes.add({
-				// 	id: optional
-				// })
-			
-			proficiencies_to_ranks_Edges.add({
-				from:optional,
-				to: rank.id,
-			})
-		})
-				rankNodes.add({id: rank.id, label: rank.label, hiddenLabel: undefined, group: rank.payGrade});
-		// nodes.updateOnly({id: rank.id, label: rank.label, hiddenLabel: undefined, group: rank.payGrade, value: rank.value});	
-	});
-		nodes = new vis.DataSet([
-		...rankNodes
-		]);
-	rankNodesDataSet = new vis.DataSet([
-		...rankNodes
-		]);
-	const edges = new vis.DataSet([
-		...proficiencies_to_ranks_Edges
-		]);
-	allNodes = rankNodesDataSet.get({ returnType: "Object" });
-	allRankNodes = rankNodesDataSet.get({ returnType: "Object" });
-
-	return {
-		nodes,
-		edges
-	}
-}
 
 
 
@@ -416,7 +319,7 @@ const onclick = (clickEventData) => {
   selectedEntry.proficiencies.forEach(proficiencyId => {
     if (!currentNodes.includes(proficiencyId)) {
       newNodes.push({ id: proficiencyId, label: proficiencyId });
-      newEdges.push({ from: selectedNodeId, to: proficiencyId });
+      newEdges.push({ from: proficiencyId, to: selectedNodeId });
     }
   });
 
