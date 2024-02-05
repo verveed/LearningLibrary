@@ -1,57 +1,8 @@
 [
   {
-    "id": "RAA_AllCorp",
-    "group": "corp",
-    "label": "All Corp",
-    "proficiencies": [
-      "land"
-    ]
-  },
-  {
-    "id": "RAA",
-    "group": "corp",
-    "label": "RAA",
-    "proficiencies": [
-      "land",
-      "ecm343"
-    ]
-  },
-  {
-    "id": "RAAC",
-    "group": "corp",
-    "label": "RAAC",
-    "proficiencies": [
-      "land"
-    ]
-  },
-  {
-    "id": "RAEC",
-    "group": "corp",
-    "label": "RAEC",
-    "proficiencies": [
-      "land"
-    ]
-  },
-  {
-    "id": "RAEME",
-    "group": "corp",
-    "label": "RAEME",
-    "proficiencies": [
-      "land"
-    ]
-  },
-  {
-    "id": "RAIC",
-    "group": "corp",
-    "label": "RAIC",
-    "proficiencies": [
-      "land"
-    ]
-  },
-  {
     "id": "land",
     "group": "land",
-    "label": "land",
+    "label": "Land Domain",
     "proficiencies": [
       "RAA_AllCorp",
       "RAA",
@@ -60,7 +11,51 @@
       "RAEME",
       "RAIC"
     ]
+  },  
+  {
+    "id": "RAA_AllCorp",
+    "group": "corp",
+    "label": "All Corp",
+    "proficiencies": [
+    ]
   },
+  {
+    "id": "RAA",
+    "group": "corp",
+    "label": "RAA",
+    "proficiencies": [
+          ]
+  },
+  {
+    "id": "RAAC",
+    "group": "corp",
+    "label": "RAAC",
+    "proficiencies": [
+    ]
+  },
+  {
+    "id": "RAEC",
+    "group": "corp",
+    "label": "RAEC",
+    "proficiencies": [
+    ]
+  },
+  {
+    "id": "RAEME",
+    "group": "corp",
+    "label": "RAEME",
+    "proficiencies": [
+    ]
+  },
+  {
+    "id": "RAIC",
+    "group": "corp",
+    "label": "RAIC",
+    "proficiencies": [
+        "P109334"
+    ]
+  },
+
   {
     "id": "P109334",
     "corp": "RAIC",

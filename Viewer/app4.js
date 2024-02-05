@@ -20,7 +20,7 @@ const fetchJSON = async (url) => {
   return response.json();
 };
 
-const getRanks = () => fetchJSON('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/Fulltime/ranks.json');
+const getRanks = () => fetchJSON('CORP_data/School_Infantry/Fulltime/ranks.json');
 const getSOIProficiencies = () => fetchJSON('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/proficiencies.json');
 
 const createProficienciesToRanksData = (ranks) => {
@@ -47,18 +47,24 @@ const createProficienciesToRanksData = (ranks) => {
   };
 };
 
-const findTopmostNode = (allEntries) => {
-  const proficiencySet = new Set();
-allEntries.forEach(entry => {
-  const combined = [...(entry.optionals || []), ...(entry.proficiencies || [])];
-  combined.forEach(item => proficiencySet.add(item));
-});
 
-  return allEntries.find(entry => !proficiencySet.has(entry.id));
-};
+//The below findTopmostNode function can be reactivated if the JSON ends up being unstructured for some reason.
+// const findTopmostNode = (allEntries) => {
+//   const proficiencySet = new Set();
+// allEntries.forEach(entry => {
+//   const combined = [...(entry.optionals || []), ...(entry.proficiencies || [])];
+//   combined.forEach(item => proficiencySet.add(item));
+// });
+
+//   return allEntries.find(entry => !proficiencySet.has(entry.id));
+// };
 
 const initNetworkWithTopNode = (allEntries) => {
-  const topNode = findTopmostNode(allEntries);
+  //the below line is associated with the function above and needs reactivation with it
+  // const topNode = findTopmostNode(allEntries);
+
+  const topNode = allEntries[0];
+
   console.log(topNode);
   if (!topNode) return { nodes: [], edges: [] };
 
@@ -83,13 +89,82 @@ const init = async () => {
   
   const container = document.getElementById("network");
   data = initNetworkWithTopNode(allEntries);
-  const options = { /* Options object */ };
+  const options = {
+configure: {
+            container: document.getElementById("config"),
+          },
+    groups:GROUPS,
+    nodes: {
+      shape: 'dot',
+      mass: 8,
+      shadow: true,
+      borderWidth: 2,
+      widthConstraint: 100,
+      margin: {
+        top: 30
+      },
+      // scaling: {
+      //   min: 10,
+      //   max: 30,
+      //   label: {
+      //     min: 8,
+      //     max: 30,
+      //     drawThreshold: 12,
+      //     maxVisible: 20
+      //   }
+      // },
+      font: {
+        size: 12,
+        face: 'Tahoma'
+      }
+    },
+    layout: {
+      improvedLayout:true,
+    //   hierarchical: {
+    //     enabled:false,
+    //     levelSeparation: 150,
+    //     nodeSpacing: 100,
+    //     treeSpacing: 200,
+    //     blockShifting: true,
+    //     edgeMinimization: true,
+    //     parentCentralization: true,
+    //   direction: 'UD',        // UD, DU, LR, RL
+    //   sortMethod: 'directed',  // hubsize, directed
+    //   shakeTowards: 'roots'  // roots, leaves
+    // }
+  },
+  edges: {
+    arrows: 'to',
+    shadow: true,
+    width: 2,
+    color: {inherit: 'from'},
+    smooth: {
+      type: 'continuous'
+    }
+  },
+  physics: {
+    barnesHut: {
+      springLength: 90,
+      springConstant: 0.05,
+      centralGravity: -1.1,
+      damping: 2,
+      avoidOverlap: 0.2,
+    },
+    minVelocity: 0.75
+  },
+
+};
 
   network = new vis.Network(document.getElementById("network"), data, options);
   network.on('click', onclick);
 };
 
+//the below needs to change, it's just getting the array value of the clicked node
 const getSelectedInfos = (id) => allEntries.find(entry => entry.id === id);
+
+
+const getAllDependentNodes = (id) => allEntries.filter(entry => entry.proficiencies.includes(id));
+
 
 const getChildInfos = (id) => {
   const childIds = network.getConnectedNodes(id, 'to');
@@ -107,7 +182,7 @@ const zoomIn = (nodeId, scale = 1) => {
   };
   network.focus(nodeId, zoomOptions);
   network.selectNodes([nodeId]);
-  onclick(nodeId);
+  // onclick(nodeId);
 };
 
 const showSelectedInfo = (info) => {
@@ -153,17 +228,28 @@ const onclick = (clickEventData) => {
   const selectedNodeId = clickEventData.nodes ? clickEventData.nodes[0] : clickEventData;
   if (!selectedNodeId) return;
 
+//dependentNodes contains an array of all JSON entries that have a selectedNode as a proficiency.
+  const dependentNodes = getAllDependentNodes(selectedNodeId);
   const selectedEntry = getSelectedInfos(selectedNodeId);
   if (!selectedEntry || !selectedEntry.proficiencies) return;
 
   const currentNodes = data.nodes.getIds();
   const newNodes = [];
   const newEdges = [];
+  
 
   selectedEntry.proficiencies.forEach(proficiencyId => {
     if (!currentNodes.includes(proficiencyId)) {
       newNodes.push({ id: proficiencyId, label: proficiencyId });
       newEdges.push({ from: selectedNodeId, to: proficiencyId });
+    }
+  });
+
+//now let's look for other nodes that need the selected and make their nodes/edges
+    dependentNodes.forEach(dependentNode => {
+    if (!currentNodes.includes(dependentNode.id)) {
+      newEdges.push({ from: selectedNodeId, to: dependentNode.id });    
+      newNodes.push({ id: dependentNode.id, label: dependentNode.label, group: dependentNode.payGrade });    
     }
   });
 
