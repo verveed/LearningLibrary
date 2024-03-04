@@ -105,15 +105,18 @@ const $accordionVisInfo_corp = info.corp || null;
 			// `<p class='card-text'>Corp: RAIC</p></div>`
 			].filter(Boolean).join('\n');
 			// $accordionVisInfo_header.appendChild($accordion);
-
-const payGrade_ul = document.getElementById("accordionVisInfo_deliveryModes_payGrade");
-			for (const child of payGrade_ul.children) {
-				child.classList = "";
-  console.log(child.tagName);
-}
-const payGrade_li_string = `accordionVisInfo_deliveryModes_payGrade_li_${info.payGrade}`
- const payGrade_li = document.getElementById(payGrade_li_string);
-payGrade_li.classList="active";
+			const accordionVisInfo_compDescription = document.getElementById('accordionVisInfo_compDescription');
+			accordionVisInfo_compDescription.innerHTML = [
+				`This is descriptive information about the ${info.label} competency which is coming via the Competency Framework.`
+				].filter(Boolean).join('\n');
+// const payGrade_ul = document.getElementById("accordionVisInfo_deliveryModes_payGrade");
+// 			for (const child of payGrade_ul.children) {
+// 				child.classList = "";
+//   console.log(child.tagName);
+// }
+// const payGrade_li_string = `accordionVisInfo_deliveryModes_payGrade_li_${info.payGrade}`
+//  const payGrade_li = document.getElementById(payGrade_li_string);
+// payGrade_li.classList="active";
 
 	const $liveCourses_ul = document.getElementById('accordionVisInfo_liveCourses_ul');
 	$liveCourses_ul.innerHTML = '';
@@ -304,6 +307,8 @@ function neighbourhoodHighlight(params) {
 
 const onclick = (clickEventData) => {
   const selectedNodeId = clickEventData.nodes ? clickEventData.nodes[0] : clickEventData;
+    console.log(selectedNodeId);
+
   if (!selectedNodeId) return;
 
 //dependentNodes contains an array of all JSON entries that have a selectedNode as a proficiency.
