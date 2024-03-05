@@ -30,15 +30,51 @@ const initNetworkWithTopNode = (allEntries) => {
   const nodes = new vis.DataSet([{
     id: topNode.id,
     label: topNode.label,
-    group: topNode.payGrade
+    group: topNode.payGrade,
+    color:"#62664a"
   }]);
-
   const edges = new vis.DataSet([]);
+
+  const corpSet = topNode.proficiencies;
+  	corpSet.forEach((corp) => {
+  		nodes.add({
+  			id: corp,
+ 				label: corp,
+ 				shape: "circularImage",
+ 				image: "./corp_icons/"+corp+".png",
+ 				level: 0,
+ 				color:"#62664a",
+ 				size: 35,
+ 				mass:4
+  		})
+  		edges.add({
+  			from:topNode.id,
+  			to: corp
+  		})
+	});
+
 
   return { nodes, edges };
 };
 
 const GROUPS = {
+	proficiencies:{
+		color:"#b6b486"
+	},
+	ranks:{
+		color:"#62664a"
+	},
+	// corp:{
+	//  				id: corp.id,
+ 	// 			label: corp.label,
+ 	// 			shape: "circularImage",
+ 	// 			image: "./corp_icons/"+corp.id+".png",
+ 	// 			level: 0,
+ 	// 			color:"white",
+ 	// 			size: 35,
+ 	// 			mass:4
+	// 			// group: 'corp'
+ 	// 		},
 	zero:{
 		color:{
 			background: "rgba(14,178,98,0)",
@@ -311,7 +347,7 @@ const onclick = (clickEventData) => {
 
   if (!selectedNodeId) return;
 
-//dependentNodes contains an array of all JSON entries that have a selectedNode as a proficiency.
+//dependentNodes contains an array of all JSON entries that have the selected node (selectedNode) as a proficiency.
   const dependentNodes = getAllDependentNodes(selectedNodeId);
   const selectedEntry = getSelectedInfos(selectedNodeId);
   if (!selectedEntry || !selectedEntry.proficiencies) return;
@@ -323,7 +359,7 @@ const onclick = (clickEventData) => {
 
   selectedEntry.proficiencies.forEach(proficiencyId => {
     if (!currentNodes.includes(proficiencyId)) {
-      newNodes.push({ id: proficiencyId, label: proficiencyId });
+      newNodes.push({ id: proficiencyId, label: proficiencyId, group: "proficiencies" });
       newEdges.push({ from: proficiencyId, to: selectedNodeId });
     }
   });
@@ -332,7 +368,7 @@ const onclick = (clickEventData) => {
     dependentNodes.forEach(dependentNode => {
     if (!currentNodes.includes(dependentNode.id)) {
       newEdges.push({ from: selectedNodeId, to: dependentNode.id });    
-      newNodes.push({ id: dependentNode.id, label: dependentNode.label, group: dependentNode.payGrade });    
+      newNodes.push({ id: dependentNode.id, label: dependentNode.label, group: "ranks"});    
     }
   });
 
