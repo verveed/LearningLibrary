@@ -11,12 +11,42 @@ const fetchJSON = async (url) => {
   return response.json();
 };
 const getRanks = () => fetchJSON('CORP_data/School_Infantry/Fulltime/ranks.json');
+const getLMPauthorities = () => fetchJSON('data/LMPSS/Army/LMP_authorities.json');
 const getSOIProficiencies = () => fetchJSON('https://cdn.jsdelivr.net/gh/verveed/LearningLibrary@main/Viewer/CORP_data/School_Infantry/proficiencies.json');
 
 const getSelectedInfos = (id) => allEntries.find(entry => entry.id === id);
 
 
 const getAllDependentNodes = (id) => allEntries.filter(entry => entry.proficiencies.includes(id));
+const initLMPSS = (LMPSS) => {
+	LMPauthorities = await getLMPauthorities();
+console.log(LMPauthorities);
+  if (!LMPauthorities) return { nodes: [], edges: [] };
+  const nodes = new vis.DataSet([{
+    id: "Army",
+    label: "Army",
+    color:"#62664a"
+  }]);
+    	LMPauthorities.forEach((authority) => {
+  		nodes.add({
+  			id: authority.id,
+ 				label: authority.label,
+ 				level: 0,
+ 				color:"#62664a",
+ 				size: 35,
+ 				mass:4
+  		})
+  		edges.add({
+  			from:authority.id,
+  			to: "Army"
+  		})
+	});
+  const edges = new vis.DataSet([]);
+    let data =  { nodes, edges };
+ networkBuilder(data);
+}
+
+
 
 const initNetworkWithTopNode = (allEntries) => {
   //the below line is associated with the function above and needs reactivation with it
@@ -393,6 +423,60 @@ const onclick = (clickEventData) => {
 
 
 
+function networkBuilder(data, options,callback){
+		const defaultOptions = {
+    // layout: {
+    //   improvedLayout:true
+    // },
+    edges: {
+    	arrows: {
+    		to:{
+    	enabled: true,
+        scaleFactor: 0.6,
+        type: "arrow"
+    }
+    	},
+    	width: 0.15,
+    	color: {
+    		inherit: 'from',
+    		opacity: 0.6
+    		},
+    	// smooth: {
+    	// 	type: 'continuous'
+    	// }
+    },
+    groups:GROUPS,
+physics: {
+            forceAtlas2Based: {
+              gravitationalConstant: -26,
+              centralGravity: 0.005,
+              springLength: 230,
+              springConstant: 0.18,
+            },
+            maxVelocity: 146,
+            solver: "forceAtlas2Based",
+            timestep: 0.35,
+            stabilization: { iterations: 150 },
+          },		
+ 	}; 
+ 	 	const container = document.getElementById("network");
+ 	 	const networkOptions = options ? options : defaultOptions;
+network.destroy();
+  network = new vis.Network(container, data, networkOptions); 	 	
+  network.on('selectNode', onclick);
+if (callback){
+	// network.once("stabilized",function(){network.clusterOutliers()});
+}
+ 	network.moveTo({
+ 		position:{x: 50, y: 78},
+ 		scale:0.66,
+ 		animation:{
+ 			duration:1500
+ 		}
+ 	}); 	
+}
+
+
 /**
  * Load data and initialize the network.
  */
@@ -480,11 +564,13 @@ async function init() {
     barnesHut: {
     	springLength: 90,
     	springConstant: 0.05,
-      centralGravity: -1.1,
-      damping: 2,
+      centralGravity: 0,
+      damping: 0.9,
       avoidOverlap: 0.2,
     },
-    minVelocity: 0.75
+            maxVelocity: 200,
+            timestep: 0.35,
+            stabilization: { iterations: 20 },    
   },
 
 };
